@@ -1,0 +1,229 @@
+%% This Beamer template is based on the one found here: https://github.com/sanhacheong/stanford-beamer-presentation, and edited to be used for Stanford ARM Lab
+
+\documentclass[10pt]{beamer}
+\usetheme{Frankfurt}
+%\usecolortheme{beaver}
+%\mode<presentation>{}
+\usepackage{amssymb,amsmath,amsthm,enumerate}
+\usepackage[utf8]{inputenc}
+\usepackage{array}
+\usepackage[parfill]{parskip}
+\usepackage{graphicx}
+\usepackage{caption}
+\usepackage{subcaption}
+\usepackage{bm}
+\usepackage{amsfonts,amscd}
+\usepackage[]{units}
+\usepackage{listings}
+\usepackage{multicol}
+\usepackage{multirow}
+\usepackage{tcolorbox}
+\usepackage{physics}
+\usepackage{xcolor}
+\usepackage{hyperref}
+
+% Enable colored hyperlinks
+\hypersetup{colorlinks=true}
+
+% The following three lines are for crossmarks & checkmarks
+\usepackage{pifont}% http://ctan.org/pkg/pifont
+\newcommand{\cmark}{\ding{51}}%
+\newcommand{\xmark}{\ding{55}}%
+
+% Numbered captions of tables, pictures, etc.
+\setbeamertemplate{caption}[numbered]
+
+%\usepackage[superscript,biblabel]{cite}
+\usepackage{algorithm2e}
+\renewcommand{\thealgocf}{}
+
+% Bibliography settings
+\usepackage[style=ieee]{biblatex}
+\setbeamertemplate{bibliography item}{\insertbiblabel}
+\addbibresource{references.bib}
+
+% Glossary entries
+\usepackage[acronym]{glossaries}
+\newacronym{ML}{ML}{machine learning}
+\newacronym{HRI}{HRI}{human-robot interactions}
+\newacronym{RNN}{RNN}{Recurrent Neural Network}
+\newacronym{LSTM}{LSTM}{Long Short-Term Memory}
+
+
+\theoremstyle{remark}
+\newtheorem*{remark}{Remark}
+\theoremstyle{definition}
+
+\newcommand{\empy}[1]{{\color{darkorange}\emph{#1}}}
+\newcommand{\empr}[1]{{\color{cardinalred}\emph{#1}}}
+\newcommand{\examplebox}[2]{
+\begin{tcolorbox}[colframe=darkcardinal,colback=boxgray,title=#1]
+#2
+\end{tcolorbox}}
+
+%\usetheme{default} 
+\input{./style_files_stanford/my_beamer_defs.sty}
+
+\logo{\includegraphics[height=0.4in]{images/univalle.png}}
+
+% commands to relax beamer and subfig conflicts
+% see here: https://tex.stackexchange.com/questions/426088/texlive-pretest-2018-beamer-and-subfig-collide
+\makeatletter
+\let\@@magyar@captionfix\relax
+\makeatother
+
+\title[Research proposal]{Characterizing and understanding security risks through Secure-Aware Mutation Testing of RESTful APIs}
+%\subtitle{Subtitle Of Presentation}
+
+%\beamertemplatenavigationsymbolsempty
+\AtBeginSection[]{
+  \begin{frame}
+  \vfill
+  \centering
+  \begin{beamercolorbox}[sep=8pt,center,shadow=true,rounded=true]{title}
+    \usebeamerfont{title}\insertsectionhead\par%
+  \end{beamercolorbox}
+  \vfill
+  \end{frame}
+}
+
+\DeclareUnicodeCharacter{0301}{\'{e}}
+
+\author[Carlos Delgado]{
+    \large{Carlos Andres Delgado Saavedra}\\
+    \footnotesize \href{mailto:carlos.andres.delgado@correounivalle.edu.co}{carlos.andres.delgado@correounivalle.edu.co} 
+    %Advisors:\\
+    %Jesus A. Aranda, Universidad del Valle \\
+    %James Ortiz, Universite de Namur
+    }
+\begin{document}
+
+
+
+
+\institute{
+	\vskip 5pt
+	\begin{figure}
+		\centering
+		\begin{subfigure}[t]{0.33\textwidth}
+			\centering
+			\includegraphics[height=0.4in]{images/univalle.png}
+		\end{subfigure}%
+		\begin{subfigure}[t]{0.33\textwidth}
+			\centering
+			\includegraphics[height=0.4in]{images/logounamur.png}
+		\end{subfigure}%
+		~ 
+		\begin{subfigure}[t]{0.33\textwidth}
+			\centering
+			\includegraphics[height=0.4in]{images/avispalogo.png}
+		\end{subfigure}
+	\end{figure}
+	\vskip 5pt
+	%Escuela de Ingenieria de Sistemas y Computacion\\
+	%Universidad del Valle\\
+	Colombia
+	\vskip 3pt
+}
+
+%\date{December 3th, 2020}
+%date{\today}
+\date{October 14, 2023}
+
+
+\begin{frame}[plain]\maketitle\end{frame}
+
+
+\setbeamertemplate{itemize items}[default]
+\setbeamertemplate{itemize subitem}[circle]
+
+\begin{frame}
+	\frametitle{Overview} % Table of contents slide, comment this block out to remove it
+	\tableofcontents % Throughout your presentation, if you choose to use \section{} and \subsection{} commands, these will automatically be printed on this slide as an overview of your presentation
+\end{frame}
+
+
+\section{Research Proposal}
+
+\begin{frame}{Problem}
+
+\begin{enumerate}
+    \item API-Restful is an architectural style for designing web services
+    \item RESTful APIs exchange sensitive information and private date
+    \item Top 10 vulnerabilities Application Security Project (OWASP) \url{https://owasp.org/www-project-api-security/}
+    \item Coverage of the security tests: penetration and policies
+    \item Opportunity for mutation testing
+\end{enumerate}
+\end{frame}
+
+
+\begin{frame}{Research question}
+¿How to desing secure-aware mutation operators in the coverage of vulnerabilities in exchanging data in RESTful APis?
+
+\end{frame}
+
+
+
+\begin{frame}{Objectives}
+Develop a collection of security-conscious mutation operators designed for safeguarding data integrity within Restful APIs.
+\subsection{Specific}
+
+\begin{table}[H]
+    \centering
+    \begin{tabular}{|p{0.5\textwidth}|p{0.5\textwidth}|}
+        \hline
+         \textbf{Specific objective} & \textbf{Expected result} \\ \hline
+         1.  Selection of a common set of vulnerabilities and faults in data integrity in API-Restful &   Selected vulnerabilities in API-Restful handle in this thesis  \\  \hline
+         2. Describe a set of security-aware mutation operators for evaluating safeguarding data integrity in API-Restful & Description of the mutation operators \\  \hline
+         3. Develop a set of security-aware mutation operators for penetration testings in two Python API-Restful Frameworks & Source code of the secure-aware mutation operators \\  \hline
+         5. Evaluate the proposed security-aware mutation operators in RESTful APIs & Report about the performance of the create operators against tools from the literature.
+         \\ \hline
+    \end{tabular}
+    \caption{Specific objectives and expected results}
+    \label{tab:objetivos}
+\end{table}
+
+\end{frame}
+
+\section{Literature Review}
+
+\begin{frame}{Literature Review}
+\begin{enumerate}
+    \item RQ1: ¿What is current application of mutation testing in security?
+    \item RQ2: ¿Which are the challenges in security of RestFUL APIs?
+    \item RQ3: ¿Which are the testing  security techniques in RestFUL APIs?
+    \item RQ4: ¿What are the most common security mistakes of the developers in the building of restful API?
+\end{enumerate}
+\end{frame}
+
+\subsection{Challenges}
+
+\begin{frame}{Challenges}
+\begin{enumerate}
+    \item RESTFul APIs handle sensitive information that needs to be protected, software testing evaluates how they are handled, but because vulnerabilities are constantly being discovered, there is an opportunity for improvement in this area.
+    \item Mutation testing has proven to be a strategy for evaluating the security of applications, there has been a lot of work done related to specific applications in languages such as Java and Python, there is an opportunity to contribute to the development of RESTFul API.
+    \item Security is a challenge for software development today, and several recent studies have identified security gaps in many of them, which could be studied to provide a framework for the development of tools to assess data security and generate recommendations for improvement.
+\end{enumerate}
+\end{frame}
+
+
+\section{Work plan}
+
+\begin{frame}{Contribution selection}
+Working plan: Following the snowball methodology
+\begin{itemize}
+    \item Review of vulnerabilities in RESTful APIs: Survey in the interception between mutation testing and security evaluation in Restful-API.
+    \item Description of the mutation operators
+    \item Prototype implementation and testing
+\end{itemize}
+Total: 3 years.
+\end{frame}
+
+
+\nocite{*}
+\begin{frame}[allowframebreaks]
+\frametitle{References}
+\printbibliography
+\end{frame}
+
+\end{document}
