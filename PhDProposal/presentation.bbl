@@ -78,6 +78,71 @@
       \endverb
       \keyw{RQ2}
     \endentry
+    \entry{Hussain2020}{article}{}
+      \name{author}{4}{}{%
+        {{un=0,uniquepart=base,hash=c6cc06e306e998d3a22117dce9896981}{%
+           family={Hussain},
+           familyi={H\bibinitperiod},
+           given={Fatima},
+           giveni={F\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=7c433cb7869ddf208ffca5e68c29dc15}{%
+           family={Hussain},
+           familyi={H\bibinitperiod},
+           given={Rasheed},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=9bb16fe231a582be9f5d6b6a66f61c82}{%
+           family={Noye},
+           familyi={N\bibinitperiod},
+           given={Brett},
+           giveni={B\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=441046e99b01633591f8b3fb1d57df82}{%
+           family={Sharieh},
+           familyi={S\bibinitperiod},
+           given={Salah},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{2}{%
+        {Institute of Electrical}%
+        {Electronics Engineers (IEEE)}%
+      }
+      \strng{namehash}{54d50d4a621837e4c1de3014d86095c6}
+      \strng{fullhash}{4c6a041e595c9452dc36e6db421bf9aa}
+      \strng{bibnamehash}{4c6a041e595c9452dc36e6db421bf9aa}
+      \strng{authorbibnamehash}{4c6a041e595c9452dc36e6db421bf9aa}
+      \strng{authornamehash}{54d50d4a621837e4c1de3014d86095c6}
+      \strng{authorfullhash}{4c6a041e595c9452dc36e6db421bf9aa}
+      \field{sortinit}{H}
+      \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{1941-045X}
+      \field{journaltitle}{IT Professional}
+      \field{month}{9}
+      \field{number}{5}
+      \field{title}{Enterprise API Security and GDPR Compliance: Design and Implementation Perspective}
+      \field{volume}{22}
+      \field{year}{2020}
+      \true{nocite}
+      \field{pages}{81\bibrangedash 89}
+      \range{pages}{9}
+      \verb{doi}
+      \verb 10.1109/mitp.2020.2973852
+      \endverb
+      \verb{urlraw}
+      \verb http://dx.doi.org/10.1109/MITP.2020.2973852
+      \endverb
+      \verb{url}
+      \verb http://dx.doi.org/10.1109/MITP.2020.2973852
+      \endverb
+      \keyw{RQ3}
+    \endentry
     \entry{Idris2022-so}{article}{}
       \name{author}{3}{}{%
         {{un=0,uniquepart=base,hash=fb7d03a39941725d4d87bfec91918545}{%
@@ -123,6 +188,78 @@
       \field{pages}{246\bibrangedash 261}
       \range{pages}{16}
       \keyw{RQ2}
+    \endentry
+    \entry{Jin2022}{article}{}
+      \name{author}{6}{}{%
+        {{un=0,uniquepart=base,hash=06fd72103c89b4e56d33dfc79637ebdc}{%
+           family={Jin},
+           familyi={J\bibinitperiod},
+           given={Ze},
+           giveni={Z\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=4884f671a4a192303965b99f068cb657}{%
+           family={Xing},
+           familyi={X\bibinitperiod},
+           given={Luyi},
+           giveni={L\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=fa7f1fed480bb3c0833f45c9fed94128}{%
+           family={Fang},
+           familyi={F\bibinitperiod},
+           given={Yiwei},
+           giveni={Y\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=dac09067e89440490763a92ac983db62}{%
+           family={Jia},
+           familyi={J\bibinitperiod},
+           given={Yan},
+           giveni={Y\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=6ae5cfea3361fcd166eafb6f374913cc}{%
+           family={Yuan},
+           familyi={Y\bibinitperiod},
+           given={Bin},
+           giveni={B\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=0bf7f569f4990b97d8064d084c399319}{%
+           family={Liu},
+           familyi={L\bibinitperiod},
+           given={Qixu},
+           giveni={Q\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {ACM}%
+      }
+      \strng{namehash}{0fd6379ed5ed584f8eab917d5996811d}
+      \strng{fullhash}{8a1636cde6b3284c1ffc63a54a779b42}
+      \strng{bibnamehash}{8a1636cde6b3284c1ffc63a54a779b42}
+      \strng{authorbibnamehash}{8a1636cde6b3284c1ffc63a54a779b42}
+      \strng{authornamehash}{0fd6379ed5ed584f8eab917d5996811d}
+      \strng{authorfullhash}{8a1636cde6b3284c1ffc63a54a779b42}
+      \field{sortinit}{J}
+      \field{sortinithash}{b2f54a9081ace9966a7cb9413811edb4}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Proceedings of the 2022 ACM SIGSAC Conference on Computer and Communications Security}
+      \field{month}{11}
+      \field{series}{CCS ’22}
+      \field{title}{P-Verifier: Understanding and Mitigating Security Risks in Cloud-based IoT Access Policies}
+      \field{year}{2022}
+      \true{nocite}
+      \verb{doi}
+      \verb 10.1145/3548606.3560680
+      \endverb
+      \verb{urlraw}
+      \verb http://dx.doi.org/10.1145/3548606.3560680
+      \endverb
+      \verb{url}
+      \verb http://dx.doi.org/10.1145/3548606.3560680
+      \endverb
+      \keyw{RQ3}
     \endentry
     \entry{Kellezi2019}{inbook}{}
       \name{author}{3}{}{%
@@ -417,6 +554,70 @@
       \endverb
       \keyw{RQ2}
     \endentry
+    \entry{Roth2020}{article}{}
+      \name{author}{5}{}{%
+        {{un=0,uniquepart=base,hash=c63b2d2598772343cd9e98dcb70b400c}{%
+           family={Roth},
+           familyi={R\bibinitperiod},
+           given={Sebastian},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=e861a9b10c74be40b19959b2cea2c9db}{%
+           family={Barron},
+           familyi={B\bibinitperiod},
+           given={Timothy},
+           giveni={T\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=38deafef98e07f6c669197fac3a5f5a0}{%
+           family={Calzavara},
+           familyi={C\bibinitperiod},
+           given={Stefano},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=78b665f5154efcf7b3875ed8fb412b0d}{%
+           family={Nikiforakis},
+           familyi={N\bibinitperiod},
+           given={Nick},
+           giveni={N\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=b2f827068a6335a4f3e3e091ccd3fb6c}{%
+           family={Stock},
+           familyi={S\bibinitperiod},
+           given={Ben},
+           giveni={B\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Internet Society}%
+      }
+      \strng{namehash}{668fbdc1d5b832386656d920d1bf2826}
+      \strng{fullhash}{3ad3f561111fad1a77c7f81955ded380}
+      \strng{bibnamehash}{3ad3f561111fad1a77c7f81955ded380}
+      \strng{authorbibnamehash}{3ad3f561111fad1a77c7f81955ded380}
+      \strng{authornamehash}{668fbdc1d5b832386656d920d1bf2826}
+      \strng{authorfullhash}{3ad3f561111fad1a77c7f81955ded380}
+      \field{sortinit}{R}
+      \field{sortinithash}{5e1c39a9d46ffb6bebd8f801023a9486}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Proceedings 2020 Network and Distributed System Security Symposium}
+      \field{series}{NDSS 2020}
+      \field{title}{Complex Security Policy? A Longitudinal Analysis of Deployed Content Security Policies}
+      \field{year}{2020}
+      \true{nocite}
+      \verb{doi}
+      \verb 10.14722/ndss.2020.23046
+      \endverb
+      \verb{urlraw}
+      \verb http://dx.doi.org/10.14722/ndss.2020.23046
+      \endverb
+      \verb{url}
+      \verb http://dx.doi.org/10.14722/ndss.2020.23046
+      \endverb
+    \endentry
     \entry{Siriwardena2020}{book}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=9ce0eaf78e13ddd2c4b1e42bf4eef728}{%
@@ -496,6 +697,77 @@
       \field{year}{2019}
       \true{nocite}
       \keyw{RQ1}
+    \endentry
+    \entry{247694}{article}{}
+      \name{author}{6}{}{%
+        {{un=0,uniquepart=base,hash=a6dde54e48d789d848f5d10fb1d8c3f0}{%
+           family={Votipka},
+           familyi={V\bibinitperiod},
+           given={Daniel},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=5cb55a4c1811c7eab08a77d16750ee86}{%
+           family={Fulton},
+           familyi={F\bibinitperiod},
+           given={Kelsey\bibnamedelima R.},
+           giveni={K\bibinitperiod\bibinitdelim R\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=f7cd1993b27ff4e3274bab6d9923541f}{%
+           family={Parker},
+           familyi={P\bibinitperiod},
+           given={James},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=f6ed3863ab3e16b1d40b872cc8c5cb19}{%
+           family={Hou},
+           familyi={H\bibinitperiod},
+           given={Matthew},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=05b8776909e55b379899b723a7193045}{%
+           family={Mazurek},
+           familyi={M\bibinitperiod},
+           given={Michelle\bibnamedelima L.},
+           giveni={M\bibinitperiod\bibinitdelim L\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=69cb741734a7429ce7f1dd4dd7eacade}{%
+           family={Hicks},
+           familyi={H\bibinitperiod},
+           given={Michael},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {USENIX Association}%
+      }
+      \strng{namehash}{cc3bca677d9ff1bede0f1aa6f8f110b0}
+      \strng{fullhash}{0767be5f2e92c62e2c45b8cc139c6a2f}
+      \strng{bibnamehash}{0767be5f2e92c62e2c45b8cc139c6a2f}
+      \strng{authorbibnamehash}{0767be5f2e92c62e2c45b8cc139c6a2f}
+      \strng{authornamehash}{cc3bca677d9ff1bede0f1aa6f8f110b0}
+      \strng{authorfullhash}{0767be5f2e92c62e2c45b8cc139c6a2f}
+      \field{sortinit}{V}
+      \field{sortinithash}{afb52128e5b4dc4b843768c0113d673b}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{isbn}{978-1-939133-17-5}
+      \field{journaltitle}{29th USENIX Security Symposium (USENIX Security 20)}
+      \field{month}{8}
+      \field{title}{Understanding security mistakes developers make: Qualitative analysis from Build It, Break It, Fix It}
+      \field{year}{2020}
+      \true{nocite}
+      \field{pages}{109\bibrangedash 126}
+      \range{pages}{18}
+      \verb{urlraw}
+      \verb https://www.usenix.org/conference/usenixsecurity20/presentation/votipka-understanding
+      \endverb
+      \verb{url}
+      \verb https://www.usenix.org/conference/usenixsecurity20/presentation/votipka-understanding
+      \endverb
+      \keyw{RQ3}
     \endentry
     \entry{Zhang2023}{article}{}
       \name{author}{2}{}{%
@@ -610,6 +882,71 @@
       \endverb
       \keyw{RQ2}
     \endentry
+    \entry{Hussain2020}{article}{}
+      \name{author}{4}{}{%
+        {{un=0,uniquepart=base,hash=c6cc06e306e998d3a22117dce9896981}{%
+           family={Hussain},
+           familyi={H\bibinitperiod},
+           given={Fatima},
+           giveni={F\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=7c433cb7869ddf208ffca5e68c29dc15}{%
+           family={Hussain},
+           familyi={H\bibinitperiod},
+           given={Rasheed},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=9bb16fe231a582be9f5d6b6a66f61c82}{%
+           family={Noye},
+           familyi={N\bibinitperiod},
+           given={Brett},
+           giveni={B\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=441046e99b01633591f8b3fb1d57df82}{%
+           family={Sharieh},
+           familyi={S\bibinitperiod},
+           given={Salah},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{2}{%
+        {Institute of Electrical}%
+        {Electronics Engineers (IEEE)}%
+      }
+      \strng{namehash}{54d50d4a621837e4c1de3014d86095c6}
+      \strng{fullhash}{4c6a041e595c9452dc36e6db421bf9aa}
+      \strng{bibnamehash}{4c6a041e595c9452dc36e6db421bf9aa}
+      \strng{authorbibnamehash}{4c6a041e595c9452dc36e6db421bf9aa}
+      \strng{authornamehash}{54d50d4a621837e4c1de3014d86095c6}
+      \strng{authorfullhash}{4c6a041e595c9452dc36e6db421bf9aa}
+      \field{sortinit}{H}
+      \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{1941-045X}
+      \field{journaltitle}{IT Professional}
+      \field{month}{9}
+      \field{number}{5}
+      \field{title}{Enterprise API Security and GDPR Compliance: Design and Implementation Perspective}
+      \field{volume}{22}
+      \field{year}{2020}
+      \true{nocite}
+      \field{pages}{81\bibrangedash 89}
+      \range{pages}{9}
+      \verb{doi}
+      \verb 10.1109/mitp.2020.2973852
+      \endverb
+      \verb{urlraw}
+      \verb http://dx.doi.org/10.1109/MITP.2020.2973852
+      \endverb
+      \verb{url}
+      \verb http://dx.doi.org/10.1109/MITP.2020.2973852
+      \endverb
+      \keyw{RQ3}
+    \endentry
     \entry{Idris2022-so}{article}{}
       \name{author}{3}{}{%
         {{un=0,uniquepart=base,hash=fb7d03a39941725d4d87bfec91918545}{%
@@ -655,6 +992,78 @@
       \field{pages}{246\bibrangedash 261}
       \range{pages}{16}
       \keyw{RQ2}
+    \endentry
+    \entry{Jin2022}{article}{}
+      \name{author}{6}{}{%
+        {{un=0,uniquepart=base,hash=06fd72103c89b4e56d33dfc79637ebdc}{%
+           family={Jin},
+           familyi={J\bibinitperiod},
+           given={Ze},
+           giveni={Z\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=4884f671a4a192303965b99f068cb657}{%
+           family={Xing},
+           familyi={X\bibinitperiod},
+           given={Luyi},
+           giveni={L\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=fa7f1fed480bb3c0833f45c9fed94128}{%
+           family={Fang},
+           familyi={F\bibinitperiod},
+           given={Yiwei},
+           giveni={Y\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=dac09067e89440490763a92ac983db62}{%
+           family={Jia},
+           familyi={J\bibinitperiod},
+           given={Yan},
+           giveni={Y\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=6ae5cfea3361fcd166eafb6f374913cc}{%
+           family={Yuan},
+           familyi={Y\bibinitperiod},
+           given={Bin},
+           giveni={B\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=0bf7f569f4990b97d8064d084c399319}{%
+           family={Liu},
+           familyi={L\bibinitperiod},
+           given={Qixu},
+           giveni={Q\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {ACM}%
+      }
+      \strng{namehash}{0fd6379ed5ed584f8eab917d5996811d}
+      \strng{fullhash}{8a1636cde6b3284c1ffc63a54a779b42}
+      \strng{bibnamehash}{8a1636cde6b3284c1ffc63a54a779b42}
+      \strng{authorbibnamehash}{8a1636cde6b3284c1ffc63a54a779b42}
+      \strng{authornamehash}{0fd6379ed5ed584f8eab917d5996811d}
+      \strng{authorfullhash}{8a1636cde6b3284c1ffc63a54a779b42}
+      \field{sortinit}{J}
+      \field{sortinithash}{b2f54a9081ace9966a7cb9413811edb4}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Proceedings of the 2022 ACM SIGSAC Conference on Computer and Communications Security}
+      \field{month}{11}
+      \field{series}{CCS ’22}
+      \field{title}{P-Verifier: Understanding and Mitigating Security Risks in Cloud-based IoT Access Policies}
+      \field{year}{2022}
+      \true{nocite}
+      \verb{doi}
+      \verb 10.1145/3548606.3560680
+      \endverb
+      \verb{urlraw}
+      \verb http://dx.doi.org/10.1145/3548606.3560680
+      \endverb
+      \verb{url}
+      \verb http://dx.doi.org/10.1145/3548606.3560680
+      \endverb
+      \keyw{RQ3}
     \endentry
     \entry{Kellezi2019}{inbook}{}
       \name{author}{3}{}{%
@@ -949,6 +1358,70 @@
       \endverb
       \keyw{RQ2}
     \endentry
+    \entry{Roth2020}{article}{}
+      \name{author}{5}{}{%
+        {{un=0,uniquepart=base,hash=c63b2d2598772343cd9e98dcb70b400c}{%
+           family={Roth},
+           familyi={R\bibinitperiod},
+           given={Sebastian},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=e861a9b10c74be40b19959b2cea2c9db}{%
+           family={Barron},
+           familyi={B\bibinitperiod},
+           given={Timothy},
+           giveni={T\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=38deafef98e07f6c669197fac3a5f5a0}{%
+           family={Calzavara},
+           familyi={C\bibinitperiod},
+           given={Stefano},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=78b665f5154efcf7b3875ed8fb412b0d}{%
+           family={Nikiforakis},
+           familyi={N\bibinitperiod},
+           given={Nick},
+           giveni={N\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=b2f827068a6335a4f3e3e091ccd3fb6c}{%
+           family={Stock},
+           familyi={S\bibinitperiod},
+           given={Ben},
+           giveni={B\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Internet Society}%
+      }
+      \strng{namehash}{668fbdc1d5b832386656d920d1bf2826}
+      \strng{fullhash}{3ad3f561111fad1a77c7f81955ded380}
+      \strng{bibnamehash}{3ad3f561111fad1a77c7f81955ded380}
+      \strng{authorbibnamehash}{3ad3f561111fad1a77c7f81955ded380}
+      \strng{authornamehash}{668fbdc1d5b832386656d920d1bf2826}
+      \strng{authorfullhash}{3ad3f561111fad1a77c7f81955ded380}
+      \field{sortinit}{R}
+      \field{sortinithash}{5e1c39a9d46ffb6bebd8f801023a9486}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Proceedings 2020 Network and Distributed System Security Symposium}
+      \field{series}{NDSS 2020}
+      \field{title}{Complex Security Policy? A Longitudinal Analysis of Deployed Content Security Policies}
+      \field{year}{2020}
+      \true{nocite}
+      \verb{doi}
+      \verb 10.14722/ndss.2020.23046
+      \endverb
+      \verb{urlraw}
+      \verb http://dx.doi.org/10.14722/ndss.2020.23046
+      \endverb
+      \verb{url}
+      \verb http://dx.doi.org/10.14722/ndss.2020.23046
+      \endverb
+    \endentry
     \entry{Siriwardena2020}{book}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=9ce0eaf78e13ddd2c4b1e42bf4eef728}{%
@@ -1028,6 +1501,77 @@
       \field{year}{2019}
       \true{nocite}
       \keyw{RQ1}
+    \endentry
+    \entry{247694}{article}{}
+      \name{author}{6}{}{%
+        {{un=0,uniquepart=base,hash=a6dde54e48d789d848f5d10fb1d8c3f0}{%
+           family={Votipka},
+           familyi={V\bibinitperiod},
+           given={Daniel},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=5cb55a4c1811c7eab08a77d16750ee86}{%
+           family={Fulton},
+           familyi={F\bibinitperiod},
+           given={Kelsey\bibnamedelima R.},
+           giveni={K\bibinitperiod\bibinitdelim R\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=f7cd1993b27ff4e3274bab6d9923541f}{%
+           family={Parker},
+           familyi={P\bibinitperiod},
+           given={James},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=f6ed3863ab3e16b1d40b872cc8c5cb19}{%
+           family={Hou},
+           familyi={H\bibinitperiod},
+           given={Matthew},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=05b8776909e55b379899b723a7193045}{%
+           family={Mazurek},
+           familyi={M\bibinitperiod},
+           given={Michelle\bibnamedelima L.},
+           giveni={M\bibinitperiod\bibinitdelim L\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=69cb741734a7429ce7f1dd4dd7eacade}{%
+           family={Hicks},
+           familyi={H\bibinitperiod},
+           given={Michael},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {USENIX Association}%
+      }
+      \strng{namehash}{cc3bca677d9ff1bede0f1aa6f8f110b0}
+      \strng{fullhash}{0767be5f2e92c62e2c45b8cc139c6a2f}
+      \strng{bibnamehash}{0767be5f2e92c62e2c45b8cc139c6a2f}
+      \strng{authorbibnamehash}{0767be5f2e92c62e2c45b8cc139c6a2f}
+      \strng{authornamehash}{cc3bca677d9ff1bede0f1aa6f8f110b0}
+      \strng{authorfullhash}{0767be5f2e92c62e2c45b8cc139c6a2f}
+      \field{sortinit}{V}
+      \field{sortinithash}{afb52128e5b4dc4b843768c0113d673b}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{isbn}{978-1-939133-17-5}
+      \field{journaltitle}{29th USENIX Security Symposium (USENIX Security 20)}
+      \field{month}{8}
+      \field{title}{Understanding security mistakes developers make: Qualitative analysis from Build It, Break It, Fix It}
+      \field{year}{2020}
+      \true{nocite}
+      \field{pages}{109\bibrangedash 126}
+      \range{pages}{18}
+      \verb{urlraw}
+      \verb https://www.usenix.org/conference/usenixsecurity20/presentation/votipka-understanding
+      \endverb
+      \verb{url}
+      \verb https://www.usenix.org/conference/usenixsecurity20/presentation/votipka-understanding
+      \endverb
+      \keyw{RQ3}
     \endentry
     \entry{Zhang2023}{article}{}
       \name{author}{2}{}{%

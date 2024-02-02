@@ -85,6 +85,7 @@
     <requires type="editable">
       <file>references/rq1.bib</file>
       <file>references/rq2.bib</file>
+      <file>references/rq3.bib</file>
     </requires>
   </external>
 </requests>

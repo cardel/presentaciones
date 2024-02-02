@@ -42,7 +42,9 @@
 \setbeamertemplate{bibliography item}{\insertbiblabel}
 \addbibresource{references/rq1.bib}
 \addbibresource{references/rq2.bib}
-
+\addbibresource{references/rq3.bib}
+\addbibresource{references/rq4.bib}
+\addbibresource{references/rq5.bib}
 % Glossary entries
 \usepackage[acronym]{glossaries}
 \newacronym{ML}{ML}{machine learning}
@@ -257,6 +259,7 @@ Develop a collection of security-aware mutation operators designed for safeguard
   \end{frame}
 
   \begin{frame}{RQ4: Testing techniques and tools}
+    Penertration testing, vulnerability assessment, and network scanning. 
     \begin{enumerate}
       \item OWASP ZAP: Penetration testing.
       \item Postman: API testing.
@@ -265,12 +268,29 @@ Develop a collection of security-aware mutation operators designed for safeguard
       \item Nmap: Network scanning.
       \item Metasploit: Penetration testing.
     \end{enumerate}
+    Thechniques: Fuzzing, black box, statistical.
+  \end{frame}
+
+  \begin{frame}{RQ4: References}
+    \printbibliography[keyword={RQ4}]
+  \end{frame}
+
+  \begin{frame}{RQ5: Mutation testing in security of RESTFul API Services}
+    \begin{enumerate}
+      \item Mutation testing has proven to be a strategy for evaluating the security of applications.
+      \item The literature suggests an emphasis in data integrity.
+      \item Different strategies for the mutation testing: using artificial intelligence, black box testing, penetration testing, validation of data integrity and statistical methods.
+    \end{enumerate}
+  \end{frame}
+
+  \begin{frame}{RQ5: References}
+   \printbibliography[keyword={RQ5}]
   \end{frame}
 
 \subsection{Challenges}
 
 \begin{frame}{Challenges}
-\begin{enumerate}
+\begin{enumerate} e
     \item RESTFul APIs handle sensitive information that needs to be protected, software testing evaluates how they are handled, but because vulnerabilities are constantly being discovered, there is an opportunity for improvement in this area.
     \item Mutation testing has proven to be a strategy for evaluating the security of applications, there has been a lot of work done related to specific applications in languages such as Java and Python, there is an opportunity to contribute to the development of RESTFul API.
     \item Security is a challenge for software development today, and several recent studies have identified security gaps in many of them, which could be studied to provide a framework for the development of tools to assess data security and generate recommendations for improvement.
