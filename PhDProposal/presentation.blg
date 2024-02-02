@@ -1,31 +1,31 @@
 [0] Config.pm:307> INFO - This is Biber 2.19
 [0] Config.pm:310> INFO - Logfile is 'presentation.blg'
-[57] biber:340> INFO - === vie feb  2, 2024, 10:53:53
-[68] Biber.pm:419> INFO - Reading 'presentation.bcf'
-[126] Biber.pm:976> INFO - Using all citekeys in bib section 0
-[143] Biber.pm:4419> INFO - Processing section 0
-[150] Biber.pm:4610> INFO - Looking for bibtex file 'references/rq1.bib' for section 0
-[150] bibtex.pm:1713> INFO - LaTeX decoding ...
-[155] bibtex.pm:1519> INFO - Found BibTeX data source 'references/rq1.bib'
-[203] Biber.pm:4610> INFO - Looking for bibtex file 'references/rq2.bib' for section 0
-[204] bibtex.pm:1713> INFO - LaTeX decoding ...
-[208] bibtex.pm:1519> INFO - Found BibTeX data source 'references/rq2.bib'
-[234] Biber.pm:4610> INFO - Looking for bibtex file 'references/rq3.bib' for section 0
-[235] bibtex.pm:1713> INFO - LaTeX decoding ...
-[239] bibtex.pm:1519> INFO - Found BibTeX data source 'references/rq3.bib'
-[266] Biber.pm:4610> INFO - Looking for bibtex file 'references/rq4.bib' for section 0
-[266] bibtex.pm:1713> INFO - LaTeX decoding ...
-[272] bibtex.pm:1519> INFO - Found BibTeX data source 'references/rq4.bib'
-[306] Biber.pm:4610> INFO - Looking for bibtex file 'references/rq5.bib' for section 0
-[307] bibtex.pm:1713> INFO - LaTeX decoding ...
-[318] bibtex.pm:1519> INFO - Found BibTeX data source 'references/rq5.bib'
-[440] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[440] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
-[440] Biber.pm:4239> INFO - Sorting list 'apa/apasortcite//global/global' of type 'entry' with template 'apa' and locale 'en-US'
-[440] Biber.pm:4245> INFO - No sort tailoring available for locale 'en-US'
-[498] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
-[498] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[498] Biber.pm:4239> INFO - Sorting list 'apa/global//global/global' of type 'entry' with template 'apa' and locale 'en-US'
-[498] Biber.pm:4245> INFO - No sort tailoring available for locale 'en-US'
-[532] bbl.pm:660> INFO - Writing 'presentation.bbl' with encoding 'UTF-8'
-[559] bbl.pm:763> INFO - Output to presentation.bbl
+[56] biber:340> INFO - === vie feb  2, 2024, 10:55:03
+[67] Biber.pm:419> INFO - Reading 'presentation.bcf'
+[124] Biber.pm:976> INFO - Using all citekeys in bib section 0
+[141] Biber.pm:4419> INFO - Processing section 0
+[148] Biber.pm:4610> INFO - Looking for bibtex file 'references/rq1.bib' for section 0
+[148] bibtex.pm:1713> INFO - LaTeX decoding ...
+[153] bibtex.pm:1519> INFO - Found BibTeX data source 'references/rq1.bib'
+[201] Biber.pm:4610> INFO - Looking for bibtex file 'references/rq2.bib' for section 0
+[201] bibtex.pm:1713> INFO - LaTeX decoding ...
+[205] bibtex.pm:1519> INFO - Found BibTeX data source 'references/rq2.bib'
+[230] Biber.pm:4610> INFO - Looking for bibtex file 'references/rq3.bib' for section 0
+[231] bibtex.pm:1713> INFO - LaTeX decoding ...
+[234] bibtex.pm:1519> INFO - Found BibTeX data source 'references/rq3.bib'
+[261] Biber.pm:4610> INFO - Looking for bibtex file 'references/rq4.bib' for section 0
+[261] bibtex.pm:1713> INFO - LaTeX decoding ...
+[267] bibtex.pm:1519> INFO - Found BibTeX data source 'references/rq4.bib'
+[300] Biber.pm:4610> INFO - Looking for bibtex file 'references/rq5.bib' for section 0
+[301] bibtex.pm:1713> INFO - LaTeX decoding ...
+[312] bibtex.pm:1519> INFO - Found BibTeX data source 'references/rq5.bib'
+[434] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[434] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[434] Biber.pm:4239> INFO - Sorting list 'apa/apasortcite//global/global' of type 'entry' with template 'apa' and locale 'en-US'
+[434] Biber.pm:4245> INFO - No sort tailoring available for locale 'en-US'
+[493] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[493] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[493] Biber.pm:4239> INFO - Sorting list 'apa/global//global/global' of type 'entry' with template 'apa' and locale 'en-US'
+[493] Biber.pm:4245> INFO - No sort tailoring available for locale 'en-US'
+[527] bbl.pm:660> INFO - Writing 'presentation.bbl' with encoding 'UTF-8'
+[554] bbl.pm:763> INFO - Output to presentation.bbl
