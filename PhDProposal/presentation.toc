@@ -1,4 +1,4 @@
 \beamer@sectionintoc {1}{Research Proposal}{3}{0}{1}
 \beamer@sectionintoc {2}{Literature Review}{8}{0}{2}
-\beamer@subsectionintoc {2}{1}{Challenges}{10}{0}{2}
-\beamer@sectionintoc {3}{Work plan}{11}{0}{3}
+\beamer@subsectionintoc {4}{1}{Challenges}{17}{0}{2}
+\beamer@sectionintoc {5}{Work plan}{18}{0}{3}

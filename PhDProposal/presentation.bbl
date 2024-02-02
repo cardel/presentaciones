@@ -18,3030 +18,413 @@
 
 
 \refsection{0}
-  \datalist[entry]{none/global//global/global}
-    \entry{Hanks80}{thesis}{}
-      \name{author}{1}{}{%
-        {{hash=ea04dc5203cfa79bad1f51524654e18e}{%
-           family={Hanks},
-           familyi={H\bibinitperiod},
-           given={Jeanne\bibnamedelima Marie},
-           giveni={J\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
-      }
-      \list{institution}{1}{%
-        {Georgia Institute of Technology}%
-      }
-      \list{location}{1}{%
-        {Atlanta, Georgia}%
-      }
-      \strng{namehash}{ea04dc5203cfa79bad1f51524654e18e}
-      \strng{fullhash}{ea04dc5203cfa79bad1f51524654e18e}
-      \strng{bibnamehash}{ea04dc5203cfa79bad1f51524654e18e}
-      \strng{authorbibnamehash}{ea04dc5203cfa79bad1f51524654e18e}
-      \strng{authornamehash}{ea04dc5203cfa79bad1f51524654e18e}
-      \strng{authorfullhash}{ea04dc5203cfa79bad1f51524654e18e}
-      \field{sortinit}{2}
-      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{title}{Testing Cobol Programs by Mutation}
-      \field{type}{phdthesis}
-      \field{year}{1980}
-      \true{nocite}
-    \endentry
-    \entry{Jia2011}{article}{}
-      \name{author}{2}{}{%
-        {{hash=ada8c1a2ac1b685250a486673ec46638}{%
-           family={Jia},
-           familyi={J\bibinitperiod},
-           given={Yue},
-           giveni={Y\bibinitperiod}}}%
-        {{hash=1a97225992fa23f818d9b1269df83035}{%
-           family={Harman},
-           familyi={H\bibinitperiod},
-           given={Mark},
-           giveni={M\bibinitperiod}}}%
-      }
-      \strng{namehash}{c7171b96da4be4ef0a3c7bdad64b6086}
-      \strng{fullhash}{c7171b96da4be4ef0a3c7bdad64b6086}
-      \strng{bibnamehash}{c7171b96da4be4ef0a3c7bdad64b6086}
-      \strng{authorbibnamehash}{c7171b96da4be4ef0a3c7bdad64b6086}
-      \strng{authornamehash}{c7171b96da4be4ef0a3c7bdad64b6086}
-      \strng{authorfullhash}{c7171b96da4be4ef0a3c7bdad64b6086}
-      \field{sortinit}{3}
-      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{abstract}{Mutation Testing is a fault-based software testing technique that has been widely studied for over three decades. The literature on Mutation Testing has contributed a set of approaches, tools, developments, and empirical results. This paper provides a comprehensive analysis and survey of Mutation Testing. The paper also presents the results of several development trend analyses. These analyses provide evidence that Mutation Testing techniques and tools are reaching a state of maturity and applicability, while the topic of Mutation Testing itself is the subject of increasing interest. {©} 2011 IEEE.}
-      \field{issn}{00985589}
-      \field{journaltitle}{IEEE Transactions on Software Engineering}
-      \field{number}{5}
-      \field{title}{{An analysis and survey of the development of mutation testing}}
-      \field{volume}{37}
-      \field{year}{2011}
-      \true{nocite}
-      \field{pages}{649\bibrangedash 678}
-      \range{pages}{30}
-      \verb{doi}
-      \verb 10.1109/TSE.2010.62
-      \endverb
-      \verb{file}
-      \verb :C$\backslash$:/Users/Carlos Delgado/Desktop/jia2011.pdf:pdf
-      \endverb
-      \keyw{Mutation testing,survey}
-    \endentry
-    \entry{Offutt2001}{article}{}
-      \name{author}{2}{}{%
-        {{hash=20068e028bbf43885c96dea902a5a64b}{%
-           family={Offutt},
-           familyi={O\bibinitperiod},
-           given={A.\bibnamedelimi Jefferson},
-           giveni={A\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
-        {{hash=120ec96548a715f0a0a5cc3ca4adae58}{%
-           family={Untch},
-           familyi={U\bibinitperiod},
-           given={Roland\bibnamedelima H.},
-           giveni={R\bibinitperiod\bibinitdelim H\bibinitperiod}}}%
-      }
-      \strng{namehash}{6700df263724c58c06ac09d6c1983a41}
-      \strng{fullhash}{6700df263724c58c06ac09d6c1983a41}
-      \strng{bibnamehash}{6700df263724c58c06ac09d6c1983a41}
-      \strng{authorbibnamehash}{6700df263724c58c06ac09d6c1983a41}
-      \strng{authornamehash}{6700df263724c58c06ac09d6c1983a41}
-      \strng{authorfullhash}{6700df263724c58c06ac09d6c1983a41}
-      \field{sortinit}{4}
-      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{abstract}{Mutation testing is a powerful, but computationally expensive, technique for unit testing software. This expense has prevented mutation from becoming widely used in practical situations, but recent engineering advances have given us techniques and algorithms for significantly reducing the cost of mutation testing. These techniques include a new algorithmic execution technique called schema-based mutation, an approximation technique called weak mutation, a reduction technique called selective mutation, heuristics for detecting equivalent mutants, and algorithms for automatic test data generation. This paper reviews experimentation with these advances and outlines a design for a system that will approximate mutation, but in a way that will be accessible to everyday programmers. We envision a system to which a programmer can submit a program unit, and get back a set of input/output pairs that are guaranteed to form an effective test of the unit by being close to mutation adequate. We believe this system will be efficient enough to be adopted by leading-edge software developers. Full automation in unit testing has the potential to dramatically change the economic balance between testing and development, by reducing the cost of testing from the major part of the total development cost to a small fraction.}
-      \field{journaltitle}{Mutation Testing for the New Century}
-      \field{title}{{Mutation 2000: Uniting the Orthogonal}}
-      \field{year}{2001}
-      \true{nocite}
-      \field{pages}{34\bibrangedash 44}
-      \range{pages}{11}
-      \verb{doi}
-      \verb 10.1007/978-1-4757-5939-6_7
-      \endverb
-      \verb{file}
-      \verb :home/carlos/Desktop/mut00.pdf:pdf
-      \endverb
-    \endentry
-    \entry{10.5555/909622}{thesis}{}
-      \name{author}{1}{}{%
-        {{hash=c1d7dfffe47926f5a229aa2091df5cda}{%
-           family={Acree},
-           familyi={A\bibinitperiod},
-           given={Allen\bibnamedelima Troy},
-           giveni={A\bibinitperiod\bibinitdelim T\bibinitperiod}}}%
-      }
-      \list{institution}{1}{%
-        {Department of Computer Science}%
-      }
-      \list{location}{1}{%
-        {USA}%
-      }
-      \list{publisher}{1}{%
-        {Georgia Institute of Technology}%
-      }
-      \strng{namehash}{c1d7dfffe47926f5a229aa2091df5cda}
-      \strng{fullhash}{c1d7dfffe47926f5a229aa2091df5cda}
-      \strng{bibnamehash}{c1d7dfffe47926f5a229aa2091df5cda}
-      \strng{authorbibnamehash}{c1d7dfffe47926f5a229aa2091df5cda}
-      \strng{authornamehash}{c1d7dfffe47926f5a229aa2091df5cda}
-      \strng{authorfullhash}{c1d7dfffe47926f5a229aa2091df5cda}
-      \field{sortinit}{5}
-      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{title}{On Mutation}
-      \field{type}{phdthesis}
-      \field{year}{1980}
-      \true{nocite}
-    \endentry
-    \entry{10.5555/911352}{thesis}{}
-      \name{author}{1}{}{%
-        {{hash=e8bc3e079a1ca3d4bade9a58c8c3f586}{%
-           family={Morell},
-           familyi={M\bibinitperiod},
-           given={Larry\bibnamedelima Joe},
-           giveni={L\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
-      }
-      \list{institution}{1}{%
-        {Department of Computer Science}%
-      }
-      \list{location}{1}{%
-        {USA}%
-      }
-      \list{publisher}{1}{%
-        {University of Maryland at College Park}%
-      }
-      \strng{namehash}{e8bc3e079a1ca3d4bade9a58c8c3f586}
-      \strng{fullhash}{e8bc3e079a1ca3d4bade9a58c8c3f586}
-      \strng{bibnamehash}{e8bc3e079a1ca3d4bade9a58c8c3f586}
-      \strng{authorbibnamehash}{e8bc3e079a1ca3d4bade9a58c8c3f586}
-      \strng{authornamehash}{e8bc3e079a1ca3d4bade9a58c8c3f586}
-      \strng{authorfullhash}{e8bc3e079a1ca3d4bade9a58c8c3f586}
-      \field{sortinit}{6}
-      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{title}{A Theory of Error-Based Testing}
-      \field{type}{phdthesis}
-      \field{year}{1983}
-      \true{nocite}
-    \endentry
-    \entry{142681}{article}{}
-      \name{author}{3}{}{%
-        {{hash=2f8de9e5387c40c21fa0c2c847125dea}{%
-           family={{Geist}},
-           familyi={G\bibinitperiod},
-           given={R.},
-           giveni={R\bibinitperiod}}}%
-        {{hash=2e2ff896ee30bd9003a8352a81800947}{%
-           family={{Offutt}},
-           familyi={O\bibinitperiod},
-           given={A.\bibnamedelimi J.},
-           giveni={A\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
-        {{hash=5d0ddc0d4c01cc8fa085b4a65219ada0}{%
-           family={{Harris}},
-           familyi={H\bibinitperiod},
-           given={F.\bibnamedelimi C.},
-           giveni={F\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
-      }
-      \strng{namehash}{ca7806c3f11a48366b67b32ecd38ab04}
-      \strng{fullhash}{ca7806c3f11a48366b67b32ecd38ab04}
-      \strng{bibnamehash}{ca7806c3f11a48366b67b32ecd38ab04}
-      \strng{authorbibnamehash}{ca7806c3f11a48366b67b32ecd38ab04}
-      \strng{authornamehash}{ca7806c3f11a48366b67b32ecd38ab04}
-      \strng{authorfullhash}{ca7806c3f11a48366b67b32ecd38ab04}
-      \field{sortinit}{7}
-      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{IEEE Transactions on Computers}
-      \field{number}{5}
-      \field{title}{Estimation and enhancement of real-time software reliability through mutation analysis}
-      \field{volume}{41}
-      \field{year}{1992}
-      \true{nocite}
-      \field{pages}{550\bibrangedash 558}
-      \range{pages}{9}
-    \endentry
-    \entry{lipton1971fault}{article}{}
-      \name{author}{1}{}{%
-        {{hash=537539c722e291760e8f2da79c01d970}{%
-           family={Lipton},
-           familyi={L\bibinitperiod},
-           given={Richard},
-           giveni={R\bibinitperiod}}}%
-      }
-      \strng{namehash}{537539c722e291760e8f2da79c01d970}
-      \strng{fullhash}{537539c722e291760e8f2da79c01d970}
-      \strng{bibnamehash}{537539c722e291760e8f2da79c01d970}
-      \strng{authorbibnamehash}{537539c722e291760e8f2da79c01d970}
-      \strng{authornamehash}{537539c722e291760e8f2da79c01d970}
-      \strng{authorfullhash}{537539c722e291760e8f2da79c01d970}
-      \field{sortinit}{8}
-      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{Carnegie Mellon University}
-      \field{title}{Fault diagnosis of computer programs. Student Report}
-      \field{volume}{2}
-      \field{year}{1971}
-      \true{nocite}
-      \field{pages}{2}
-      \range{pages}{1}
-    \endentry
-    \entry{92910}{article}{}
-      \name{author}{2}{}{%
-        {{hash=ea1f0afebe9889bbb78b150dc54ff919}{%
-           family={{DeMilli}},
-           familyi={D\bibinitperiod},
-           given={R.\bibnamedelimi A.},
-           giveni={R\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
-        {{hash=2e2ff896ee30bd9003a8352a81800947}{%
-           family={{Offutt}},
-           familyi={O\bibinitperiod},
-           given={A.\bibnamedelimi J.},
-           giveni={A\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
-      }
-      \strng{namehash}{c3053338ab9a6f39f829cff965357ad9}
-      \strng{fullhash}{c3053338ab9a6f39f829cff965357ad9}
-      \strng{bibnamehash}{c3053338ab9a6f39f829cff965357ad9}
-      \strng{authorbibnamehash}{c3053338ab9a6f39f829cff965357ad9}
-      \strng{authornamehash}{c3053338ab9a6f39f829cff965357ad9}
-      \strng{authorfullhash}{c3053338ab9a6f39f829cff965357ad9}
-      \field{sortinit}{9}
-      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{IEEE Transactions on Software Engineering}
-      \field{number}{9}
-      \field{title}{Constraint-based automatic test data generation}
-      \field{volume}{17}
-      \field{year}{1991}
-      \true{nocite}
-      \field{pages}{900\bibrangedash 910}
-      \range{pages}{11}
-    \endentry
-    \entry{170202}{inproceedings}{}
-      \name{author}{3}{}{%
-        {{hash=3b898778d8a95326168013a8eb0c0a9e}{%
-           family={{DeMillo}},
-           familyi={D\bibinitperiod},
-           given={R.\bibnamedelimi A.},
-           giveni={R\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
-        {{hash=34617ab111fc132955d6345f3e6ab850}{%
-           family={{Krauser}},
-           familyi={K\bibinitperiod},
-           given={E.\bibnamedelimi W.},
-           giveni={E\bibinitperiod\bibinitdelim W\bibinitperiod}}}%
-        {{hash=64c78986c3705f048ad2dc2fb850beff}{%
-           family={{Mathur}},
-           familyi={M\bibinitperiod},
-           given={A.\bibnamedelimi P.},
-           giveni={A\bibinitperiod\bibinitdelim P\bibinitperiod}}}%
-      }
-      \strng{namehash}{d08eb1329b5cd1c47bbb35134b3ee2a6}
-      \strng{fullhash}{d08eb1329b5cd1c47bbb35134b3ee2a6}
-      \strng{bibnamehash}{d08eb1329b5cd1c47bbb35134b3ee2a6}
-      \strng{authorbibnamehash}{d08eb1329b5cd1c47bbb35134b3ee2a6}
-      \strng{authornamehash}{d08eb1329b5cd1c47bbb35134b3ee2a6}
-      \strng{authorfullhash}{d08eb1329b5cd1c47bbb35134b3ee2a6}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{booktitle}{[1991] Proceedings The Fifteenth Annual International Computer Software Applications Conference}
-      \field{title}{Compiler-integrated program mutation}
-      \field{year}{1991}
-      \true{nocite}
-      \field{pages}{351\bibrangedash 356}
-      \range{pages}{6}
-    \endentry
-    \entry{Maldonado2001}{incollection}{}
-      \name{author}{7}{}{%
-        {{hash=dab77005368509f92c28b4a53b61b382}{%
-           family={Maldonado},
-           familyi={M\bibinitperiod},
-           given={José\bibnamedelima Carlos},
-           giveni={J\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
-        {{hash=50b97e21c750a454ba61c83249c62c3e}{%
-           family={Delamaro},
-           familyi={D\bibinitperiod},
-           given={Márcio\bibnamedelima Eduardo},
-           giveni={M\bibinitperiod\bibinitdelim E\bibinitperiod}}}%
-        {{hash=55f6095b1c69f21568d4a0048c8fa1f2}{%
-           family={Fabbri},
-           familyi={F\bibinitperiod},
-           given={Sandra\bibnamedelimb C.\bibnamedelimi P.\bibnamedelimi F.},
-           giveni={S\bibinitperiod\bibinitdelim C\bibinitperiod\bibinitdelim P\bibinitperiod\bibinitdelim F\bibinitperiod}}}%
-        {{hash=bc2b3a310481c7ed6729f215ced0dab6}{%
-           family={Simão},
-           familyi={S\bibinitperiod},
-           given={Adenilso\bibnamedelima Silva},
-           giveni={A\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
-        {{hash=eab9b5d03f1b5a6212f6237a4670a826}{%
-           family={Sugeta},
-           familyi={S\bibinitperiod},
-           given={Tatiana},
-           giveni={T\bibinitperiod}}}%
-        {{hash=335a28baba946cbc74bffdeba359beb9}{%
-           family={Vincenzi},
-           familyi={V\bibinitperiod},
-           given={Auri\bibnamedelimb Marcelo\bibnamedelima Rizzo},
-           giveni={A\bibinitperiod\bibinitdelim M\bibinitperiod\bibinitdelim R\bibinitperiod}}}%
-        {{hash=7e93f2a335ddd10892b636d4fc03d5df}{%
-           family={Masiero},
-           familyi={M\bibinitperiod},
-           given={Paulo\bibnamedelima Cesar},
-           giveni={P\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
-      }
-      \list{publisher}{1}{%
-        {Springer {US}}%
-      }
-      \strng{namehash}{acdc0729237dc2a27b8e1ec76f3a4db7}
-      \strng{fullhash}{a29ec74c1c5151c2ee1f6c96b953098d}
-      \strng{bibnamehash}{acdc0729237dc2a27b8e1ec76f3a4db7}
-      \strng{authorbibnamehash}{acdc0729237dc2a27b8e1ec76f3a4db7}
-      \strng{authornamehash}{acdc0729237dc2a27b8e1ec76f3a4db7}
-      \strng{authorfullhash}{a29ec74c1c5151c2ee1f6c96b953098d}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{booktitle}{Mutation Testing for the New Century}
-      \field{title}{Proteum: A Family of Tools to Support Specification and Program Testing Based on Mutation}
-      \field{year}{2001}
-      \true{nocite}
-      \field{pages}{113\bibrangedash 116}
-      \range{pages}{4}
-      \verb{doi}
-      \verb 10.1007/978-1-4757-5939-6_19
-      \endverb
-      \verb{urlraw}
-      \verb https://doi.org/10.1007/978-1-4757-5939-6_19
-      \endverb
-      \verb{url}
-      \verb https://doi.org/10.1007/978-1-4757-5939-6_19
-      \endverb
-    \endentry
-    \entry{10.5555/914857}{thesis}{}
-      \name{author}{2}{}{%
-        {{hash=6481545e1b2f8517a36c7abfd6125422}{%
-           family={Offutt},
-           familyi={O\bibinitperiod},
-           given={Andrew\bibnamedelima Jefferson},
-           giveni={A\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
-        {{hash=529ac9ab5135c6c4f2f873a3309560dd}{%
-           family={Demillo},
-           familyi={D\bibinitperiod},
-           given={R.\bibnamedelimi A.},
-           giveni={R\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
-      }
-      \list{institution}{1}{%
-        {Department of Computer Science}%
-      }
-      \list{location}{1}{%
-        {USA}%
-      }
-      \list{publisher}{1}{%
-        {Georgia Institute of Technology}%
-      }
-      \strng{namehash}{fc5bfd1bf1b76e98d143a1caa70c2a2a}
-      \strng{fullhash}{fc5bfd1bf1b76e98d143a1caa70c2a2a}
-      \strng{bibnamehash}{fc5bfd1bf1b76e98d143a1caa70c2a2a}
-      \strng{authorbibnamehash}{fc5bfd1bf1b76e98d143a1caa70c2a2a}
-      \strng{authornamehash}{fc5bfd1bf1b76e98d143a1caa70c2a2a}
-      \strng{authorfullhash}{fc5bfd1bf1b76e98d143a1caa70c2a2a}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{title}{Automatic Test Data Generation}
-      \field{type}{phdthesis}
-      \field{year}{1988}
-      \true{nocite}
-    \endentry
-    \entry{Offutt1987}{inproceedings}{}
-      \name{author}{2}{}{%
-        {{hash=2e2ff896ee30bd9003a8352a81800947}{%
-           family={Offutt},
-           familyi={O\bibinitperiod},
-           given={A.\bibnamedelimi J.},
-           giveni={A\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
-        {{hash=5d79be3914097d5c55f2e2fd9c08f4dc}{%
-           family={King},
-           familyi={K\bibinitperiod},
-           given={K.\bibnamedelimi N.},
-           giveni={K\bibinitperiod\bibinitdelim N\bibinitperiod}}}%
-      }
-      \list{publisher}{1}{%
-        {{ACM} Press}%
-      }
-      \strng{namehash}{4610352fa765bba3b1a6e130a195a660}
-      \strng{fullhash}{4610352fa765bba3b1a6e130a195a660}
-      \strng{bibnamehash}{4610352fa765bba3b1a6e130a195a660}
-      \strng{authorbibnamehash}{4610352fa765bba3b1a6e130a195a660}
-      \strng{authornamehash}{4610352fa765bba3b1a6e130a195a660}
-      \strng{authorfullhash}{4610352fa765bba3b1a6e130a195a660}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{booktitle}{Papers of the Symposium on Interpreters and interpretive techniques 87}
-      \field{title}{A Fortran 77 interpreter for mutation analysis}
-      \field{year}{1987}
-      \true{nocite}
-      \verb{doi}
-      \verb 10.1145/29650.29669
-      \endverb
-      \verb{urlraw}
-      \verb https://doi.org/10.1145/29650.29669
-      \endverb
-      \verb{url}
-      \verb https://doi.org/10.1145/29650.29669
-      \endverb
-    \endentry
-    \entry{8564344}{inproceedings}{}
-      \name{author}{3}{}{%
-        {{hash=61ad10c626e1d641e0b1d7b5f48d3233}{%
-           family={{Wang}},
-           familyi={W\bibinitperiod},
-           given={Y.},
-           giveni={Y\bibinitperiod}}}%
-        {{hash=980c2c7790aacddf7dd446301649793d}{%
-           family={{Yao}},
-           familyi={Y\bibinitperiod},
-           given={J.},
-           giveni={J\bibinitperiod}}}%
-        {{hash=89b6a98b2f62d3ddfdac44ef9126d99c}{%
-           family={{Yu}},
-           familyi={Y\bibinitperiod},
-           given={X.},
-           giveni={X\bibinitperiod}}}%
-      }
-      \strng{namehash}{b2b475f2d35bceec87e8d34daad0e5af}
-      \strng{fullhash}{b2b475f2d35bceec87e8d34daad0e5af}
-      \strng{bibnamehash}{b2b475f2d35bceec87e8d34daad0e5af}
-      \strng{authorbibnamehash}{b2b475f2d35bceec87e8d34daad0e5af}
-      \strng{authornamehash}{b2b475f2d35bceec87e8d34daad0e5af}
-      \strng{authorfullhash}{b2b475f2d35bceec87e8d34daad0e5af}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{booktitle}{2018 14th International Conference on Computational Intelligence and Security (CIS)}
-      \field{title}{Information Security Protection in Software Testing}
-      \field{year}{2018}
-      \true{nocite}
-      \field{pages}{449\bibrangedash 452}
-      \range{pages}{4}
-    \endentry
-    \entry{8967426}{inproceedings}{}
+  \datalist[entry]{apa/apasortcite//global/global}
+    \entry{Bakhtin2022}{article}{}
       \name{author}{4}{}{%
-        {{hash=68c922e22078f241d26ddf7254d99d5e}{%
-           family={{Nelson}},
-           familyi={N\bibinitperiod},
-           given={T.},
-           giveni={T\bibinitperiod}}}%
-        {{hash=30588704e12fb0e4c7368a21de631470}{%
-           family={{Danas}},
-           familyi={D\bibinitperiod},
-           given={N.},
-           giveni={N\bibinitperiod}}}%
-        {{hash=f27b5a7744dc3fd5668a01f81be7f36f}{%
-           family={{Giannakopoulos}},
-           familyi={G\bibinitperiod},
-           given={T.},
-           giveni={T\bibinitperiod}}}%
-        {{hash=6fa5d9efe85efaaed49c21742eb36742}{%
-           family={{Krishnamurthi}},
-           familyi={K\bibinitperiod},
-           given={S.},
-           giveni={S\bibinitperiod}}}%
-      }
-      \strng{namehash}{4f2e595ec2dbcb72b293e365ec36eccf}
-      \strng{fullhash}{7cf49426f98786a5b47d65bdb7de46cf}
-      \strng{bibnamehash}{7cf49426f98786a5b47d65bdb7de46cf}
-      \strng{authorbibnamehash}{7cf49426f98786a5b47d65bdb7de46cf}
-      \strng{authornamehash}{4f2e595ec2dbcb72b293e365ec36eccf}
-      \strng{authorfullhash}{7cf49426f98786a5b47d65bdb7de46cf}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{booktitle}{2019 34th IEEE/ACM International Conference on Automated Software Engineering Workshop (ASEW)}
-      \field{title}{Synthesizing Mutable Configurations: Setting up Systems for Success}
-      \field{year}{2019}
-      \true{nocite}
-      \field{pages}{81\bibrangedash 85}
-      \range{pages}{5}
-    \endentry
-    \entry{kravets2012feasibility}{inproceedings}{}
-      \name{author}{2}{}{%
-        {{hash=9645cf54149b3266fc3b85421a27ce10}{%
-           family={Kravets},
-           familyi={K\bibinitperiod},
-           given={Ilia},
-           giveni={I\bibinitperiod}}}%
-        {{hash=d4e54c84413641d186ef3461d7e0d1f7}{%
-           family={Tsafrir},
-           familyi={T\bibinitperiod},
-           given={Dan},
-           giveni={D\bibinitperiod}}}%
-      }
-      \strng{namehash}{133b0f13ddae84775a5453e277a02c60}
-      \strng{fullhash}{133b0f13ddae84775a5453e277a02c60}
-      \strng{bibnamehash}{133b0f13ddae84775a5453e277a02c60}
-      \strng{authorbibnamehash}{133b0f13ddae84775a5453e277a02c60}
-      \strng{authornamehash}{133b0f13ddae84775a5453e277a02c60}
-      \strng{authorfullhash}{133b0f13ddae84775a5453e277a02c60}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{booktitle}{Runtime Environments/Systems, Layering, \& Virtualized Environments workshop (RESoLVE)}
-      \field{title}{Feasibility of mutable replay for automated regression testing of security updates}
-      \field{year}{2012}
-      \true{nocite}
-    \endentry
-    \entry{Mouelhi2007}{inproceedings}{}
-      \name{author}{3}{}{%
-        {{hash=f21531595d0d9a32fa04b5d7fbe94383}{%
-           family={Mouelhi},
-           familyi={M\bibinitperiod},
-           given={Tejeddine},
-           giveni={T\bibinitperiod}}}%
-        {{hash=5498af5c98f09cacd2f040897d69dfe7}{%
-           family={Traon},
-           familyi={T\bibinitperiod},
-           given={Yves\bibnamedelima Le},
-           giveni={Y\bibinitperiod\bibinitdelim L\bibinitperiod}}}%
-        {{hash=5bccc8108bd2ef1b1e2cfc63031932f0}{%
-           family={Baudry},
+        {{un=0,uniquepart=base,hash=26b805322e74384072f1f7f945e8a0c1}{%
+           family={Bakhtin},
            familyi={B\bibinitperiod},
-           given={Benoit},
-           giveni={B\bibinitperiod}}}%
-      }
-      \list{publisher}{1}{%
-        {IEEE}%
-      }
-      \strng{namehash}{61255ac3f2408b5ba60f2155dd318bd4}
-      \strng{fullhash}{61255ac3f2408b5ba60f2155dd318bd4}
-      \strng{bibnamehash}{61255ac3f2408b5ba60f2155dd318bd4}
-      \strng{authorbibnamehash}{61255ac3f2408b5ba60f2155dd318bd4}
-      \strng{authornamehash}{61255ac3f2408b5ba60f2155dd318bd4}
-      \strng{authorfullhash}{61255ac3f2408b5ba60f2155dd318bd4}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{booktitle}{Testing: Academic and Industrial Conference Practice and Research Techniques - {MUTATION} ({TAICPART}-{MUTATION} 2007)}
-      \field{month}{9}
-      \field{title}{Mutation Analysis for Security Tests Qualification}
-      \field{year}{2007}
-      \true{nocite}
-      \verb{doi}
-      \verb 10.1109/taic.part.2007.21
-      \endverb
-      \verb{urlraw}
-      \verb https://doi.org/10.1109/taic.part.2007.21
-      \endverb
-      \verb{url}
-      \verb https://doi.org/10.1109/taic.part.2007.21
-      \endverb
-    \endentry
-    \entry{Thomas2011}{inproceedings}{}
-      \name{author}{3}{}{%
-        {{hash=985a03bf02d9b0daa0da62ad78b5ce78}{%
-           family={Thomas},
-           familyi={T\bibinitperiod},
-           given={Lijo},
-           giveni={L\bibinitperiod}}}%
-        {{hash=47e9da83c191a07b7df5c9d9f2ce1f9e}{%
-           family={Xu},
-           familyi={X\bibinitperiod},
-           given={Weifeng},
-           giveni={W\bibinitperiod}}}%
-        {{hash=252e35449049f80308e272c52b93841a}{%
-           family={Xu},
-           familyi={X\bibinitperiod},
-           given={Dianxiang},
-           giveni={D\bibinitperiod}}}%
-      }
-      \list{publisher}{1}{%
-        {IEEE}%
-      }
-      \strng{namehash}{3726da7be3ab5a1d373668ba8941e10c}
-      \strng{fullhash}{3726da7be3ab5a1d373668ba8941e10c}
-      \strng{bibnamehash}{3726da7be3ab5a1d373668ba8941e10c}
-      \strng{authorbibnamehash}{3726da7be3ab5a1d373668ba8941e10c}
-      \strng{authornamehash}{3726da7be3ab5a1d373668ba8941e10c}
-      \strng{authorfullhash}{3726da7be3ab5a1d373668ba8941e10c}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{booktitle}{2011 {IEEE} 35th Annual Computer Software and Applications Conference Workshops}
-      \field{month}{7}
-      \field{title}{Mutation Analysis of Magento for Evaluating Threat Model-Based Security Testing}
-      \field{year}{2011}
-      \true{nocite}
-      \verb{doi}
-      \verb 10.1109/compsacw.2011.40
-      \endverb
-      \verb{urlraw}
-      \verb https://doi.org/10.1109/compsacw.2011.40
-      \endverb
-      \verb{url}
-      \verb https://doi.org/10.1109/compsacw.2011.40
-      \endverb
-    \endentry
-    \entry{Loise2017}{inproceedings}{}
-      \name{author}{5}{}{%
-        {{hash=e613e3caf1aee7950e82f459a8c17af4}{%
-           family={Loise},
-           familyi={L\bibinitperiod},
-           given={Thomas},
-           giveni={T\bibinitperiod}}}%
-        {{hash=ced2cf825dfda3bfbf764207f67e216b}{%
-           family={Devroey},
-           familyi={D\bibinitperiod},
-           given={Xavier},
-           giveni={X\bibinitperiod}}}%
-        {{hash=f4d0c28d3be80e2e6dd80bcf97c2fdf6}{%
-           family={Perrouin},
-           familyi={P\bibinitperiod},
-           given={Gilles},
-           giveni={G\bibinitperiod}}}%
-        {{hash=7d9fc28f6f65f290ffddfb7e4a604586}{%
-           family={Papadakis},
-           familyi={P\bibinitperiod},
-           given={Mike},
-           giveni={M\bibinitperiod}}}%
-        {{hash=c016cc6f662f710b5a32ed224ba53222}{%
-           family={Heymans},
-           familyi={H\bibinitperiod},
-           given={Patrick},
-           giveni={P\bibinitperiod}}}%
-      }
-      \list{publisher}{1}{%
-        {IEEE}%
-      }
-      \strng{namehash}{e1a360f273bfbe766610a76ccc516b86}
-      \strng{fullhash}{5bbe0e4791e3dc5ef46ef8d03cf911ed}
-      \strng{bibnamehash}{5bbe0e4791e3dc5ef46ef8d03cf911ed}
-      \strng{authorbibnamehash}{5bbe0e4791e3dc5ef46ef8d03cf911ed}
-      \strng{authornamehash}{e1a360f273bfbe766610a76ccc516b86}
-      \strng{authorfullhash}{5bbe0e4791e3dc5ef46ef8d03cf911ed}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{booktitle}{2017 {IEEE} International Conference on Software Testing, Verification and Validation Workshops ({ICSTW})}
-      \field{month}{3}
-      \field{title}{Towards Security-Aware Mutation Testing}
-      \field{year}{2017}
-      \true{nocite}
-      \verb{doi}
-      \verb 10.1109/icstw.2017.24
-      \endverb
-      \verb{urlraw}
-      \verb https://doi.org/10.1109/icstw.2017.24
-      \endverb
-      \verb{url}
-      \verb https://doi.org/10.1109/icstw.2017.24
-      \endverb
-    \endentry
-    \entry{Zhang2020}{inproceedings}{}
-      \name{author}{6}{}{%
-        {{hash=0f5c41a2202b8fab29223cbb85f8081a}{%
-           family={Zhang},
-           familyi={Z\bibinitperiod},
-           given={Zhaoxu},
-           giveni={Z\bibinitperiod}}}%
-        {{hash=5079fcf7e6d31d42f4b83ebbac2347ec}{%
-           family={Zhu},
-           familyi={Z\bibinitperiod},
-           given={Hengcheng},
-           giveni={H\bibinitperiod}}}%
-        {{hash=25eac348c54606c27d3a7fa57d9701a6}{%
-           family={Wen},
-           familyi={W\bibinitperiod},
-           given={Ming},
-           giveni={M\bibinitperiod}}}%
-        {{hash=23a9de0f4d4546f34524aa6aa75e219a}{%
-           family={Tao},
-           familyi={T\bibinitperiod},
-           given={Yida},
-           giveni={Y\bibinitperiod}}}%
-        {{hash=46dbae95524ea61981fe3555dc9bcc2b}{%
-           family={Liu},
-           familyi={L\bibinitperiod},
-           given={Yepang},
-           giveni={Y\bibinitperiod}}}%
-        {{hash=b54d80336b0ff55a06b42f5bf4e1ca5f}{%
-           family={Xiong},
-           familyi={X\bibinitperiod},
-           given={Yingfei},
-           giveni={Y\bibinitperiod}}}%
-      }
-      \list{publisher}{1}{%
-        {IEEE}%
-      }
-      \strng{namehash}{25f41f2ebfa422c1dc03d4e7f6efdc69}
-      \strng{fullhash}{55f301912ebe431035e1bb6552d569ef}
-      \strng{bibnamehash}{55f301912ebe431035e1bb6552d569ef}
-      \strng{authorbibnamehash}{55f301912ebe431035e1bb6552d569ef}
-      \strng{authornamehash}{25f41f2ebfa422c1dc03d4e7f6efdc69}
-      \strng{authorfullhash}{55f301912ebe431035e1bb6552d569ef}
-      \field{sortinit}{2}
-      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{booktitle}{2020 {IEEE} 27th International Conference on Software Analysis, Evolution and Reengineering ({SANER})}
-      \field{month}{2}
-      \field{title}{How Do Python Framework {APIs} Evolve? An Exploratory Study}
-      \field{year}{2020}
-      \true{nocite}
-      \verb{doi}
-      \verb 10.1109/saner48275.2020.9054800
-      \endverb
-      \verb{urlraw}
-      \verb https://doi.org/10.1109/saner48275.2020.9054800
-      \endverb
-      \verb{url}
-      \verb https://doi.org/10.1109/saner48275.2020.9054800
-      \endverb
-    \endentry
-    \entry{Kechagia2019}{inproceedings}{}
-      \name{author}{5}{}{%
-        {{hash=535a7ec0882c52cadb1b26379ff977b3}{%
-           family={Kechagia},
-           familyi={K\bibinitperiod},
-           given={Maria},
-           giveni={M\bibinitperiod}}}%
-        {{hash=ced2cf825dfda3bfbf764207f67e216b}{%
-           family={Devroey},
-           familyi={D\bibinitperiod},
-           given={Xavier},
-           giveni={X\bibinitperiod}}}%
-        {{hash=d6e4b1d08fcb2efa00dc43ff62ee4591}{%
-           family={Panichella},
-           familyi={P\bibinitperiod},
-           given={Annibale},
-           giveni={A\bibinitperiod}}}%
-        {{hash=fcc9dbe734c8098eb1c90c3388e4f354}{%
-           family={Gousios},
-           familyi={G\bibinitperiod},
-           given={Georgios},
-           giveni={G\bibinitperiod}}}%
-        {{hash=65e990ff404c92f18a3795137504d7d1}{%
-           family={Deursen},
-           familyi={D\bibinitperiod},
-           given={Arie},
+           given={Alexander},
            giveni={A\bibinitperiod},
-           prefix={van},
-           prefixi={v\bibinitperiod}}}%
-      }
-      \list{publisher}{1}{%
-        {{ACM} Press}%
-      }
-      \strng{namehash}{cede0f11ade28ae73000437944364898}
-      \strng{fullhash}{13a8d9b4f381417626eaff1443b24814}
-      \strng{bibnamehash}{13a8d9b4f381417626eaff1443b24814}
-      \strng{authorbibnamehash}{13a8d9b4f381417626eaff1443b24814}
-      \strng{authornamehash}{cede0f11ade28ae73000437944364898}
-      \strng{authorfullhash}{13a8d9b4f381417626eaff1443b24814}
-      \field{sortinit}{2}
-      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{booktitle}{Proceedings of the 28th {ACM} {SIGSOFT} International Symposium on Software Testing and Analysis - {ISSTA} 2019}
-      \field{title}{Effective and efficient {API} misuse detection via exception propagation and search-based testing}
-      \field{year}{2019}
-      \true{nocite}
-      \verb{doi}
-      \verb 10.1145/3293882.3330552
-      \endverb
-      \verb{urlraw}
-      \verb https://doi.org/10.1145/3293882.3330552
-      \endverb
-      \verb{url}
-      \verb https://doi.org/10.1145/3293882.3330552
-      \endverb
-    \endentry
-    \entry{ozdemir2019upgrade}{misc}{}
-      \name{author}{5}{}{%
-        {{hash=b4e9ae77bb540b9a5eea1e7b4f900e93}{%
-           family={Ozdemir},
-           familyi={O\bibinitperiod},
-           given={Ozer},
-           giveni={O\bibinitperiod}}}%
-        {{hash=da1f24ee114534d5fe37102f8e7067be}{%
-           family={Ingec},
-           familyi={I\bibinitperiod},
-           given={Tevfik\bibnamedelima Sinan},
-           giveni={T\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
-        {{hash=2a5eaf69bcf121231b1196a1699b0a74}{%
-           family={Erdinc},
-           familyi={E\bibinitperiod},
-           given={Tufan},
-           giveni={T\bibinitperiod}}}%
-        {{hash=81408649d82d3bd96bb5f7262ebd609e}{%
-           family={Roy},
-           familyi={R\bibinitperiod},
-           given={Arnab},
-           giveni={A\bibinitperiod}}}%
-        {{hash=bb5648d8698d57d8c969e570b64167a1}{%
-           family={Durran},
-           familyi={D\bibinitperiod},
-           given={Mike},
-           giveni={M\bibinitperiod}}}%
-      }
-      \list{publisher}{1}{%
-        {Google Patents}%
-      }
-      \strng{namehash}{6fec71d798459e25074fc8983d259003}
-      \strng{fullhash}{b31a018c9e51b2e1596ebb0415779444}
-      \strng{bibnamehash}{b31a018c9e51b2e1596ebb0415779444}
-      \strng{authorbibnamehash}{b31a018c9e51b2e1596ebb0415779444}
-      \strng{authornamehash}{6fec71d798459e25074fc8983d259003}
-      \strng{authorfullhash}{b31a018c9e51b2e1596ebb0415779444}
-      \field{sortinit}{2}
-      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{month}{03}
-      \field{title}{Upgrade verification tool}
-      \field{year}{2019}
-      \true{nocite}
-    \endentry
-    \entry{Frankl1991}{inproceedings}{}
-      \name{author}{2}{}{%
-        {{hash=5baa08b4c8efcbca9db59ddce8c89378}{%
-           family={Frankl},
-           familyi={F\bibinitperiod},
-           given={Phyllis\bibnamedelima G.},
-           giveni={P\bibinitperiod\bibinitdelim G\bibinitperiod}}}%
-        {{hash=ae0f831857dc78cd7451ba7f606e2c4e}{%
-           family={Weiss},
-           familyi={W\bibinitperiod},
-           given={Stewart\bibnamedelima N.},
-           giveni={S\bibinitperiod\bibinitdelim N\bibinitperiod}}}%
-      }
-      \list{publisher}{1}{%
-        {{ACM} Press}%
-      }
-      \strng{namehash}{35746403dbe32086ab88851718eb4ceb}
-      \strng{fullhash}{35746403dbe32086ab88851718eb4ceb}
-      \strng{bibnamehash}{35746403dbe32086ab88851718eb4ceb}
-      \strng{authorbibnamehash}{35746403dbe32086ab88851718eb4ceb}
-      \strng{authornamehash}{35746403dbe32086ab88851718eb4ceb}
-      \strng{authorfullhash}{35746403dbe32086ab88851718eb4ceb}
-      \field{extraname}{1}
-      \field{sortinit}{2}
-      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{booktitle}{Proceedings of the symposium on Testing, analysis, and verification - {TAV}4}
-      \field{title}{An experimental comparison of the effectiveness of the all-uses and all-edges adequacy criteria}
-      \field{year}{1991}
-      \true{nocite}
-      \verb{doi}
-      \verb 10.1145/120807.120821
-      \endverb
-      \verb{urlraw}
-      \verb https://doi.org/10.1145/120807.120821
-      \endverb
-      \verb{url}
-      \verb https://doi.org/10.1145/120807.120821
-      \endverb
-    \endentry
-    \entry{Frankl1993}{article}{}
-      \name{author}{2}{}{%
-        {{hash=67cc5535b0b7f087dbb71fde333410de}{%
-           family={Frankl},
-           familyi={F\bibinitperiod},
-           given={P.G.},
-           giveni={P\bibinitperiod}}}%
-        {{hash=9f8338b279640128badba86d7a2c7bfa}{%
-           family={Weiss},
-           familyi={W\bibinitperiod},
-           given={S.N.},
-           giveni={S\bibinitperiod}}}%
-      }
-      \list{publisher}{2}{%
-        {Institute of Electrical}%
-        {Electronics Engineers ({IEEE})}%
-      }
-      \strng{namehash}{70ae08fa10865e57674167e7959a3c2d}
-      \strng{fullhash}{70ae08fa10865e57674167e7959a3c2d}
-      \strng{bibnamehash}{70ae08fa10865e57674167e7959a3c2d}
-      \strng{authorbibnamehash}{70ae08fa10865e57674167e7959a3c2d}
-      \strng{authornamehash}{70ae08fa10865e57674167e7959a3c2d}
-      \strng{authorfullhash}{70ae08fa10865e57674167e7959a3c2d}
-      \field{extraname}{2}
-      \field{sortinit}{2}
-      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{{IEEE} Transactions on Software Engineering}
-      \field{number}{8}
-      \field{title}{An experimental comparison of the effectiveness of branch testing and data flow testing}
-      \field{volume}{19}
-      \field{year}{1993}
-      \true{nocite}
-      \field{pages}{774\bibrangedash 787}
-      \range{pages}{14}
-      \verb{doi}
-      \verb 10.1109/32.238581
-      \endverb
-      \verb{urlraw}
-      \verb https://doi.org/10.1109/32.238581
-      \endverb
-      \verb{url}
-      \verb https://doi.org/10.1109/32.238581
-      \endverb
-    \endentry
-    \entry{Anbalagan2008}{inproceedings}{}
-      \name{author}{2}{}{%
-        {{hash=53a16889c64656b24fe797c013326ced}{%
-           family={Anbalagan},
-           familyi={A\bibinitperiod},
-           given={Prasanth},
-           giveni={P\bibinitperiod}}}%
-        {{hash=a5af3fd070e8863cff031708de1a7916}{%
-           family={Xie},
-           familyi={X\bibinitperiod},
-           given={Tao},
-           giveni={T\bibinitperiod}}}%
-      }
-      \list{publisher}{1}{%
-        {IEEE}%
-      }
-      \strng{namehash}{2a930c79d5e692ab338c3fda24ba3d40}
-      \strng{fullhash}{2a930c79d5e692ab338c3fda24ba3d40}
-      \strng{bibnamehash}{2a930c79d5e692ab338c3fda24ba3d40}
-      \strng{authorbibnamehash}{2a930c79d5e692ab338c3fda24ba3d40}
-      \strng{authornamehash}{2a930c79d5e692ab338c3fda24ba3d40}
-      \strng{authorfullhash}{2a930c79d5e692ab338c3fda24ba3d40}
-      \field{sortinit}{2}
-      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{booktitle}{2008 19th International Symposium on Software Reliability Engineering ({ISSRE})}
-      \field{month}{11}
-      \field{title}{Automated Generation of Pointcut Mutants for Testing Pointcuts in {AspectJ} Programs}
-      \field{year}{2008}
-      \true{nocite}
-      \verb{doi}
-      \verb 10.1109/issre.2008.58
-      \endverb
-      \verb{urlraw}
-      \verb https://doi.org/10.1109/issre.2008.58
-      \endverb
-      \verb{url}
-      \verb https://doi.org/10.1109/issre.2008.58
-      \endverb
-    \endentry
-    \entry{DelgadoPrez2017}{article}{}
-      \name{author}{3}{}{%
-        {{hash=3f00aaf0898745c9b49e42154513d9eb}{%
-           family={Delgado-Pérez},
-           familyi={D\bibinithyphendelim P\bibinitperiod},
-           given={Pedro},
-           giveni={P\bibinitperiod}}}%
-        {{hash=efefdfdaba6c5894f391e59294e0dcbe}{%
-           family={Segura},
-           familyi={S\bibinitperiod},
-           given={Sergio},
-           giveni={S\bibinitperiod}}}%
-        {{hash=65c54d12aada5f0a851fe28211cf5638}{%
-           family={Medina-Bulo},
-           familyi={M\bibinithyphendelim B\bibinitperiod},
-           given={Inmaculada},
-           giveni={I\bibinitperiod}}}%
-      }
-      \list{publisher}{1}{%
-        {Wiley}%
-      }
-      \strng{namehash}{8855cba1db2908e0a5b30450ae34bf50}
-      \strng{fullhash}{8855cba1db2908e0a5b30450ae34bf50}
-      \strng{bibnamehash}{8855cba1db2908e0a5b30450ae34bf50}
-      \strng{authorbibnamehash}{8855cba1db2908e0a5b30450ae34bf50}
-      \strng{authornamehash}{8855cba1db2908e0a5b30450ae34bf50}
-      \strng{authorfullhash}{8855cba1db2908e0a5b30450ae34bf50}
-      \field{sortinit}{2}
-      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{Software Testing, Verification and Reliability}
-      \field{month}{3}
-      \field{number}{4-5}
-      \field{title}{Assessment of C object-oriented mutation operators: A selective mutation approach}
-      \field{volume}{27}
-      \field{year}{2017}
-      \true{nocite}
-      \field{pages}{e1630}
-      \range{pages}{-1}
-      \verb{doi}
-      \verb 10.1002/stvr.1630
-      \endverb
-      \verb{urlraw}
-      \verb https://doi.org/10.1002/stvr.1630
-      \endverb
-      \verb{url}
-      \verb https://doi.org/10.1002/stvr.1630
-      \endverb
-    \endentry
-    \entry{Derezinska2011}{inproceedings}{}
-      \name{author}{2}{}{%
-        {{hash=7142a2fd4a31fd9ca517403c3d66816f}{%
-           family={Derezinska},
-           familyi={D\bibinitperiod},
-           given={Anna},
-           giveni={A\bibinitperiod}}}%
-        {{hash=4463e285e74a4454f33fccc362fc6499}{%
-           family={Kowalski},
-           familyi={K\bibinitperiod},
-           given={Karol},
-           giveni={K\bibinitperiod}}}%
-      }
-      \list{publisher}{1}{%
-        {IEEE}%
-      }
-      \strng{namehash}{8f0e5eb8c1710671bac7d0e5c07a82e4}
-      \strng{fullhash}{8f0e5eb8c1710671bac7d0e5c07a82e4}
-      \strng{bibnamehash}{8f0e5eb8c1710671bac7d0e5c07a82e4}
-      \strng{authorbibnamehash}{8f0e5eb8c1710671bac7d0e5c07a82e4}
-      \strng{authornamehash}{8f0e5eb8c1710671bac7d0e5c07a82e4}
-      \strng{authorfullhash}{8f0e5eb8c1710671bac7d0e5c07a82e4}
-      \field{sortinit}{2}
-      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{booktitle}{2011 {IEEE} Fourth International Conference on Software Testing, Verification and Validation Workshops}
-      \field{month}{3}
-      \field{title}{Object-Oriented Mutation Applied in Common Intermediate Language Programs Originated from C}
-      \field{year}{2011}
-      \true{nocite}
-      \verb{doi}
-      \verb 10.1109/icstw.2011.54
-      \endverb
-      \verb{urlraw}
-      \verb https://doi.org/10.1109/icstw.2011.54
-      \endverb
-      \verb{url}
-      \verb https://doi.org/10.1109/icstw.2011.54
-      \endverb
-    \endentry
-    \entry{Ferrari2008}{inproceedings}{}
-      \name{author}{3}{}{%
-        {{hash=ee954e392d4b2fa1cc094937c7940e19}{%
-           family={Ferrari},
-           familyi={F\bibinitperiod},
-           given={Fabiano\bibnamedelima Cutigi},
-           giveni={F\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
-        {{hash=ee335340faf199664d1832bc4645b36d}{%
-           family={Maldonado},
-           familyi={M\bibinitperiod},
-           given={Jos},
-           giveni={J\bibinitperiod}}}%
-        {{hash=6fbb994c4b349970220221a07464c436}{%
-           family={Rashid},
-           familyi={R\bibinitperiod},
-           given={Awais},
-           giveni={A\bibinitperiod}}}%
-      }
-      \list{publisher}{1}{%
-        {IEEE}%
-      }
-      \strng{namehash}{30eace2ee73d6cb4087b30854832a836}
-      \strng{fullhash}{30eace2ee73d6cb4087b30854832a836}
-      \strng{bibnamehash}{30eace2ee73d6cb4087b30854832a836}
-      \strng{authorbibnamehash}{30eace2ee73d6cb4087b30854832a836}
-      \strng{authornamehash}{30eace2ee73d6cb4087b30854832a836}
-      \strng{authorfullhash}{30eace2ee73d6cb4087b30854832a836}
-      \field{sortinit}{2}
-      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{booktitle}{2008 International Conference on Software Testing, Verification, and Validation}
-      \field{month}{4}
-      \field{title}{Mutation Testing for Aspect-Oriented Programs}
-      \field{year}{2008}
-      \true{nocite}
-      \verb{doi}
-      \verb 10.1109/icst.2008.37
-      \endverb
-      \verb{urlraw}
-      \verb https://doi.org/10.1109/icst.2008.37
-      \endverb
-      \verb{url}
-      \verb https://doi.org/10.1109/icst.2008.37
-      \endverb
-    \endentry
-    \entry{EsteroBotaro2010}{inproceedings}{}
-      \name{author}{3}{}{%
-        {{hash=265489193b13f98652597cb730a123bd}{%
-           family={Estero-Botaro},
-           familyi={E\bibinithyphendelim B\bibinitperiod},
-           given={Antonia},
-           giveni={A\bibinitperiod}}}%
-        {{hash=6e58c9d625a64c5cf9bb4a0d64ff0314}{%
-           family={Palomo-Lozano},
-           familyi={P\bibinithyphendelim L\bibinitperiod},
-           given={Francisco},
-           giveni={F\bibinitperiod}}}%
-        {{hash=65c54d12aada5f0a851fe28211cf5638}{%
-           family={Medina-Bulo},
-           familyi={M\bibinithyphendelim B\bibinitperiod},
-           given={Inmaculada},
-           giveni={I\bibinitperiod}}}%
-      }
-      \list{publisher}{1}{%
-        {IEEE}%
-      }
-      \strng{namehash}{fd5f3b43377f0b3578d8ca7fe20bc494}
-      \strng{fullhash}{fd5f3b43377f0b3578d8ca7fe20bc494}
-      \strng{bibnamehash}{fd5f3b43377f0b3578d8ca7fe20bc494}
-      \strng{authorbibnamehash}{fd5f3b43377f0b3578d8ca7fe20bc494}
-      \strng{authornamehash}{fd5f3b43377f0b3578d8ca7fe20bc494}
-      \strng{authorfullhash}{fd5f3b43377f0b3578d8ca7fe20bc494}
-      \field{sortinit}{2}
-      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{booktitle}{2010 Third International Conference on Software Testing, Verification, and Validation Workshops}
-      \field{month}{4}
-      \field{title}{Quantitative Evaluation of Mutation Operators for {WS}-{BPEL} Compositions}
-      \field{year}{2010}
-      \true{nocite}
-      \verb{doi}
-      \verb 10.1109/icstw.2010.36
-      \endverb
-      \verb{urlraw}
-      \verb https://doi.org/10.1109/icstw.2010.36
-      \endverb
-      \verb{url}
-      \verb https://doi.org/10.1109/icstw.2010.36
-      \endverb
-    \endentry
-    \entry{BoubetaPuig2011}{inproceedings}{}
-      \name{author}{3}{}{%
-        {{hash=523bcbc9e5c211d38b9ba9be2e888ab6}{%
-           family={Boubeta-Puig},
-           familyi={B\bibinithyphendelim P\bibinitperiod},
-           given={Juan},
-           giveni={J\bibinitperiod}}}%
-        {{hash=65c54d12aada5f0a851fe28211cf5638}{%
-           family={Medina-Bulo},
-           familyi={M\bibinithyphendelim B\bibinitperiod},
-           given={Inmaculada},
-           giveni={I\bibinitperiod}}}%
-        {{hash=fdceb134c90d712223a2d787e8e58d8f}{%
-           family={García-Domínguez},
-           familyi={G\bibinithyphendelim D\bibinitperiod},
-           given={Antonio},
-           giveni={A\bibinitperiod}}}%
-      }
-      \list{publisher}{1}{%
-        {IEEE}%
-      }
-      \strng{namehash}{283ae0a9ea181bb059f6eb6cf3d3c1e0}
-      \strng{fullhash}{283ae0a9ea181bb059f6eb6cf3d3c1e0}
-      \strng{bibnamehash}{283ae0a9ea181bb059f6eb6cf3d3c1e0}
-      \strng{authorbibnamehash}{283ae0a9ea181bb059f6eb6cf3d3c1e0}
-      \strng{authornamehash}{283ae0a9ea181bb059f6eb6cf3d3c1e0}
-      \strng{authorfullhash}{283ae0a9ea181bb059f6eb6cf3d3c1e0}
-      \field{sortinit}{3}
-      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{booktitle}{2011 {IEEE} Fourth International Conference on Software Testing, Verification and Validation Workshops}
-      \field{month}{3}
-      \field{title}{Analogies and Differences between Mutation Operators for {WS}-{BPEL} 2.0 and Other Languages}
-      \field{year}{2011}
-      \true{nocite}
-      \verb{doi}
-      \verb 10.1109/icstw.2011.52
-      \endverb
-      \verb{urlraw}
-      \verb https://doi.org/10.1109/icstw.2011.52
-      \endverb
-      \verb{url}
-      \verb https://doi.org/10.1109/icstw.2011.52
-      \endverb
-    \endentry
-    \entry{Offutt1996}{article}{}
-      \name{author}{4}{}{%
-        {{hash=20068e028bbf43885c96dea902a5a64b}{%
-           family={Offutt},
-           familyi={O\bibinitperiod},
-           given={A.\bibnamedelimi Jefferson},
-           giveni={A\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
-        {{hash=4e3e85ef66aa9ff9cd38b1f314e71f99}{%
-           family={Pan},
-           familyi={P\bibinitperiod},
-           given={Jie},
-           giveni={J\bibinitperiod}}}%
-        {{hash=62fbced7be747f39a4660aa1df641d68}{%
-           family={Tewary},
-           familyi={T\bibinitperiod},
-           given={Kanupriya},
-           giveni={K\bibinitperiod}}}%
-        {{hash=55926e2ed0c54f92266d978954a4cdc3}{%
-           family={Zhang},
-           familyi={Z\bibinitperiod},
-           given={Tong},
-           giveni={T\bibinitperiod}}}%
-      }
-      \list{publisher}{1}{%
-        {Wiley}%
-      }
-      \strng{namehash}{5b4865e727ff0dec6d9a2248f84a8bd9}
-      \strng{fullhash}{1a86b36835607a0d446ca06cd17cc75d}
-      \strng{bibnamehash}{1a86b36835607a0d446ca06cd17cc75d}
-      \strng{authorbibnamehash}{1a86b36835607a0d446ca06cd17cc75d}
-      \strng{authornamehash}{5b4865e727ff0dec6d9a2248f84a8bd9}
-      \strng{authorfullhash}{1a86b36835607a0d446ca06cd17cc75d}
-      \field{sortinit}{3}
-      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{Software: Practice and Experience}
-      \field{month}{2}
-      \field{number}{2}
-      \field{title}{An Experimental Evaluation of Data Flow and Mutation Testing}
-      \field{volume}{26}
-      \field{year}{1996}
-      \true{nocite}
-      \field{pages}{165\bibrangedash 176}
-      \range{pages}{12}
-      \verb{doi}
-      \verb 10.1002/(sici)1097-024x(199602)26:2<165::aid-spe5>3.0.co;2-k
-      \endverb
-      \verb{urlraw}
-      \verb https://doi.org/10.1002/(sici)1097-024x(199602)26:2<165::aid-spe5>3.0.co;2-k
-      \endverb
-      \verb{url}
-      \verb https://doi.org/10.1002/(sici)1097-024x(199602)26:2%3C165::aid-spe5%3E3.0.co;2-k
-      \endverb
-    \endentry
-    \entry{Frankl1997}{article}{}
-      \name{author}{3}{}{%
-        {{hash=5baa08b4c8efcbca9db59ddce8c89378}{%
-           family={Frankl},
-           familyi={F\bibinitperiod},
-           given={Phyllis\bibnamedelima G.},
-           giveni={P\bibinitperiod\bibinitdelim G\bibinitperiod}}}%
-        {{hash=ae0f831857dc78cd7451ba7f606e2c4e}{%
-           family={Weiss},
-           familyi={W\bibinitperiod},
-           given={Stewart\bibnamedelima N.},
-           giveni={S\bibinitperiod\bibinitdelim N\bibinitperiod}}}%
-        {{hash=d36ad8edd968e881e54b8f473975aaf4}{%
-           family={Hu},
-           familyi={H\bibinitperiod},
-           given={Cang},
-           giveni={C\bibinitperiod}}}%
-      }
-      \list{publisher}{1}{%
-        {Elsevier {BV}}%
-      }
-      \strng{namehash}{ee0b8746303091fe01f95f87d9a1fb91}
-      \strng{fullhash}{ee0b8746303091fe01f95f87d9a1fb91}
-      \strng{bibnamehash}{ee0b8746303091fe01f95f87d9a1fb91}
-      \strng{authorbibnamehash}{ee0b8746303091fe01f95f87d9a1fb91}
-      \strng{authornamehash}{ee0b8746303091fe01f95f87d9a1fb91}
-      \strng{authorfullhash}{ee0b8746303091fe01f95f87d9a1fb91}
-      \field{sortinit}{3}
-      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{Journal of Systems and Software}
-      \field{month}{9}
-      \field{number}{3}
-      \field{title}{All-uses vs mutation testing: An experimental comparison of effectiveness}
-      \field{volume}{38}
-      \field{year}{1997}
-      \true{nocite}
-      \field{pages}{235\bibrangedash 253}
-      \range{pages}{19}
-      \verb{doi}
-      \verb 10.1016/s0164-1212(96)00154-9
-      \endverb
-      \verb{urlraw}
-      \verb https://doi.org/10.1016/s0164-1212(96)00154-9
-      \endverb
-      \verb{url}
-      \verb https://doi.org/10.1016/s0164-1212(96)00154-9
-      \endverb
-    \endentry
-    \entry{Frankl1998}{inproceedings}{}
-      \name{author}{2}{}{%
-        {{hash=5baa08b4c8efcbca9db59ddce8c89378}{%
-           family={Frankl},
-           familyi={F\bibinitperiod},
-           given={Phyllis\bibnamedelima G.},
-           giveni={P\bibinitperiod\bibinitdelim G\bibinitperiod}}}%
-        {{hash=2d1bb25f30d384eac0e1d84ffcf698e3}{%
-           family={Iakounenko},
-           familyi={I\bibinitperiod},
-           given={Oleg},
-           giveni={O\bibinitperiod}}}%
-      }
-      \list{publisher}{1}{%
-        {{ACM} Press}%
-      }
-      \strng{namehash}{8c255553cf2fbe50d7ad4b67b2fd5955}
-      \strng{fullhash}{8c255553cf2fbe50d7ad4b67b2fd5955}
-      \strng{bibnamehash}{8c255553cf2fbe50d7ad4b67b2fd5955}
-      \strng{authorbibnamehash}{8c255553cf2fbe50d7ad4b67b2fd5955}
-      \strng{authornamehash}{8c255553cf2fbe50d7ad4b67b2fd5955}
-      \strng{authorfullhash}{8c255553cf2fbe50d7ad4b67b2fd5955}
-      \field{sortinit}{3}
-      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{booktitle}{Proceedings of the 6th {ACM} {SIGSOFT} international symposium on Foundations of software engineering - {SIGSOFT} 98/{FSE}-6}
-      \field{title}{Further empirical studies of test effectiveness}
-      \field{year}{1998}
-      \true{nocite}
-      \verb{doi}
-      \verb 10.1145/288195.288298
-      \endverb
-      \verb{urlraw}
-      \verb https://doi.org/10.1145/288195.288298
-      \endverb
-      \verb{url}
-      \verb https://doi.org/10.1145/288195.288298
-      \endverb
-    \endentry
-    \entry{Kakarla2011}{inproceedings}{}
-      \name{author}{3}{}{%
-        {{hash=add8bb344b4325e074477f9dd6b7dab1}{%
-           family={Kakarla},
-           familyi={K\bibinitperiod},
-           given={Sahitya},
-           giveni={S\bibinitperiod}}}%
-        {{hash=fab924742a7c2b3b5bd423f5c390c70d}{%
-           family={Momotaz},
-           familyi={M\bibinitperiod},
-           given={Selina},
-           giveni={S\bibinitperiod}}}%
-        {{hash=1c227cf94db6389a4c92e6af9d888c29}{%
-           family={Namin},
-           familyi={N\bibinitperiod},
-           given={Akbar\bibnamedelima Siami},
-           giveni={A\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
-      }
-      \list{publisher}{1}{%
-        {IEEE}%
-      }
-      \strng{namehash}{e461b0c590dab47b23fb3a7c8ed9fe8a}
-      \strng{fullhash}{e461b0c590dab47b23fb3a7c8ed9fe8a}
-      \strng{bibnamehash}{e461b0c590dab47b23fb3a7c8ed9fe8a}
-      \strng{authorbibnamehash}{e461b0c590dab47b23fb3a7c8ed9fe8a}
-      \strng{authornamehash}{e461b0c590dab47b23fb3a7c8ed9fe8a}
-      \strng{authorfullhash}{e461b0c590dab47b23fb3a7c8ed9fe8a}
-      \field{sortinit}{3}
-      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{booktitle}{2011 {IEEE} Fourth International Conference on Software Testing, Verification and Validation Workshops}
-      \field{month}{3}
-      \field{title}{An Evaluation of Mutation and Data-Flow Testing: A Meta-analysis}
-      \field{year}{2011}
-      \true{nocite}
-      \verb{doi}
-      \verb 10.1109/icstw.2011.51
-      \endverb
-      \verb{urlraw}
-      \verb https://doi.org/10.1109/icstw.2011.51
-      \endverb
-      \verb{url}
-      \verb https://doi.org/10.1109/icstw.2011.51
-      \endverb
-    \endentry
-    \entry{Papadakis2019}{book}{}
-      \name{author}{6}{}{%
-        {{hash=7d9fc28f6f65f290ffddfb7e4a604586}{%
-           family={Papadakis},
-           familyi={P\bibinitperiod},
-           given={Mike},
-           giveni={M\bibinitperiod}}}%
-        {{hash=1585e5e0e2a255cf550de5e2b5a83724}{%
-           family={Kintis},
-           familyi={K\bibinitperiod},
-           given={Marinos},
-           giveni={M\bibinitperiod}}}%
-        {{hash=2f4cc163c8766d4437008ea260208de8}{%
-           family={Zhang},
-           familyi={Z\bibinitperiod},
-           given={Jie},
-           giveni={J\bibinitperiod}}}%
-        {{hash=ada8c1a2ac1b685250a486673ec46638}{%
-           family={Jia},
-           familyi={J\bibinitperiod},
-           given={Yue},
-           giveni={Y\bibinitperiod}}}%
-        {{hash=5498af5c98f09cacd2f040897d69dfe7}{%
-           family={Traon},
-           familyi={T\bibinitperiod},
-           given={Yves\bibnamedelima Le},
-           giveni={Y\bibinitperiod\bibinitdelim L\bibinitperiod}}}%
-        {{hash=1a97225992fa23f818d9b1269df83035}{%
-           family={Harman},
-           familyi={H\bibinitperiod},
-           given={Mark},
-           giveni={M\bibinitperiod}}}%
-      }
-      \list{publisher}{1}{%
-        {Elsevier Inc.}%
-      }
-      \strng{namehash}{2ca78b21a16ff5baaf8e4271859f6b18}
-      \strng{fullhash}{72a8b0d414d0cc540026f571dbe70740}
-      \strng{bibnamehash}{72a8b0d414d0cc540026f571dbe70740}
-      \strng{authorbibnamehash}{72a8b0d414d0cc540026f571dbe70740}
-      \strng{authornamehash}{2ca78b21a16ff5baaf8e4271859f6b18}
-      \strng{authorfullhash}{72a8b0d414d0cc540026f571dbe70740}
-      \field{sortinit}{3}
-      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{abstract}{Mutation testing realizes the idea of using artificial defects to support testing activities. Mutation is typically used as a way to evaluate the adequacy of test suites, to guide the generation of test cases, and to support experimentation. Mutation has reached a maturity phase and gradually gains popularity both in academia and in industry. This chapter presents a survey of recent advances, over the past decade, related to the fundamental problems of mutation testing and sets out the challenges and open problems for the future development of the method. It also collects advices on best practices related to the use of mutation in empirical studies of software testing. Thus, giving the reader a “mini-handbook”-style roadmap for the application of mutation testing as experimental methodology.}
-      \field{booktitle}{Advances in Computers}
-      \field{edition}{1}
-      \field{isbn}{9780128151211}
-      \field{issn}{00652458}
-      \field{title}{{Mutation Testing Advances: An Analysis and Survey}}
-      \field{volume}{112}
-      \field{year}{2019}
-      \true{nocite}
-      \field{pages}{275\bibrangedash 378}
-      \range{pages}{104}
-      \verb{doi}
-      \verb 10.1016/bs.adcom.2018.03.015
-      \endverb
-      \verb{file}
-      \verb :home/carlos/Desktop/papadakis2018.pdf:pdf
-      \endverb
-      \verb{urlraw}
-      \verb http://dx.doi.org/10.1016/bs.adcom.2018.03.015
-      \endverb
-      \verb{url}
-      \verb http://dx.doi.org/10.1016/bs.adcom.2018.03.015
-      \endverb
-      \keyw{Mutation testing,Seeded faults,Software testing,Survey}
-    \endentry
-    \entry{iec20019126}{article}{}
-      \name{author}{1}{}{%
-        {{hash=6fe8704a1201d55a1e781073cd86410e}{%
-           family={IEC},
-           familyi={I\bibinitperiod},
-           given={ISO},
-           giveni={I\bibinitperiod}}}%
-      }
-      \strng{namehash}{6fe8704a1201d55a1e781073cd86410e}
-      \strng{fullhash}{6fe8704a1201d55a1e781073cd86410e}
-      \strng{bibnamehash}{6fe8704a1201d55a1e781073cd86410e}
-      \strng{authorbibnamehash}{6fe8704a1201d55a1e781073cd86410e}
-      \strng{authornamehash}{6fe8704a1201d55a1e781073cd86410e}
-      \strng{authorfullhash}{6fe8704a1201d55a1e781073cd86410e}
-      \field{sortinit}{3}
-      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{International Organization for Standardization}
-      \field{title}{9126-1 (2001). Software Engineering Product Quality-Part 1: Quality Model}
-      \field{year}{2001}
-      \true{nocite}
-      \field{pages}{16}
-      \range{pages}{1}
-    \endentry
-    \entry{iso2011iso}{misc}{}
-      \name{author}{1}{}{%
-        {{hash=0828a8408614177181026ea908d5594a}{%
-           family={ISO/IEC},
-           familyi={I\bibinitperiod}}}%
-      }
-      \list{publisher}{1}{%
-        {CH: ISO Geneva}%
-      }
-      \strng{namehash}{0828a8408614177181026ea908d5594a}
-      \strng{fullhash}{0828a8408614177181026ea908d5594a}
-      \strng{bibnamehash}{0828a8408614177181026ea908d5594a}
-      \strng{authorbibnamehash}{0828a8408614177181026ea908d5594a}
-      \strng{authornamehash}{0828a8408614177181026ea908d5594a}
-      \strng{authorfullhash}{0828a8408614177181026ea908d5594a}
-      \field{sortinit}{3}
-      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{title}{ISO/IEC 25010: 2011 Systems and software engineering--Systems and software Quality Requirements and Evaluation (SQuaRE)--System and software quality models}
-      \field{year}{2011}
-      \true{nocite}
-    \endentry
-    \entry{Bau2010}{inproceedings}{}
-      \name{author}{4}{}{%
-        {{hash=c5c70dae7f185b2790bbb8de995a2922}{%
-           family={Bau},
-           familyi={B\bibinitperiod},
-           given={Jason},
-           giveni={J\bibinitperiod}}}%
-        {{hash=59c83757800173e97cfcd3bffbb592fd}{%
-           family={Bursztein},
-           familyi={B\bibinitperiod},
-           given={Elie},
-           giveni={E\bibinitperiod}}}%
-        {{hash=60191c984aaeb6cde295c1bae17732ff}{%
-           family={Gupta},
-           familyi={G\bibinitperiod},
-           given={Divij},
-           giveni={D\bibinitperiod}}}%
-        {{hash=94e8ebd60a38c8f7d6e8cb85fefd7d87}{%
-           family={Mitchell},
-           familyi={M\bibinitperiod},
-           given={John},
-           giveni={J\bibinitperiod}}}%
-      }
-      \list{publisher}{1}{%
-        {IEEE}%
-      }
-      \strng{namehash}{ebecf879e23c9f9f310b97814bfcdca2}
-      \strng{fullhash}{b78b45166aec07811a54951e1a4bafc1}
-      \strng{bibnamehash}{b78b45166aec07811a54951e1a4bafc1}
-      \strng{authorbibnamehash}{b78b45166aec07811a54951e1a4bafc1}
-      \strng{authornamehash}{ebecf879e23c9f9f310b97814bfcdca2}
-      \strng{authorfullhash}{b78b45166aec07811a54951e1a4bafc1}
-      \field{sortinit}{3}
-      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{booktitle}{2010 {IEEE} Symposium on Security and Privacy}
-      \field{title}{State of the Art: Automated Black-Box Web Application Vulnerability Testing}
-      \field{year}{2010}
-      \true{nocite}
-      \verb{doi}
-      \verb 10.1109/sp.2010.27
-      \endverb
-      \verb{urlraw}
-      \verb https://doi.org/10.1109/sp.2010.27
-      \endverb
-      \verb{url}
-      \verb https://doi.org/10.1109/sp.2010.27
-      \endverb
-    \endentry
-    \entry{mitre2005common}{misc}{}
-      \name{author}{1}{}{%
-        {{hash=46331d481883b186d557902f6b8bda2c}{%
-           family={Mitre},
-           familyi={M\bibinitperiod},
-           given={CVE},
-           giveni={C\bibinitperiod}}}%
-      }
-      \strng{namehash}{46331d481883b186d557902f6b8bda2c}
-      \strng{fullhash}{46331d481883b186d557902f6b8bda2c}
-      \strng{bibnamehash}{46331d481883b186d557902f6b8bda2c}
-      \strng{authorbibnamehash}{46331d481883b186d557902f6b8bda2c}
-      \strng{authornamehash}{46331d481883b186d557902f6b8bda2c}
-      \strng{authorfullhash}{46331d481883b186d557902f6b8bda2c}
-      \field{sortinit}{3}
-      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{title}{Common vulnerabilities and exposures}
-      \field{year}{2005}
-      \true{nocite}
-    \endentry
-    \entry{tassey2002nist}{misc}{}
-      \name{author}{1}{}{%
-        {{hash=7b3d26e2ba037eef84a723f99272ccf9}{%
-           family={Tassey},
-           familyi={T\bibinitperiod},
-           given={G},
-           giveni={G\bibinitperiod}}}%
-      }
-      \strng{namehash}{7b3d26e2ba037eef84a723f99272ccf9}
-      \strng{fullhash}{7b3d26e2ba037eef84a723f99272ccf9}
-      \strng{bibnamehash}{7b3d26e2ba037eef84a723f99272ccf9}
-      \strng{authorbibnamehash}{7b3d26e2ba037eef84a723f99272ccf9}
-      \strng{authornamehash}{7b3d26e2ba037eef84a723f99272ccf9}
-      \strng{authorfullhash}{7b3d26e2ba037eef84a723f99272ccf9}
-      \field{sortinit}{4}
-      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{title}{NIST: The Economic Impacts of Inadequate Infrastructure for Software Testing}
-      \field{year}{2002}
-      \true{nocite}
-    \endentry
-    \entry{hayden2004committee}{misc}{}
-      \name{author}{1}{}{%
-        {{hash=b74a7f3d76dbb5c139a6d9c60dc15de6}{%
-           family={HAYDEN},
-           familyi={H\bibinitperiod},
-           given={MICHAEL\bibnamedelima V},
-           giveni={M\bibinitperiod\bibinitdelim V\bibinitperiod}}}%
-      }
-      \strng{namehash}{b74a7f3d76dbb5c139a6d9c60dc15de6}
-      \strng{fullhash}{b74a7f3d76dbb5c139a6d9c60dc15de6}
-      \strng{bibnamehash}{b74a7f3d76dbb5c139a6d9c60dc15de6}
-      \strng{authorbibnamehash}{b74a7f3d76dbb5c139a6d9c60dc15de6}
-      \strng{authornamehash}{b74a7f3d76dbb5c139a6d9c60dc15de6}
-      \strng{authorfullhash}{b74a7f3d76dbb5c139a6d9c60dc15de6}
-      \field{sortinit}{4}
-      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{title}{Committee on National Security Systems National Manager}
-      \field{year}{2004}
-      \true{nocite}
-    \endentry
-    \entry{tian2010research}{article}{}
-      \name{author}{3}{}{%
-        {{hash=63adf22c53ace61464ca23e6aa668169}{%
-           family={Tian-yang},
-           familyi={T\bibinithyphendelim y\bibinitperiod},
-           given={Gu},
-           giveni={G\bibinitperiod}}}%
-        {{hash=d01e1ff446cbff408016803c36391556}{%
-           family={Yin-Sheng},
-           familyi={Y\bibinithyphendelim S\bibinitperiod},
-           given={Shi},
-           giveni={S\bibinitperiod}}}%
-        {{hash=dbbd17ae9c7c35ce803e31a904800021}{%
-           family={You-yuan},
-           familyi={Y\bibinithyphendelim y\bibinitperiod},
-           given={Fang},
-           giveni={F\bibinitperiod}}}%
-      }
-      \list{publisher}{1}{%
-        {Citeseer}%
-      }
-      \strng{namehash}{372632e382dd27f2e4dc183ee07d1c06}
-      \strng{fullhash}{372632e382dd27f2e4dc183ee07d1c06}
-      \strng{bibnamehash}{372632e382dd27f2e4dc183ee07d1c06}
-      \strng{authorbibnamehash}{372632e382dd27f2e4dc183ee07d1c06}
-      \strng{authornamehash}{372632e382dd27f2e4dc183ee07d1c06}
-      \strng{authorfullhash}{372632e382dd27f2e4dc183ee07d1c06}
-      \field{sortinit}{4}
-      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{World Academy of science, engineering and Technology}
-      \field{title}{Research on software security testing}
-      \field{volume}{70}
-      \field{year}{2010}
-      \true{nocite}
-      \field{pages}{647\bibrangedash 651}
-      \range{pages}{5}
-    \endentry
-    \entry{Ma2006}{inproceedings}{}
-      \name{author}{3}{}{%
-        {{hash=b17d635597e2012573d1a57536e0813d}{%
-           family={Ma},
-           familyi={M\bibinitperiod},
-           given={Yu-Seung},
-           giveni={Y\bibinithyphendelim S\bibinitperiod}}}%
-        {{hash=72796f36811fa9c5afca10c38bb3b0eb}{%
-           family={Offutt},
-           familyi={O\bibinitperiod},
-           given={Jeff},
-           giveni={J\bibinitperiod}}}%
-        {{hash=827fabe50df9a473e4a257f231f7f9cb}{%
-           family={Kwon},
-           familyi={K\bibinitperiod},
-           given={Yong-Rae},
-           giveni={Y\bibinithyphendelim R\bibinitperiod}}}%
-      }
-      \list{publisher}{1}{%
-        {{ACM} Press}%
-      }
-      \strng{namehash}{68b5cf7660f98fc998eeb88663935c10}
-      \strng{fullhash}{68b5cf7660f98fc998eeb88663935c10}
-      \strng{bibnamehash}{68b5cf7660f98fc998eeb88663935c10}
-      \strng{authorbibnamehash}{68b5cf7660f98fc998eeb88663935c10}
-      \strng{authornamehash}{68b5cf7660f98fc998eeb88663935c10}
-      \strng{authorfullhash}{68b5cf7660f98fc998eeb88663935c10}
-      \field{sortinit}{4}
-      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{booktitle}{Proceeding of the 28th international conference on Software engineering - {ICSE} 06}
-      \field{title}{{MuJava}}
-      \field{year}{2006}
-      \true{nocite}
-      \verb{doi}
-      \verb 10.1145/1134285.1134425
-      \endverb
-      \verb{urlraw}
-      \verb https://doi.org/10.1145/1134285.1134425
-      \endverb
-      \verb{url}
-      \verb https://doi.org/10.1145/1134285.1134425
-      \endverb
-    \endentry
-    \entry{Just2014}{inproceedings}{}
-      \name{author}{1}{}{%
-        {{hash=e6913ebb48facc1c9bee154bc4e72f6d}{%
-           family={Just},
-           familyi={J\bibinitperiod},
-           given={Rene},
-           giveni={R\bibinitperiod}}}%
-      }
-      \list{publisher}{1}{%
-        {ACM Press}%
-      }
-      \strng{namehash}{e6913ebb48facc1c9bee154bc4e72f6d}
-      \strng{fullhash}{e6913ebb48facc1c9bee154bc4e72f6d}
-      \strng{bibnamehash}{e6913ebb48facc1c9bee154bc4e72f6d}
-      \strng{authorbibnamehash}{e6913ebb48facc1c9bee154bc4e72f6d}
-      \strng{authornamehash}{e6913ebb48facc1c9bee154bc4e72f6d}
-      \strng{authorfullhash}{e6913ebb48facc1c9bee154bc4e72f6d}
-      \field{sortinit}{4}
-      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{booktitle}{Proceedings of the 2014 International Symposium on Software Testing and Analysis {ISSTA} 2014}
-      \field{title}{The major mutation framework: efficient and scalable mutation analysis for Java}
-      \field{year}{2014}
-      \true{nocite}
-      \verb{doi}
-      \verb 10.1145/2610384.2628053
-      \endverb
-      \verb{urlraw}
-      \verb https://doi.org/10.1145/2610384.2628053
-      \endverb
-      \verb{url}
-      \verb https://doi.org/10.1145/2610384.2628053
-      \endverb
-    \endentry
-    \entry{Coles2016}{inproceedings}{}
-      \name{author}{5}{}{%
-        {{hash=4893efb3cd2f1a70d546119e4ca90ee6}{%
-           family={Coles},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=eb93f98f87923bb667729850f5d6f975}{%
+           family={Al\bibnamedelima Maruf},
+           familyi={A\bibinitperiod\bibinitdelim M\bibinitperiod},
+           given={Abdullah},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=8df67735f1deb43420e78323d979a19a}{%
+           family={Cerny},
            familyi={C\bibinitperiod},
-           given={Henry},
-           giveni={H\bibinitperiod}}}%
-        {{hash=d66f49f9b67b04f4f98b4d839f2af5e8}{%
-           family={Laurent},
-           familyi={L\bibinitperiod},
-           given={Thomas},
-           giveni={T\bibinitperiod}}}%
-        {{hash=079e08d335b2ed4a46ba90f8254a99b5}{%
-           family={Henard},
-           familyi={H\bibinitperiod},
-           given={Christopher},
-           giveni={C\bibinitperiod}}}%
-        {{hash=7d9fc28f6f65f290ffddfb7e4a604586}{%
-           family={Papadakis},
-           familyi={P\bibinitperiod},
-           given={Mike},
-           giveni={M\bibinitperiod}}}%
-        {{hash=82cccddc6c06c17c01343add318e51e3}{%
-           family={Ventresque},
-           familyi={V\bibinitperiod},
-           given={Anthony},
-           giveni={A\bibinitperiod}}}%
-      }
-      \list{publisher}{1}{%
-        {{ACM} Press}%
-      }
-      \strng{namehash}{e15251a82d62120749805b80d4fe62d6}
-      \strng{fullhash}{e8d7c7ca9e9e65391e4f54d989707d2f}
-      \strng{bibnamehash}{e8d7c7ca9e9e65391e4f54d989707d2f}
-      \strng{authorbibnamehash}{e8d7c7ca9e9e65391e4f54d989707d2f}
-      \strng{authornamehash}{e15251a82d62120749805b80d4fe62d6}
-      \strng{authorfullhash}{e8d7c7ca9e9e65391e4f54d989707d2f}
-      \field{sortinit}{4}
-      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{booktitle}{Proceedings of the 25th International Symposium on Software Testing and Analysis - {ISSTA} 2016}
-      \field{title}{{PIT}: a practical mutation testing tool for Java (demo)}
-      \field{year}{2016}
-      \true{nocite}
-      \verb{doi}
-      \verb 10.1145/2931037.2948707
-      \endverb
-      \verb{urlraw}
-      \verb https://doi.org/10.1145/2931037.2948707
-      \endverb
-      \verb{url}
-      \verb https://doi.org/10.1145/2931037.2948707
-      \endverb
-    \endentry
-    \entry{RodrguezBaquero2018}{inproceedings}{}
-      \name{author}{2}{}{%
-        {{hash=432a40e84a42a8ec3b67ab6bce0fbf69}{%
-           family={Rodriguez-Baquero},
-           familyi={R\bibinithyphendelim B\bibinitperiod},
-           given={Diego},
-           giveni={D\bibinitperiod}}}%
-        {{hash=d136f3dc56f789697acd465f79c0f9a4}{%
-           family={Linares-Vásquez},
-           familyi={L\bibinithyphendelim V\bibinitperiod},
-           given={Mario},
-           giveni={M\bibinitperiod}}}%
-      }
-      \list{publisher}{1}{%
-        {{ACM} Press}%
-      }
-      \strng{namehash}{53c64ab254eb2b7519d6297a887471af}
-      \strng{fullhash}{53c64ab254eb2b7519d6297a887471af}
-      \strng{bibnamehash}{53c64ab254eb2b7519d6297a887471af}
-      \strng{authorbibnamehash}{53c64ab254eb2b7519d6297a887471af}
-      \strng{authornamehash}{53c64ab254eb2b7519d6297a887471af}
-      \strng{authorfullhash}{53c64ab254eb2b7519d6297a887471af}
-      \field{sortinit}{4}
-      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{booktitle}{Proceedings of the 27th {ACM} {SIGSOFT} International Symposium on Software Testing and Analysis - {ISSTA} 2018}
-      \field{title}{Mutode: generic {JavaScript} and Node.js mutation testing tool}
-      \field{year}{2018}
-      \true{nocite}
-      \verb{doi}
-      \verb 10.1145/3213846.3229504
-      \endverb
-      \verb{urlraw}
-      \verb https://doi.org/10.1145/3213846.3229504
-      \endverb
-      \verb{url}
-      \verb https://doi.org/10.1145/3213846.3229504
-      \endverb
-    \endentry
-    \entry{6693142}{inproceedings}{}
-      \name{author}{2}{}{%
-        {{hash=78d20eb0c4d9a1b2dcc750cb25c93866}{%
-           family={{Kusano}},
-           familyi={K\bibinitperiod},
-           given={M.},
-           giveni={M\bibinitperiod}}}%
-        {{hash=9f42d088e18dfbf5890f51ea3345301e}{%
-           family={{Chao Wang}},
-           familyi={C\bibinitperiod}}}%
-      }
-      \strng{namehash}{c3856b92e2632d0866c591d384a2726f}
-      \strng{fullhash}{c3856b92e2632d0866c591d384a2726f}
-      \strng{bibnamehash}{c3856b92e2632d0866c591d384a2726f}
-      \strng{authorbibnamehash}{c3856b92e2632d0866c591d384a2726f}
-      \strng{authornamehash}{c3856b92e2632d0866c591d384a2726f}
-      \strng{authorfullhash}{c3856b92e2632d0866c591d384a2726f}
-      \field{sortinit}{4}
-      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{booktitle}{2013 28th IEEE/ACM International Conference on Automated Software Engineering (ASE)}
-      \field{title}{CCmutator: A mutation generator for concurrency constructs in multithreaded C/C++ applications}
-      \field{year}{2013}
-      \true{nocite}
-      \field{pages}{722\bibrangedash 725}
-      \range{pages}{4}
-    \endentry
-    \entry{Wen2019}{inproceedings}{}
-      \name{author}{6}{}{%
-        {{hash=25eac348c54606c27d3a7fa57d9701a6}{%
-           family={Wen},
-           familyi={W\bibinitperiod},
-           given={Ming},
-           giveni={M\bibinitperiod}}}%
-        {{hash=46dbae95524ea61981fe3555dc9bcc2b}{%
-           family={Liu},
-           familyi={L\bibinitperiod},
-           given={Yepang},
-           giveni={Y\bibinitperiod}}}%
-        {{hash=6c6e6b4f38f23facbfae59c48ff5cc22}{%
-           family={Wu},
-           familyi={W\bibinitperiod},
-           given={Rongxin},
-           giveni={R\bibinitperiod}}}%
-        {{hash=69b869a46fb5e87f0adc2c5f2fe7dcb0}{%
-           family={Xie},
-           familyi={X\bibinitperiod},
-           given={Xuan},
-           giveni={X\bibinitperiod}}}%
-        {{hash=00990eadf2e5416aef5ce0ba84e48c58}{%
-           family={Cheung},
-           familyi={C\bibinitperiod},
-           given={Shing-Chi},
-           giveni={S\bibinithyphendelim C\bibinitperiod}}}%
-        {{hash=3995a0c731177d2aa23cbb3a6126be27}{%
-           family={Su},
-           familyi={S\bibinitperiod},
-           given={Zhendong},
-           giveni={Z\bibinitperiod}}}%
-      }
-      \list{publisher}{1}{%
-        {IEEE}%
-      }
-      \strng{namehash}{3b4b35db4b4dd9d1fd982363a4bdc19b}
-      \strng{fullhash}{1ba0f6d8197237370d1740c3a6fef187}
-      \strng{bibnamehash}{1ba0f6d8197237370d1740c3a6fef187}
-      \strng{authorbibnamehash}{1ba0f6d8197237370d1740c3a6fef187}
-      \strng{authornamehash}{3b4b35db4b4dd9d1fd982363a4bdc19b}
-      \strng{authorfullhash}{1ba0f6d8197237370d1740c3a6fef187}
-      \field{sortinit}{4}
-      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{booktitle}{2019 {IEEE}/{ACM} 41st International Conference on Software Engineering ({ICSE})}
-      \field{month}{5}
-      \field{title}{Exposing Library {API} Misuses Via Mutation Analysis}
-      \field{year}{2019}
-      \true{nocite}
-      \verb{doi}
-      \verb 10.1109/icse.2019.00093
-      \endverb
-      \verb{urlraw}
-      \verb https://doi.org/10.1109/icse.2019.00093
-      \endverb
-      \verb{url}
-      \verb https://doi.org/10.1109/icse.2019.00093
-      \endverb
-    \endentry
-    \entry{Viega}{inproceedings}{}
-      \name{author}{4}{}{%
-        {{hash=8d07c54ce6b3ef6f51beeca9d93d7476}{%
-           family={Viega},
-           familyi={V\bibinitperiod},
-           given={J.},
-           giveni={J\bibinitperiod}}}%
-        {{hash=382346f22b0ecba2475b8f2f90efc905}{%
-           family={Bloch},
-           familyi={B\bibinitperiod},
-           given={J.T.},
-           giveni={J\bibinitperiod}}}%
-        {{hash=39ad6d8b6f68ca1a83890147b59cf87d}{%
-           family={Kohno},
-           familyi={K\bibinitperiod},
-           given={Y.},
-           giveni={Y\bibinitperiod}}}%
-        {{hash=026b11c684fcde3800a5e67bd617d24b}{%
-           family={McGraw},
-           familyi={M\bibinitperiod},
-           given={G.},
-           giveni={G\bibinitperiod}}}%
-      }
-      \list{publisher}{1}{%
-        {{IEEE} Comput. Soc}%
-      }
-      \strng{namehash}{45d9dee5576ffa7dfcd92ecfba335f85}
-      \strng{fullhash}{6e01a61b5d8fe72828adbcea50b7cdd2}
-      \strng{bibnamehash}{6e01a61b5d8fe72828adbcea50b7cdd2}
-      \strng{authorbibnamehash}{6e01a61b5d8fe72828adbcea50b7cdd2}
-      \strng{authornamehash}{45d9dee5576ffa7dfcd92ecfba335f85}
-      \strng{authorfullhash}{6e01a61b5d8fe72828adbcea50b7cdd2}
-      \field{sortinit}{4}
-      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{booktitle}{Proceedings 16th Annual Computer Security Applications Conference ({ACSAC}00)}
-      \field{title}{{ITS}4: a static vulnerability scanner for C and C++ code}
-      \field{year}{2000}
-      \true{nocite}
-      \verb{doi}
-      \verb 10.1109/acsac.2000.898880
-      \endverb
-      \verb{urlraw}
-      \verb https://doi.org/10.1109/acsac.2000.898880
-      \endverb
-      \verb{url}
-      \verb https://doi.org/10.1109/acsac.2000.898880
-      \endverb
-    \endentry
-    \entry{Mirshokraie2015}{inproceedings}{}
-      \name{author}{3}{}{%
-        {{hash=49496c4e81140816342f7833bdfe9fc4}{%
-           family={Mirshokraie},
-           familyi={M\bibinitperiod},
-           given={Shabnam},
-           giveni={S\bibinitperiod}}}%
-        {{hash=627904935c9ec79cfb7f3a336d102812}{%
-           family={Mesbah},
-           familyi={M\bibinitperiod},
-           given={Ali},
-           giveni={A\bibinitperiod}}}%
-        {{hash=5c14ad0d5a3d9b510755d36be8366c26}{%
-           family={Pattabiraman},
-           familyi={P\bibinitperiod},
-           given={Karthik},
-           giveni={K\bibinitperiod}}}%
-      }
-      \list{publisher}{1}{%
-        {IEEE}%
-      }
-      \strng{namehash}{81a9e899da0ef3965423bcad30ee62b3}
-      \strng{fullhash}{81a9e899da0ef3965423bcad30ee62b3}
-      \strng{bibnamehash}{81a9e899da0ef3965423bcad30ee62b3}
-      \strng{authorbibnamehash}{81a9e899da0ef3965423bcad30ee62b3}
-      \strng{authornamehash}{81a9e899da0ef3965423bcad30ee62b3}
-      \strng{authorfullhash}{81a9e899da0ef3965423bcad30ee62b3}
-      \field{sortinit}{5}
-      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{booktitle}{2015 {IEEE} 8th International Conference on Software Testing, Verification and Validation ({ICST})}
-      \field{month}{4}
-      \field{title}{{JSEFT}: Automated Javascript Unit Test Generation}
-      \field{year}{2015}
-      \true{nocite}
-      \verb{doi}
-      \verb 10.1109/icst.2015.7102595
-      \endverb
-      \verb{urlraw}
-      \verb https://doi.org/10.1109/icst.2015.7102595
-      \endverb
-      \verb{url}
-      \verb https://doi.org/10.1109/icst.2015.7102595
-      \endverb
-    \endentry
-    \entry{Scandariato2013}{inproceedings}{}
-      \name{author}{3}{}{%
-        {{hash=7d958b0f3c66c874d46d0ae9b75b6d5d}{%
-           family={Scandariato},
-           familyi={S\bibinitperiod},
-           given={Riccardo},
-           giveni={R\bibinitperiod}}}%
-        {{hash=3f1f44637acd8367b1371e595b6946e3}{%
-           family={Walden},
-           familyi={W\bibinitperiod},
-           given={James},
-           giveni={J\bibinitperiod}}}%
-        {{hash=ebb6bf71def119ef341be1fc1974891e}{%
-           family={Joosen},
-           familyi={J\bibinitperiod},
-           given={Wouter},
-           giveni={W\bibinitperiod}}}%
-      }
-      \list{publisher}{1}{%
-        {IEEE}%
-      }
-      \strng{namehash}{df59f691a37a0bc8850b4a66fa9ad786}
-      \strng{fullhash}{df59f691a37a0bc8850b4a66fa9ad786}
-      \strng{bibnamehash}{df59f691a37a0bc8850b4a66fa9ad786}
-      \strng{authorbibnamehash}{df59f691a37a0bc8850b4a66fa9ad786}
-      \strng{authornamehash}{df59f691a37a0bc8850b4a66fa9ad786}
-      \strng{authorfullhash}{df59f691a37a0bc8850b4a66fa9ad786}
-      \field{sortinit}{5}
-      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{booktitle}{2013 {IEEE} 24th International Symposium on Software Reliability Engineering ({ISSRE})}
-      \field{month}{11}
-      \field{title}{Static analysis versus penetration testing: A controlled experiment}
-      \field{year}{2013}
-      \true{nocite}
-      \verb{doi}
-      \verb 10.1109/issre.2013.6698898
-      \endverb
-      \verb{urlraw}
-      \verb https://doi.org/10.1109/issre.2013.6698898
-      \endverb
-      \verb{url}
-      \verb https://doi.org/10.1109/issre.2013.6698898
-      \endverb
-    \endentry
-    \entry{Tambon2023}{article}{}
-      \name{author}{3}{}{%
-        {{hash=753b0c5baba59787207d6570dd657e0e}{%
-           family={Tambon},
+           given={Tomas},
+           giveni={T\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=4d08ae1a3f71e9cc303d7cc0722f5186}{%
+           family={Taibi},
            familyi={T\bibinitperiod},
-           given={Florian},
-           giveni={F\bibinitperiod}}}%
-        {{hash=c6c3765c6a405d9d7ef595e760e76337}{%
-           family={Khomh},
-           familyi={K\bibinitperiod},
-           given={Foutse},
-           giveni={F\bibinitperiod}}}%
-        {{hash=57c190b8b0a8ddc7c67a65992e42c889}{%
-           family={Antoniol},
-           familyi={A\bibinitperiod},
-           given={Giuliano},
-           giveni={G\bibinitperiod}}}%
+           given={Davide},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
       }
       \list{publisher}{1}{%
-        {Elsevier {BV}}%
+        {IEEE}%
       }
-      \strng{namehash}{5317896071e0e46d2fe729f6be07c4b2}
-      \strng{fullhash}{5317896071e0e46d2fe729f6be07c4b2}
-      \strng{bibnamehash}{5317896071e0e46d2fe729f6be07c4b2}
-      \strng{authorbibnamehash}{5317896071e0e46d2fe729f6be07c4b2}
-      \strng{authornamehash}{5317896071e0e46d2fe729f6be07c4b2}
-      \strng{authorfullhash}{5317896071e0e46d2fe729f6be07c4b2}
-      \field{sortinit}{5}
-      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
+      \strng{namehash}{b41f4449d3972562e7e3c398107260e6}
+      \strng{fullhash}{185376536d336f5deffd9ebfea62818a}
+      \strng{bibnamehash}{185376536d336f5deffd9ebfea62818a}
+      \strng{authorbibnamehash}{185376536d336f5deffd9ebfea62818a}
+      \strng{authornamehash}{b41f4449d3972562e7e3c398107260e6}
+      \strng{authorfullhash}{185376536d336f5deffd9ebfea62818a}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{journaltitle}{Information and Software Technology}
-      \field{month}{3}
-      \field{title}{A probabilistic framework for mutation testing in deep neural networks}
-      \field{volume}{155}
-      \field{year}{2023}
-      \true{nocite}
-      \field{pages}{107129}
-      \range{pages}{1}
-      \verb{doi}
-      \verb 10.1016/j.infsof.2022.107129
-      \endverb
-      \verb{urlraw}
-      \verb https://doi.org/10.1016/j.infsof.2022.107129
-      \endverb
-      \verb{url}
-      \verb https://doi.org/10.1016/j.infsof.2022.107129
-      \endverb
-    \endentry
-    \entry{Ojdanic2023}{article}{}
-      \name{author}{6}{}{%
-        {{hash=3221516ddf53da2fe99e6282cfbbc636}{%
-           family={Ojdanic},
-           familyi={O\bibinitperiod},
-           given={Milos},
-           giveni={M\bibinitperiod}}}%
-        {{hash=3e587a10d57e2b5c2f7501b31d9eef7e}{%
-           family={Garg},
-           familyi={G\bibinitperiod},
-           given={Aayush},
-           giveni={A\bibinitperiod}}}%
-        {{hash=6e4738dc3106c3232ff05daeec194811}{%
-           family={Khanfir},
-           familyi={K\bibinitperiod},
-           given={Ahmed},
-           giveni={A\bibinitperiod}}}%
-        {{hash=5838796ab3b1d6a6f19011aa33afa3e4}{%
-           family={Degiovanni},
-           familyi={D\bibinitperiod},
-           given={Renzo},
-           giveni={R\bibinitperiod}}}%
-        {{hash=7d9fc28f6f65f290ffddfb7e4a604586}{%
-           family={Papadakis},
-           familyi={P\bibinitperiod},
-           given={Mike},
-           giveni={M\bibinitperiod}}}%
-        {{hash=5498af5c98f09cacd2f040897d69dfe7}{%
-           family={Traon},
-           familyi={T\bibinitperiod},
-           given={Yves\bibnamedelima Le},
-           giveni={Y\bibinitperiod\bibinitdelim L\bibinitperiod}}}%
-      }
-      \list{publisher}{2}{%
-        {Institute of Electrical}%
-        {Electronics Engineers ({IEEE})}%
-      }
-      \strng{namehash}{58c5f5e1f92cc99874565a44efd3f897}
-      \strng{fullhash}{31705522ce760e1115ee0581827750ff}
-      \strng{bibnamehash}{31705522ce760e1115ee0581827750ff}
-      \strng{authorbibnamehash}{31705522ce760e1115ee0581827750ff}
-      \strng{authornamehash}{58c5f5e1f92cc99874565a44efd3f897}
-      \strng{authorfullhash}{31705522ce760e1115ee0581827750ff}
-      \field{sortinit}{5}
-      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{{IEEE} Transactions on Software Engineering}
+      \field{journaltitle}{2022 IEEE International Conference on Services Computing (SCC)}
       \field{month}{7}
-      \field{number}{7}
-      \field{title}{Syntactic Versus Semantic Similarity of Artificial and Real Faults in Mutation Testing Studies}
-      \field{volume}{49}
-      \field{year}{2023}
-      \true{nocite}
-      \field{pages}{3922\bibrangedash 3938}
-      \range{pages}{17}
-      \verb{doi}
-      \verb 10.1109/tse.2023.3277564
-      \endverb
-      \verb{urlraw}
-      \verb https://doi.org/10.1109/tse.2023.3277564
-      \endverb
-      \verb{url}
-      \verb https://doi.org/10.1109/tse.2023.3277564
-      \endverb
-    \endentry
-    \entry{Pitts2023}{inproceedings}{}
-      \name{author}{1}{}{%
-        {{hash=fdae3e97955c79e240382f7b850f9ff3}{%
-           family={Pitts},
-           familyi={P\bibinitperiod},
-           given={Rowland},
-           giveni={R\bibinitperiod}}}%
-      }
-      \list{publisher}{1}{%
-        {IEEE}%
-      }
-      \strng{namehash}{fdae3e97955c79e240382f7b850f9ff3}
-      \strng{fullhash}{fdae3e97955c79e240382f7b850f9ff3}
-      \strng{bibnamehash}{fdae3e97955c79e240382f7b850f9ff3}
-      \strng{authorbibnamehash}{fdae3e97955c79e240382f7b850f9ff3}
-      \strng{authornamehash}{fdae3e97955c79e240382f7b850f9ff3}
-      \strng{authorfullhash}{fdae3e97955c79e240382f7b850f9ff3}
-      \field{sortinit}{5}
-      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{booktitle}{2023 International Conference on Code Quality ({ICCQ})}
-      \field{month}{4}
-      \field{title}{Mutant Selection Strategies in Mutation Testing}
-      \field{year}{2023}
-      \true{nocite}
-      \verb{doi}
-      \verb 10.1109/iccq57276.2023.10114663
-      \endverb
-      \verb{urlraw}
-      \verb https://doi.org/10.1109/iccq57276.2023.10114663
-      \endverb
-      \verb{url}
-      \verb https://doi.org/10.1109/iccq57276.2023.10114663
-      \endverb
-    \endentry
-    \entry{Naeem2019}{article}{}
-      \name{author}{5}{}{%
-        {{hash=c460d9b08a83a7af2fee07080a239a54}{%
-           family={Naeem},
-           familyi={N\bibinitperiod},
-           given={Muhammad\bibnamedelima Rashid},
-           giveni={M\bibinitperiod\bibinitdelim R\bibinitperiod}}}%
-        {{hash=0acdeee7f1966934420a4c220d188ee9}{%
-           family={Lin},
-           familyi={L\bibinitperiod},
-           given={Tao},
-           giveni={T\bibinitperiod}}}%
-        {{hash=7fb1382520f012d1da5c7921c45bf819}{%
-           family={Naeem},
-           familyi={N\bibinitperiod},
-           given={Hamad},
-           giveni={H\bibinitperiod}}}%
-        {{hash=389c71cb4306b1d9f6e0a1937156fbe1}{%
-           family={Ullah},
-           familyi={U\bibinitperiod},
-           given={Farhan},
-           giveni={F\bibinitperiod}}}%
-        {{hash=b0423a30d4154c6c04e66772b6803813}{%
-           family={Saeed},
-           familyi={S\bibinitperiod},
-           given={Saqib},
-           giveni={S\bibinitperiod}}}%
-      }
-      \list{publisher}{2}{%
-        {Institute of Electrical}%
-        {Electronics Engineers ({IEEE})}%
-      }
-      \strng{namehash}{9e6bff948312cf638422d5b06e1ca36c}
-      \strng{fullhash}{e45cc9c965844a1587ff12fbe8c55284}
-      \strng{bibnamehash}{e45cc9c965844a1587ff12fbe8c55284}
-      \strng{authorbibnamehash}{e45cc9c965844a1587ff12fbe8c55284}
-      \strng{authornamehash}{9e6bff948312cf638422d5b06e1ca36c}
-      \strng{authorfullhash}{e45cc9c965844a1587ff12fbe8c55284}
-      \field{sortinit}{5}
-      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{{IEEE} Access}
-      \field{title}{Scalable Mutation Testing Using Predictive Analysis of Deep Learning Model}
-      \field{volume}{7}
-      \field{year}{2019}
-      \true{nocite}
-      \field{pages}{158264\bibrangedash 158283}
-      \range{pages}{20}
-      \verb{doi}
-      \verb 10.1109/access.2019.2950171
-      \endverb
-      \verb{urlraw}
-      \verb https://doi.org/10.1109/access.2019.2950171
-      \endverb
-      \verb{url}
-      \verb https://doi.org/10.1109/access.2019.2950171
-      \endverb
-    \endentry
-    \entry{Mao2019}{inproceedings}{}
-      \name{author}{3}{}{%
-        {{hash=bcc18805872c5a8ec375623353f19841}{%
-           family={Mao},
-           familyi={M\bibinitperiod},
-           given={Dongyu},
-           giveni={D\bibinitperiod}}}%
-        {{hash=db851336bf9c741328aa27120e32a89e}{%
-           family={Chen},
-           familyi={C\bibinitperiod},
-           given={Lingchao},
-           giveni={L\bibinitperiod}}}%
-        {{hash=d4bc38109c3bdedeccb478acb4c658b9}{%
-           family={Zhang},
-           familyi={Z\bibinitperiod},
-           given={Lingming},
-           giveni={L\bibinitperiod}}}%
-      }
-      \list{publisher}{1}{%
-        {IEEE}%
-      }
-      \strng{namehash}{acec444af0e58195cc07721e80960547}
-      \strng{fullhash}{acec444af0e58195cc07721e80960547}
-      \strng{bibnamehash}{acec444af0e58195cc07721e80960547}
-      \strng{authorbibnamehash}{acec444af0e58195cc07721e80960547}
-      \strng{authornamehash}{acec444af0e58195cc07721e80960547}
-      \strng{authorfullhash}{acec444af0e58195cc07721e80960547}
-      \field{sortinit}{5}
-      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{booktitle}{2019 12th {IEEE} Conference on Software Testing, Validation and Verification ({ICST})}
-      \field{month}{4}
-      \field{title}{An Extensive Study on Cross-Project Predictive Mutation Testing}
-      \field{year}{2019}
-      \true{nocite}
-      \verb{doi}
-      \verb 10.1109/icst.2019.00025
-      \endverb
-      \verb{urlraw}
-      \verb https://doi.org/10.1109/icst.2019.00025
-      \endverb
-      \verb{url}
-      \verb https://doi.org/10.1109/icst.2019.00025
-      \endverb
-    \endentry
-    \entry{Tian2022}{inproceedings}{}
-      \name{author}{5}{}{%
-        {{hash=05bda09a484fe312dff65d1eb350614f}{%
-           family={Tian},
-           familyi={T\bibinitperiod},
-           given={Zhao},
-           giveni={Z\bibinitperiod}}}%
-        {{hash=c69ee7339b53c7220a54cac68184110a}{%
-           family={Chen},
-           familyi={C\bibinitperiod},
-           given={Junjie},
-           giveni={J\bibinitperiod}}}%
-        {{hash=2e0f6670310682601840be6267950e06}{%
-           family={Zhu},
-           familyi={Z\bibinitperiod},
-           given={Qihao},
-           giveni={Q\bibinitperiod}}}%
-        {{hash=447042bbda475179484661976ec07b92}{%
-           family={Yang},
-           familyi={Y\bibinitperiod},
-           given={Junjie},
-           giveni={J\bibinitperiod}}}%
-        {{hash=d4bc38109c3bdedeccb478acb4c658b9}{%
-           family={Zhang},
-           familyi={Z\bibinitperiod},
-           given={Lingming},
-           giveni={L\bibinitperiod}}}%
-      }
-      \list{publisher}{1}{%
-        {ACM}%
-      }
-      \strng{namehash}{2e5c24050f09352b27352e4b66aec282}
-      \strng{fullhash}{115ba78569200d0b219c50ba12f97cd2}
-      \strng{bibnamehash}{115ba78569200d0b219c50ba12f97cd2}
-      \strng{authorbibnamehash}{115ba78569200d0b219c50ba12f97cd2}
-      \strng{authornamehash}{2e5c24050f09352b27352e4b66aec282}
-      \strng{authorfullhash}{115ba78569200d0b219c50ba12f97cd2}
-      \field{sortinit}{5}
-      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{booktitle}{Proceedings of the 37th {IEEE}/{ACM} International Conference on Automated Software Engineering}
-      \field{month}{10}
-      \field{title}{Learning to Construct Better Mutation Faults}
+      \field{title}{Survey on Tools and Techniques Detecting Microservice API Patterns}
       \field{year}{2022}
       \true{nocite}
       \verb{doi}
-      \verb 10.1145/3551349.3556949
+      \verb 10.1109/scc55611.2022.00018
       \endverb
       \verb{urlraw}
-      \verb https://doi.org/10.1145/3551349.3556949
+      \verb http://dx.doi.org/10.1109/SCC55611.2022.00018
       \endverb
       \verb{url}
-      \verb https://doi.org/10.1145/3551349.3556949
+      \verb http://dx.doi.org/10.1109/SCC55611.2022.00018
       \endverb
+      \keyw{RQ2}
     \endentry
-    \entry{Chaim2008}{article}{}
-      \name{author}{1}{}{%
-        {{hash=67389cc01a6786e85dffb49ff69e7336}{%
-           family={Noy},
-           familyi={N\bibinitperiod},
-           given={Chaim},
-           giveni={C\bibinitperiod}}}%
+    \entry{Idris2022-so}{article}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=fb7d03a39941725d4d87bfec91918545}{%
+           family={Idris},
+           familyi={I\bibinitperiod},
+           given={Muhammad},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=0cd3650af66f853e8e1fbb7645c907b6}{%
+           family={Syarif},
+           familyi={S\bibinitperiod},
+           given={Iwan},
+           giveni={I\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=a6a9228916a3363efb6d75da9ffbdf5f}{%
+           family={Winarno},
+           familyi={W\bibinitperiod},
+           given={Idris},
+           giveni={I\bibinitperiod},
+           givenun=0}}%
       }
       \list{publisher}{1}{%
-        {Informa {UK} Limited}%
+        {EMITTER International Journal of Engineering Technology}%
       }
-      \strng{namehash}{67389cc01a6786e85dffb49ff69e7336}
-      \strng{fullhash}{67389cc01a6786e85dffb49ff69e7336}
-      \strng{bibnamehash}{67389cc01a6786e85dffb49ff69e7336}
-      \strng{authorbibnamehash}{67389cc01a6786e85dffb49ff69e7336}
-      \strng{authornamehash}{67389cc01a6786e85dffb49ff69e7336}
-      \strng{authorfullhash}{67389cc01a6786e85dffb49ff69e7336}
-      \field{sortinit}{5}
-      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
+      \strng{namehash}{05a760f0ad99503a4f3c12d9ad56c7c8}
+      \strng{fullhash}{cb3eecbb4d5e2c37280395233a1cfadd}
+      \strng{bibnamehash}{cb3eecbb4d5e2c37280395233a1cfadd}
+      \strng{authorbibnamehash}{cb3eecbb4d5e2c37280395233a1cfadd}
+      \strng{authornamehash}{05a760f0ad99503a4f3c12d9ad56c7c8}
+      \strng{authorfullhash}{cb3eecbb4d5e2c37280395233a1cfadd}
+      \field{sortinit}{I}
+      \field{sortinithash}{8d291c51ee89b6cd86bf5379f0b151d8}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{journaltitle}{International Journal of Social Research Methodology}
-      \field{month}{10}
-      \field{number}{4}
-      \field{title}{Sampling Knowledge: The Hermeneutics of Snowball Sampling in Qualitative Research}
-      \field{volume}{11}
-      \field{year}{2008}
+      \field{journaltitle}{EMIT. Int. J. Eng. Technol.}
+      \field{month}{12}
+      \field{title}{Web application security education platform based on {OWASP} {API} security project}
+      \field{year}{2022}
       \true{nocite}
-      \field{pages}{327\bibrangedash 344}
-      \range{pages}{18}
-      \verb{doi}
-      \verb 10.1080/13645570701401305
-      \endverb
-      \verb{urlraw}
-      \verb https://doi.org/10.1080/13645570701401305
-      \endverb
-      \verb{url}
-      \verb https://doi.org/10.1080/13645570701401305
-      \endverb
+      \field{pages}{246\bibrangedash 261}
+      \range{pages}{16}
+      \keyw{RQ2}
     \endentry
-    \entry{6569774}{inproceedings}{}
-      \name{author}{1}{}{%
-        {{hash=2b6297911e3d9f35128424d8af7f4adf}{%
-           family={{Büchler}},
+    \entry{Kellezi2019}{inbook}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=894d7f37b6a2f0e3b5211f749730f961}{%
+           family={Kellezi},
+           familyi={K\bibinitperiod},
+           given={Deina},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=c40a47a2b2ef63261f755b2ab9e55ff8}{%
+           family={Boegelund},
            familyi={B\bibinitperiod},
-           given={M.},
-           giveni={M\bibinitperiod}}}%
-      }
-      \strng{namehash}{2b6297911e3d9f35128424d8af7f4adf}
-      \strng{fullhash}{2b6297911e3d9f35128424d8af7f4adf}
-      \strng{bibnamehash}{2b6297911e3d9f35128424d8af7f4adf}
-      \strng{authorbibnamehash}{2b6297911e3d9f35128424d8af7f4adf}
-      \strng{authornamehash}{2b6297911e3d9f35128424d8af7f4adf}
-      \strng{authorfullhash}{2b6297911e3d9f35128424d8af7f4adf}
-      \field{sortinit}{5}
-      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{booktitle}{2013 IEEE Sixth International Conference on Software Testing, Verification and Validation}
-      \field{title}{Security Testing with Fault-Models and Properties}
-      \field{year}{2013}
-      \true{nocite}
-      \field{pages}{501\bibrangedash 502}
-      \range{pages}{2}
-      \verb{doi}
-      \verb 10.1109/ICST.2013.74
-      \endverb
-    \endentry
-    \entry{Arcuri2019}{article}{}
-      \name{author}{1}{}{%
-        {{hash=ce60719b000244b24fc4e01f2153d73c}{%
-           family={Arcuri},
-           familyi={A\bibinitperiod},
-           given={Andrea},
-           giveni={A\bibinitperiod}}}%
-      }
-      \list{location}{1}{%
-        {New York, NY, USA}%
+           given={Christian},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=447d0faa9b0633e00ba97021b6ef4af6}{%
+           family={Meng},
+           familyi={M\bibinitperiod},
+           given={Weizhi},
+           giveni={W\bibinitperiod},
+           givenun=0}}%
       }
       \list{publisher}{1}{%
-        {Association for Computing Machinery}%
+        {Springer International Publishing}%
       }
-      \strng{namehash}{ce60719b000244b24fc4e01f2153d73c}
-      \strng{fullhash}{ce60719b000244b24fc4e01f2153d73c}
-      \strng{bibnamehash}{ce60719b000244b24fc4e01f2153d73c}
-      \strng{authorbibnamehash}{ce60719b000244b24fc4e01f2153d73c}
-      \strng{authornamehash}{ce60719b000244b24fc4e01f2153d73c}
-      \strng{authorfullhash}{ce60719b000244b24fc4e01f2153d73c}
-      \field{extraname}{1}
-      \field{sortinit}{6}
-      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
+      \strng{namehash}{68a077844df071ed85d7ec59c3a9b754}
+      \strng{fullhash}{c09314fe481696190f0d7790163a303a}
+      \strng{bibnamehash}{c09314fe481696190f0d7790163a303a}
+      \strng{authorbibnamehash}{c09314fe481696190f0d7790163a303a}
+      \strng{authornamehash}{68a077844df071ed85d7ec59c3a9b754}
+      \strng{authorfullhash}{c09314fe481696190f0d7790163a303a}
+      \field{sortinit}{K}
+      \field{sortinithash}{c02bf6bff1c488450c352b40f5d853ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{issn}{1049-331X}
-      \field{journaltitle}{ACM Transactions on Software Engineering and Methodology}
-      \field{month}{01}
-      \field{number}{1}
-      \field{title}{RESTful API Automated Test Case Generation with EvoMaster}
-      \field{volume}{28}
+      \field{booktitle}{Lecture Notes in Computer Science}
+      \field{isbn}{9783030369385}
+      \field{issn}{1611-3349}
+      \field{title}{Towards Secure Open Banking Architecture: An Evaluation with OWASP}
       \field{year}{2019}
       \true{nocite}
+      \field{pages}{185\bibrangedash 198}
+      \range{pages}{14}
       \verb{doi}
-      \verb 10.1145/3293455
+      \verb 10.1007/978-3-030-36938-5_11
       \endverb
       \verb{urlraw}
-      \verb https://doi.org/10.1145/3293455
+      \verb http://dx.doi.org/10.1007/978-3-030-36938-5_11
       \endverb
       \verb{url}
-      \verb https://doi.org/10.1145/3293455
+      \verb http://dx.doi.org/10.1007/978-3-030-36938-5_11
       \endverb
-      \keyw{web service,testing,REST,Software engineering}
+      \keyw{RQ1}
     \endentry
-    \entry{segura2018}{inproceedings}{}
-      \name{author}{4}{}{%
-        {{hash=efefdfdaba6c5894f391e59294e0dcbe}{%
+    \entry{KhodaParast2022}{article}{}
+      \name{author}{6}{}{%
+        {{un=0,uniquepart=base,hash=61e9146fe9b58d91c8a734bcb0921c8a}{%
+           family={Khoda\bibnamedelima Parast},
+           familyi={K\bibinitperiod\bibinitdelim P\bibinitperiod},
+           given={Fatemeh},
+           giveni={F\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=761f0af92ead64f21518341c831b4fb2}{%
+           family={Sindhav},
+           familyi={S\bibinitperiod},
+           given={Chandni},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=09647bf40f2aabb781e7a67658b4221a}{%
+           family={Nikam},
+           familyi={N\bibinitperiod},
+           given={Seema},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=7352fe982a6370997b66109f8dde189f}{%
+           family={Izadi\bibnamedelima Yekta},
+           familyi={I\bibinitperiod\bibinitdelim Y\bibinitperiod},
+           given={Hadiseh},
+           giveni={H\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=f70bc3f66f79cd7ec5cf0ef35d03fef9}{%
+           family={Kent},
+           familyi={K\bibinitperiod},
+           given={Kenneth\bibnamedelima B.},
+           giveni={K\bibinitperiod\bibinitdelim B\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=79db860a1a0490de9fd85361f223a42a}{%
+           family={Hakak},
+           familyi={H\bibinitperiod},
+           given={Saqib},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Elsevier BV}%
+      }
+      \strng{namehash}{b1f4dec905b4498363ca45e6a49ac3f7}
+      \strng{fullhash}{69316ccbbaaed0e30e54614e8d9368c2}
+      \strng{bibnamehash}{69316ccbbaaed0e30e54614e8d9368c2}
+      \strng{authorbibnamehash}{69316ccbbaaed0e30e54614e8d9368c2}
+      \strng{authornamehash}{b1f4dec905b4498363ca45e6a49ac3f7}
+      \strng{authorfullhash}{69316ccbbaaed0e30e54614e8d9368c2}
+      \field{sortinit}{K}
+      \field{sortinithash}{c02bf6bff1c488450c352b40f5d853ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{0167-4048}
+      \field{journaltitle}{Computers and Security}
+      \field{month}{3}
+      \field{title}{Cloud computing security: A survey of service-based models}
+      \field{volume}{114}
+      \field{year}{2022}
+      \true{nocite}
+      \field{pages}{102580}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1016/j.cose.2021.102580
+      \endverb
+      \verb{urlraw}
+      \verb http://dx.doi.org/10.1016/j.cose.2021.102580
+      \endverb
+      \verb{url}
+      \verb http://dx.doi.org/10.1016/j.cose.2021.102580
+      \endverb
+      \keyw{RQ2}
+    \endentry
+    \entry{Luo2016}{inbook}{}
+      \name{author}{6}{}{%
+        {{un=0,uniquepart=base,hash=e79a8fe12370710f305d0fd0a596e3a0}{%
+           family={Luo},
+           familyi={L\bibinitperiod},
+           given={Yang},
+           giveni={Y\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=34c75201863de18aabc373bd5ebb5701}{%
+           family={Puyang},
+           familyi={P\bibinitperiod},
+           given={Tian},
+           giveni={T\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=bc49fe7fd919aff04bc16dcfc742e517}{%
+           family={Luo},
+           familyi={L\bibinitperiod},
+           given={Wu},
+           giveni={W\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=bdde17bb869cf372e9a773a443d5ada4}{%
+           family={Shen},
+           familyi={S\bibinitperiod},
+           given={Qingni},
+           giveni={Q\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=8fa376f080df00d78ed648314e1908ae}{%
+           family={Ruan},
+           familyi={R\bibinitperiod},
+           given={Anbang},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=92239326fdf317deae1041871b4c9e62}{%
+           family={Wu},
+           familyi={W\bibinitperiod},
+           given={Zhonghai},
+           giveni={Z\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Springer International Publishing}%
+      }
+      \strng{namehash}{20a2090c54b97e85f496d35963f2cf84}
+      \strng{fullhash}{0a67e714559c9d2463033eb451a77df9}
+      \strng{bibnamehash}{0a67e714559c9d2463033eb451a77df9}
+      \strng{authorbibnamehash}{0a67e714559c9d2463033eb451a77df9}
+      \strng{authornamehash}{20a2090c54b97e85f496d35963f2cf84}
+      \strng{authorfullhash}{0a67e714559c9d2463033eb451a77df9}
+      \field{sortinit}{L}
+      \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Lecture Notes in Computer Science}
+      \field{isbn}{9783319500119}
+      \field{issn}{1611-3349}
+      \field{title}{MultiPol: Towards a Multi-policy Authorization Framework for RESTful Interfaces in the Cloud}
+      \field{year}{2016}
+      \true{nocite}
+      \field{pages}{214\bibrangedash 226}
+      \range{pages}{13}
+      \verb{doi}
+      \verb 10.1007/978-3-319-50011-9_17
+      \endverb
+      \verb{urlraw}
+      \verb http://dx.doi.org/10.1007/978-3-319-50011-9_17
+      \endverb
+      \verb{url}
+      \verb http://dx.doi.org/10.1007/978-3-319-50011-9_17
+      \endverb
+      \keyw{RQ1}
+    \endentry
+    \entry{Madden2021-oi}{book}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=53936df4b9be376f234b44cbb76a9015}{%
+           family={Madden},
+           familyi={M\bibinitperiod},
+           given={Neil},
+           giveni={N\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{language}{1}{%
+        {en}%
+      }
+      \list{location}{1}{%
+        {New York, NY}%
+      }
+      \list{publisher}{1}{%
+        {Manning Publications}%
+      }
+      \strng{namehash}{53936df4b9be376f234b44cbb76a9015}
+      \strng{fullhash}{53936df4b9be376f234b44cbb76a9015}
+      \strng{bibnamehash}{53936df4b9be376f234b44cbb76a9015}
+      \strng{authorbibnamehash}{53936df4b9be376f234b44cbb76a9015}
+      \strng{authornamehash}{53936df4b9be376f234b44cbb76a9015}
+      \strng{authorfullhash}{53936df4b9be376f234b44cbb76a9015}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{month}{2}
+      \field{title}{{API} security in action}
+      \field{year}{2021}
+      \true{nocite}
+      \keyw{RQ1}
+    \endentry
+    \entry{https://doi.org/10.5281/zenodo.6941292}{misc}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=5d82b3e85e2c8936f9208f791bc3d494}{%
+           family={Martin-Lopez},
+           familyi={M\bibinithyphendelim L\bibinitperiod},
+           given={Alberto},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=efefdfdaba6c5894f391e59294e0dcbe}{%
            family={Segura},
            familyi={S\bibinitperiod},
            given={Sergio},
-           giveni={S\bibinitperiod}}}%
-        {{hash=0aee99dfec9189a27cfdf22b0a3dd16d}{%
-           family={Parejo},
-           familyi={P\bibinitperiod},
-           given={José\bibnamedelima A.},
-           giveni={J\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
-        {{hash=6afb08e11657c438876a8b369208b4f0}{%
-           family={Troya},
-           familyi={T\bibinitperiod},
-           given={Javier},
-           giveni={J\bibinitperiod}}}%
-        {{hash=b14c1d1e3d4d80ea3948645cec4ba918}{%
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=b14c1d1e3d4d80ea3948645cec4ba918}{%
            family={Ruiz-Cortés},
            familyi={R\bibinithyphendelim C\bibinitperiod},
            given={Antonio},
-           giveni={A\bibinitperiod}}}%
-      }
-      \list{location}{1}{%
-        {Gothenburg, Sweden}%
-      }
-      \list{publisher}{1}{%
-        {Association for Computing Machinery}%
-      }
-      \strng{namehash}{6292a242cb8a78cc401c50dbc2406339}
-      \strng{fullhash}{3f3054bfe77614bf6f0f7a64db0c54fb}
-      \strng{bibnamehash}{3f3054bfe77614bf6f0f7a64db0c54fb}
-      \strng{authorbibnamehash}{3f3054bfe77614bf6f0f7a64db0c54fb}
-      \strng{authornamehash}{6292a242cb8a78cc401c50dbc2406339}
-      \strng{authorfullhash}{3f3054bfe77614bf6f0f7a64db0c54fb}
-      \field{sortinit}{6}
-      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{booktitle}{Proceedings of the 40th International Conference on Software Engineering}
-      \field{isbn}{9781450356381}
-      \field{series}{ICSE '18}
-      \field{title}{Metamorphic Testing of RESTful Web APIs}
-      \field{year}{2018}
-      \true{nocite}
-      \field{pages}{882}
-      \range{pages}{1}
-      \verb{doi}
-      \verb 10.1145/3180155.3182528
-      \endverb
-      \verb{urlraw}
-      \verb https://doi.org/10.1145/3180155.3182528
-      \endverb
-      \verb{url}
-      \verb https://doi.org/10.1145/3180155.3182528
-      \endverb
-      \keyw{metamorphic testing,RESTful web services,web API,REST}
-    \endentry
-    \entry{Arcuri2017}{inproceedings}{}
-      \name{author}{1}{}{%
-        {{hash=ce60719b000244b24fc4e01f2153d73c}{%
-           family={Arcuri},
-           familyi={A\bibinitperiod},
-           given={Andrea},
-           giveni={A\bibinitperiod}}}%
-      }
-      \strng{namehash}{ce60719b000244b24fc4e01f2153d73c}
-      \strng{fullhash}{ce60719b000244b24fc4e01f2153d73c}
-      \strng{bibnamehash}{ce60719b000244b24fc4e01f2153d73c}
-      \strng{authorbibnamehash}{ce60719b000244b24fc4e01f2153d73c}
-      \strng{authornamehash}{ce60719b000244b24fc4e01f2153d73c}
-      \strng{authorfullhash}{ce60719b000244b24fc4e01f2153d73c}
-      \field{extraname}{2}
-      \field{sortinit}{6}
-      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{booktitle}{2017 IEEE International Conference on Software Quality, Reliability and Security (QRS)}
-      \field{title}{RESTful API Automated Test Case Generation}
-      \field{year}{2017}
-      \true{nocite}
-      \field{pages}{9\bibrangedash 20}
-      \range{pages}{12}
-      \verb{doi}
-      \verb 10.1109/QRS.2017.11
-      \endverb
-    \endentry
-    \entry{Wu2022}{inproceedings}{}
-      \name{author}{4}{}{%
-        {{hash=01aa755e3eb5f9500526a0619612c97b}{%
-           family={Wu},
-           familyi={W\bibinitperiod},
-           given={Huayao},
-           giveni={H\bibinitperiod}}}%
-        {{hash=ef31f9e21b1605e90df9fb1a41856ec8}{%
-           family={Xu},
-           familyi={X\bibinitperiod},
-           given={Lixin},
-           giveni={L\bibinitperiod}}}%
-        {{hash=63c7f77d567553110b77a36d90f1270c}{%
-           family={Niu},
-           familyi={N\bibinitperiod},
-           given={Xintao},
-           giveni={X\bibinitperiod}}}%
-        {{hash=0b15cc15acbb483a69a5f9b066fa977f}{%
-           family={Nie},
-           familyi={N\bibinitperiod},
-           given={Changhai},
-           giveni={C\bibinitperiod}}}%
-      }
-      \list{location}{1}{%
-        {Pittsburgh, Pennsylvania}%
-      }
-      \list{publisher}{1}{%
-        {Association for Computing Machinery}%
-      }
-      \strng{namehash}{6cdae730b4ede6e7e1bce6ea2c7df63c}
-      \strng{fullhash}{ae739b09ba868693acb8c9a6dddad48a}
-      \strng{bibnamehash}{ae739b09ba868693acb8c9a6dddad48a}
-      \strng{authorbibnamehash}{ae739b09ba868693acb8c9a6dddad48a}
-      \strng{authornamehash}{6cdae730b4ede6e7e1bce6ea2c7df63c}
-      \strng{authorfullhash}{ae739b09ba868693acb8c9a6dddad48a}
-      \field{sortinit}{6}
-      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{booktitle}{Proceedings of the 44th International Conference on Software Engineering}
-      \field{isbn}{9781450392211}
-      \field{series}{ICSE '22}
-      \field{title}{Combinatorial Testing of RESTful APIs}
-      \field{year}{2022}
-      \true{nocite}
-      \field{pages}{426\bibrangedash 437}
-      \range{pages}{12}
-      \verb{doi}
-      \verb 10.1145/3510003.3510151
-      \endverb
-      \verb{urlraw}
-      \verb https://doi.org/10.1145/3510003.3510151
-      \endverb
-      \verb{url}
-      \verb https://doi.org/10.1145/3510003.3510151
-      \endverb
-      \keyw{RESTful API,combinatorial testing,test case generation}
-    \endentry
-    \entry{Viglianisi2020}{inproceedings}{}
-      \name{author}{3}{}{%
-        {{hash=68bf172c210854edc5dd212461c5b716}{%
-           family={Viglianisi},
-           familyi={V\bibinitperiod},
-           given={Emanuele},
-           giveni={E\bibinitperiod}}}%
-        {{hash=4c3c8e5cdfb030b35ae5688dda0875b0}{%
-           family={Dallago},
-           familyi={D\bibinitperiod},
-           given={Michael},
-           giveni={M\bibinitperiod}}}%
-        {{hash=a5182c1c1b3e6526029b96990681479d}{%
-           family={Ceccato},
-           familyi={C\bibinitperiod},
-           given={Mariano},
-           giveni={M\bibinitperiod}}}%
-      }
-      \strng{namehash}{8f7ba7950a530fadaf96136cbe151a93}
-      \strng{fullhash}{8f7ba7950a530fadaf96136cbe151a93}
-      \strng{bibnamehash}{8f7ba7950a530fadaf96136cbe151a93}
-      \strng{authorbibnamehash}{8f7ba7950a530fadaf96136cbe151a93}
-      \strng{authornamehash}{8f7ba7950a530fadaf96136cbe151a93}
-      \strng{authorfullhash}{8f7ba7950a530fadaf96136cbe151a93}
-      \field{sortinit}{6}
-      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{booktitle}{2020 IEEE 13th International Conference on Software Testing, Validation and Verification (ICST)}
-      \field{title}{RESTTESTGEN: Automated Black-Box Testing of RESTful APIs}
-      \field{year}{2020}
-      \true{nocite}
-      \field{pages}{142\bibrangedash 152}
-      \range{pages}{11}
-      \verb{doi}
-      \verb 10.1109/ICST46399.2020.00024
-      \endverb
-    \endentry
-    \entry{Godefroid2020}{inproceedings}{}
-      \name{author}{3}{}{%
-        {{hash=9d2d477c053bf8048a308bb409d1eb99}{%
-           family={Godefroid},
-           familyi={G\bibinitperiod},
-           given={Patrice},
-           giveni={P\bibinitperiod}}}%
-        {{hash=a95679da7af53ed3c69c4b4f946f9da7}{%
-           family={Lehmann},
-           familyi={L\bibinitperiod},
-           given={Daniel},
-           giveni={D\bibinitperiod}}}%
-        {{hash=205e20ed085a50eb5dc6b936622edb7d}{%
-           family={Polishchuk},
-           familyi={P\bibinitperiod},
-           given={Marina},
-           giveni={M\bibinitperiod}}}%
-      }
-      \list{publisher}{1}{%
-        {ACM}%
-      }
-      \strng{namehash}{6017bb2ac22be26072c6a5313a2e4f3a}
-      \strng{fullhash}{6017bb2ac22be26072c6a5313a2e4f3a}
-      \strng{bibnamehash}{6017bb2ac22be26072c6a5313a2e4f3a}
-      \strng{authorbibnamehash}{6017bb2ac22be26072c6a5313a2e4f3a}
-      \strng{authornamehash}{6017bb2ac22be26072c6a5313a2e4f3a}
-      \strng{authorfullhash}{6017bb2ac22be26072c6a5313a2e4f3a}
-      \field{sortinit}{6}
-      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{booktitle}{Proceedings of the 29th {ACM} {SIGSOFT} International Symposium on Software Testing and Analysis}
-      \field{month}{7}
-      \field{title}{Differential regression testing for {REST} {APIs}}
-      \field{year}{2020}
-      \true{nocite}
-      \verb{doi}
-      \verb 10.1145/3395363.3397374
-      \endverb
-      \verb{urlraw}
-      \verb https://doi.org/10.1145/3395363.3397374
-      \endverb
-      \verb{url}
-      \verb https://doi.org/10.1145/3395363.3397374
-      \endverb
-    \endentry
-    \entry{Arcuri2021}{article}{}
-      \name{author}{1}{}{%
-        {{hash=ce60719b000244b24fc4e01f2153d73c}{%
-           family={Arcuri},
-           familyi={A\bibinitperiod},
-           given={Andrea},
-           giveni={A\bibinitperiod}}}%
-      }
-      \strng{namehash}{ce60719b000244b24fc4e01f2153d73c}
-      \strng{fullhash}{ce60719b000244b24fc4e01f2153d73c}
-      \strng{bibnamehash}{ce60719b000244b24fc4e01f2153d73c}
-      \strng{authorbibnamehash}{ce60719b000244b24fc4e01f2153d73c}
-      \strng{authornamehash}{ce60719b000244b24fc4e01f2153d73c}
-      \strng{authorfullhash}{ce60719b000244b24fc4e01f2153d73c}
-      \field{extraname}{3}
-      \field{sortinit}{6}
-      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{IEEE Software}
-      \field{number}{3}
-      \field{title}{Automated Black- and White-Box Testing of RESTful APIs With EvoMaster}
-      \field{volume}{38}
-      \field{year}{2021}
-      \true{nocite}
-      \field{pages}{72\bibrangedash 78}
-      \range{pages}{7}
-      \verb{doi}
-      \verb 10.1109/MS.2020.3013820
-      \endverb
-    \endentry
-    \entry{Karlsson2020}{inproceedings}{}
-      \name{author}{3}{}{%
-        {{hash=45f73576971120f9ead387831d04b394}{%
-           family={Karlsson},
-           familyi={K\bibinitperiod},
-           given={Stefan},
-           giveni={S\bibinitperiod}}}%
-        {{hash=f5e06b6a815fe297c94388725e567ff7}{%
-           family={Čaušević},
-           familyi={Č\bibinitperiod},
-           given={Adnan},
-           giveni={A\bibinitperiod}}}%
-        {{hash=b87b8a7feb793f8710a7433b3150b9a7}{%
-           family={Sundmark},
-           familyi={S\bibinitperiod},
-           given={Daniel},
-           giveni={D\bibinitperiod}}}%
-      }
-      \strng{namehash}{18c129dce0fec1b7e9196107cc350041}
-      \strng{fullhash}{18c129dce0fec1b7e9196107cc350041}
-      \strng{bibnamehash}{18c129dce0fec1b7e9196107cc350041}
-      \strng{authorbibnamehash}{18c129dce0fec1b7e9196107cc350041}
-      \strng{authornamehash}{18c129dce0fec1b7e9196107cc350041}
-      \strng{authorfullhash}{18c129dce0fec1b7e9196107cc350041}
-      \field{sortinit}{6}
-      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{booktitle}{2020 IEEE 13th International Conference on Software Testing, Validation and Verification (ICST)}
-      \field{title}{QuickREST: Property-based Test Generation of OpenAPI-Described RESTful APIs}
-      \field{year}{2020}
-      \true{nocite}
-      \field{pages}{131\bibrangedash 141}
-      \range{pages}{11}
-      \verb{doi}
-      \verb 10.1109/ICST46399.2020.00023
-      \endverb
-    \endentry
-    \entry{De2017}{book}{}
-      \name{author}{1}{}{%
-        {{hash=4c5358056717eaa0e647aca85df5709e}{%
-           family={De},
-           familyi={D\bibinitperiod},
-           given={Brajesh},
-           giveni={B\bibinitperiod}}}%
-      }
-      \list{publisher}{1}{%
-        {Apress}%
-      }
-      \strng{namehash}{4c5358056717eaa0e647aca85df5709e}
-      \strng{fullhash}{4c5358056717eaa0e647aca85df5709e}
-      \strng{bibnamehash}{4c5358056717eaa0e647aca85df5709e}
-      \strng{authorbibnamehash}{4c5358056717eaa0e647aca85df5709e}
-      \strng{authornamehash}{4c5358056717eaa0e647aca85df5709e}
-      \strng{authorfullhash}{4c5358056717eaa0e647aca85df5709e}
-      \field{sortinit}{6}
-      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{booktitle}{{API} Management}
-      \field{title}{{API} Testing Strategy}
-      \field{year}{2017}
-      \true{nocite}
-      \field{pages}{153\bibrangedash 164}
-      \range{pages}{12}
-      \verb{doi}
-      \verb 10.1007/978-1-4842-1305-6_9
-      \endverb
-      \verb{urlraw}
-      \verb https://doi.org/10.1007/978-1-4842-1305-6_9
-      \endverb
-      \verb{url}
-      \verb https://doi.org/10.1007/978-1-4842-1305-6_9
-      \endverb
-    \endentry
-    \entry{Ehsan2022}{article}{}
-      \name{author}{4}{}{%
-        {{hash=79a6cb0a4ebdbe4a91e4839e557dfe17}{%
-           family={Ehsan},
-           familyi={E\bibinitperiod},
-           given={Adeel},
-           giveni={A\bibinitperiod}}}%
-        {{hash=f8ad79e950968e698c9db1fe8f09d99c}{%
-           family={Abuhaliqa},
-           familyi={A\bibinitperiod},
-           given={Mohammed\bibnamedelimb Ahmad\bibnamedelimb M.\bibnamedelimi E.},
-           giveni={M\bibinitperiod\bibinitdelim A\bibinitperiod\bibinitdelim M\bibinitperiod\bibinitdelim E\bibinitperiod}}}%
-        {{hash=7f6d1e7c6ce46531a6ad470b3485bb48}{%
-           family={Catal},
-           familyi={C\bibinitperiod},
-           given={Cagatay},
-           giveni={C\bibinitperiod}}}%
-        {{hash=c2792eeb632cac0b203d774187c7b931}{%
-           family={Mishra},
-           familyi={M\bibinitperiod},
-           given={Deepti},
-           giveni={D\bibinitperiod}}}%
-      }
-      \list{publisher}{1}{%
-        {{MDPI} {AG}}%
-      }
-      \strng{namehash}{e5538e055d382df0d9057ac4fbb7661f}
-      \strng{fullhash}{50a92ec41c642065440b288d1a0961ce}
-      \strng{bibnamehash}{50a92ec41c642065440b288d1a0961ce}
-      \strng{authorbibnamehash}{50a92ec41c642065440b288d1a0961ce}
-      \strng{authornamehash}{e5538e055d382df0d9057ac4fbb7661f}
-      \strng{authorfullhash}{50a92ec41c642065440b288d1a0961ce}
-      \field{sortinit}{6}
-      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{Applied Sciences}
-      \field{month}{4}
-      \field{number}{9}
-      \field{title}{{RESTful} {API} Testing Methodologies: Rationale, Challenges, and Solution Directions}
-      \field{volume}{12}
-      \field{year}{2022}
-      \true{nocite}
-      \field{pages}{4369}
-      \range{pages}{1}
-      \verb{doi}
-      \verb 10.3390/app12094369
-      \endverb
-      \verb{urlraw}
-      \verb https://doi.org/10.3390/app12094369
-      \endverb
-      \verb{url}
-      \verb https://doi.org/10.3390/app12094369
-      \endverb
-    \endentry
-    \entry{zenodo}{article}{}
-      \name{author}{2}{}{%
-        {{hash=8452095ec98391bf7506a7ae250365ac}{%
-           family={{Sattam J Alharbi}},
-           familyi={S\bibinitperiod}}}%
-        {{hash=085f5158ec4aa19848e2bba043cb8fc1}{%
-           family={Moulahi},
-           familyi={M\bibinitperiod},
-           given={Tarek},
-           giveni={T\bibinitperiod}}}%
+           giveni={A\bibinitperiod},
+           givenun=0}}%
       }
       \list{publisher}{1}{%
         {Zenodo}%
       }
-      \strng{namehash}{f1652b3fc46d1ae09a20de011c9b22fc}
-      \strng{fullhash}{f1652b3fc46d1ae09a20de011c9b22fc}
-      \strng{bibnamehash}{f1652b3fc46d1ae09a20de011c9b22fc}
-      \strng{authorbibnamehash}{f1652b3fc46d1ae09a20de011c9b22fc}
-      \strng{authornamehash}{f1652b3fc46d1ae09a20de011c9b22fc}
-      \strng{authorfullhash}{f1652b3fc46d1ae09a20de011c9b22fc}
-      \field{extraname}{1}
-      \field{sortinit}{7}
-      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
+      \strng{namehash}{feb5d5d2c1d31362a33d325fd859d443}
+      \strng{fullhash}{8c00cfa91d5ef97aaad15a31c05830a7}
+      \strng{bibnamehash}{8c00cfa91d5ef97aaad15a31c05830a7}
+      \strng{authorbibnamehash}{8c00cfa91d5ef97aaad15a31c05830a7}
+      \strng{authornamehash}{feb5d5d2c1d31362a33d325fd859d443}
+      \strng{authorfullhash}{8c00cfa91d5ef97aaad15a31c05830a7}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{journaltitle}{International Journal of Innovative Science and Research Technology}
-      \field{title}{API Security Testing: The Challenges of Security Testing for Restful APIs}
-      \field{year}{2023}
+      \field{title}{Online Testing of RESTful APIs: Promises and Challenges}
+      \field{year}{2022}
       \true{nocite}
       \verb{doi}
-      \verb 10.5281/ZENODO.7988409
+      \verb 10.5281/ZENODO.6941292
       \endverb
       \verb{urlraw}
-      \verb https://zenodo.org/record/7988409
+      \verb https://zenodo.org/record/6941292
       \endverb
       \verb{url}
-      \verb https://zenodo.org/record/7988409
+      \verb https://zenodo.org/record/6941292
       \endverb
-    \endentry
-    \entry{Riggs2023}{article}{}
-      \name{author}{8}{}{%
-        {{hash=d88b5bf143cebb0a4710e6f874fd8a32}{%
-           family={Riggs},
-           familyi={R\bibinitperiod},
-           given={Hugo},
-           giveni={H\bibinitperiod}}}%
-        {{hash=0e7483ba001e5dbebb886021e22d4e81}{%
-           family={Tufail},
-           familyi={T\bibinitperiod},
-           given={Shahid},
-           giveni={S\bibinitperiod}}}%
-        {{hash=e7b81b127c761307adfb00b539352728}{%
-           family={Parvez},
-           familyi={P\bibinitperiod},
-           given={Imtiaz},
-           giveni={I\bibinitperiod}}}%
-        {{hash=520cf4472b5e383d12708abacb2bf655}{%
-           family={Tariq},
-           familyi={T\bibinitperiod},
-           given={Mohd},
-           giveni={M\bibinitperiod}}}%
-        {{hash=fffd938b0f84eea03784e11db9de4ee8}{%
-           family={Khan},
-           familyi={K\bibinitperiod},
-           given={Mohammed\bibnamedelima Aquib},
-           giveni={M\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
-        {{hash=192e6f5d99b71d77b4e874623058f104}{%
-           family={Amir},
-           familyi={A\bibinitperiod},
-           given={Asham},
-           giveni={A\bibinitperiod}}}%
-        {{hash=75abf3701b7ed36d9ec3c0a9e92b1c03}{%
-           family={Vuda},
-           familyi={V\bibinitperiod},
-           given={Kedari\bibnamedelima Vineetha},
-           giveni={K\bibinitperiod\bibinitdelim V\bibinitperiod}}}%
-        {{hash=11cc3a51911afddc800b5f6f5c78ca96}{%
-           family={Sarwat},
-           familyi={S\bibinitperiod},
-           given={Arif\bibnamedelima I.},
-           giveni={A\bibinitperiod\bibinitdelim I\bibinitperiod}}}%
-      }
-      \list{publisher}{1}{%
-        {{MDPI} {AG}}%
-      }
-      \strng{namehash}{a6e715176fbb08d5dc92110bc37c46ac}
-      \strng{fullhash}{24210bd6b5f98eaf7db658f039aba3fd}
-      \strng{bibnamehash}{a6e715176fbb08d5dc92110bc37c46ac}
-      \strng{authorbibnamehash}{a6e715176fbb08d5dc92110bc37c46ac}
-      \strng{authornamehash}{a6e715176fbb08d5dc92110bc37c46ac}
-      \strng{authorfullhash}{24210bd6b5f98eaf7db658f039aba3fd}
-      \field{sortinit}{7}
-      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{Sensors}
-      \field{month}{4}
-      \field{number}{8}
-      \field{title}{Impact, Vulnerabilities, and Mitigation Strategies for Cyber-Secure Critical Infrastructure}
-      \field{volume}{23}
-      \field{year}{2023}
-      \true{nocite}
-      \field{pages}{4060}
-      \range{pages}{1}
-      \verb{doi}
-      \verb 10.3390/s23084060
-      \endverb
-      \verb{urlraw}
-      \verb https://doi.org/10.3390/s23084060
-      \endverb
-      \verb{url}
-      \verb https://doi.org/10.3390/s23084060
-      \endverb
+      \keyw{RQ2}
     \endentry
     \entry{Siriwardena2020}{book}{}
       \name{author}{1}{}{%
-        {{hash=9ce0eaf78e13ddd2c4b1e42bf4eef728}{%
+        {{un=0,uniquepart=base,hash=9ce0eaf78e13ddd2c4b1e42bf4eef728}{%
            family={Siriwardena},
            familyi={S\bibinitperiod},
            given={Prabath},
-           giveni={P\bibinitperiod}}}%
+           giveni={P\bibinitperiod},
+           givenun=0}}%
       }
       \list{publisher}{1}{%
         {Apress}%
@@ -3052,793 +435,651 @@
       \strng{authorbibnamehash}{9ce0eaf78e13ddd2c4b1e42bf4eef728}
       \strng{authornamehash}{9ce0eaf78e13ddd2c4b1e42bf4eef728}
       \strng{authorfullhash}{9ce0eaf78e13ddd2c4b1e42bf4eef728}
-      \field{sortinit}{7}
-      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{title}{Advanced {API} Security}
+      \field{isbn}{9781484220504}
+      \field{title}{Advanced API Security: OAuth 2.0 and Beyond}
       \field{year}{2020}
       \true{nocite}
       \verb{doi}
       \verb 10.1007/978-1-4842-2050-4
       \endverb
       \verb{urlraw}
-      \verb https://doi.org/10.1007/978-1-4842-2050-4
+      \verb http://dx.doi.org/10.1007/978-1-4842-2050-4
       \endverb
       \verb{url}
-      \verb https://doi.org/10.1007/978-1-4842-2050-4
+      \verb http://dx.doi.org/10.1007/978-1-4842-2050-4
       \endverb
+      \keyw{RQ1}
     \endentry
-    \entry{9652639}{inproceedings}{}
+    \entry{Subramanian2019-ld}{book}{}
       \name{author}{2}{}{%
-        {{hash=5d5b2918023b5189707e207c79763258}{%
-           family={Cheh},
-           familyi={C\bibinitperiod},
-           given={Carmen},
-           giveni={C\bibinitperiod}}}%
-        {{hash=cd4d796f03706c8cb82dab3cef21d431}{%
-           family={Chen},
-           familyi={C\bibinitperiod},
-           given={Binbin},
-           giveni={B\bibinitperiod}}}%
-      }
-      \strng{namehash}{ca1d481d8abdb4ff0c68b001f2566ba0}
-      \strng{fullhash}{ca1d481d8abdb4ff0c68b001f2566ba0}
-      \strng{bibnamehash}{ca1d481d8abdb4ff0c68b001f2566ba0}
-      \strng{authorbibnamehash}{ca1d481d8abdb4ff0c68b001f2566ba0}
-      \strng{authornamehash}{ca1d481d8abdb4ff0c68b001f2566ba0}
-      \strng{authorfullhash}{ca1d481d8abdb4ff0c68b001f2566ba0}
-      \field{extraname}{1}
-      \field{sortinit}{7}
-      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{booktitle}{2021 IEEE Secure Development Conference (SecDev)}
-      \field{title}{Analyzing OpenAPI Specifications for Security Design Issues}
-      \field{year}{2021}
-      \true{nocite}
-      \field{pages}{15\bibrangedash 22}
-      \range{pages}{8}
-      \verb{doi}
-      \verb 10.1109/SecDev51306.2021.00019
-      \endverb
-    \endentry
-    \entry{Sun}{inproceedings}{}
-      \name{author}{3}{}{%
-        {{hash=1ccca8d0257cf40edd0e365b96dd5b8c}{%
-           family={Sun},
+        {{un=0,uniquepart=base,hash=6def652417d1b974a74472e9705db265}{%
+           family={Subramanian},
            familyi={S\bibinitperiod},
-           given={Ronghua},
-           giveni={R\bibinitperiod}}}%
-        {{hash=f2713cdf1d71a157c29cfcff3e9223d2}{%
-           family={Wang},
-           familyi={W\bibinitperiod},
-           given={Qianxun},
-           giveni={Q\bibinitperiod}}}%
-        {{hash=017a2ae3ddc2589c04c46ea992861ad2}{%
-           family={Guo},
-           familyi={G\bibinitperiod},
-           given={Liang},
-           giveni={L\bibinitperiod}}}%
-      }
-      \name{editor}{5}{}{%
-        {{hash=cb550a145b27c55a56001120c672da49}{%
-           family={Lu},
-           familyi={L\bibinitperiod},
-           given={Wei},
-           giveni={W\bibinitperiod}}}%
-        {{hash=747a0d803983fc6ee24cfe0dd78997d7}{%
-           family={Zhang},
-           familyi={Z\bibinitperiod},
-           given={Yuqing},
-           giveni={Y\bibinitperiod}}}%
-        {{hash=73c13916849a28dd8c14dc7e350ba3bb}{%
-           family={Wen},
-           familyi={W\bibinitperiod},
-           given={Weiping},
-           giveni={W\bibinitperiod}}}%
-        {{hash=3ce832efc262cfbe4a2d668b55998f66}{%
-           family={Yan},
-           familyi={Y\bibinitperiod},
-           given={Hanbing},
-           giveni={H\bibinitperiod}}}%
-        {{hash=ad699cc0ff44aa8ef2a872dab8e20175}{%
-           family={Li},
-           familyi={L\bibinitperiod},
-           given={Chao},
-           giveni={C\bibinitperiod}}}%
+           given={Harihara},
+           giveni={H\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=4497ac9188c30d0f701c2730a8cb342e}{%
+           family={Raj},
+           familyi={R\bibinitperiod},
+           given={Pethuru},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
       }
       \list{location}{1}{%
-        {Singapore}%
+        {Birmingham, England}%
       }
       \list{publisher}{1}{%
-        {Springer Nature Singapore}%
+        {Packt Publishing}%
       }
-      \strng{namehash}{6d63a6f7f446f2c9d43f1f52236cd7ff}
-      \strng{fullhash}{6d63a6f7f446f2c9d43f1f52236cd7ff}
-      \strng{bibnamehash}{6d63a6f7f446f2c9d43f1f52236cd7ff}
-      \strng{authorbibnamehash}{6d63a6f7f446f2c9d43f1f52236cd7ff}
-      \strng{authornamehash}{6d63a6f7f446f2c9d43f1f52236cd7ff}
-      \strng{authorfullhash}{6d63a6f7f446f2c9d43f1f52236cd7ff}
-      \strng{editorbibnamehash}{e34862155fbb190fcfb9f1be3992e364}
-      \strng{editornamehash}{770030cafbf3e87a981b10d3531a6eb9}
-      \strng{editorfullhash}{e34862155fbb190fcfb9f1be3992e364}
-      \field{sortinit}{7}
-      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
+      \strng{namehash}{a3c8080d63f0a82b7e503bb36093770b}
+      \strng{fullhash}{a3c8080d63f0a82b7e503bb36093770b}
+      \strng{bibnamehash}{a3c8080d63f0a82b7e503bb36093770b}
+      \strng{authorbibnamehash}{a3c8080d63f0a82b7e503bb36093770b}
+      \strng{authornamehash}{a3c8080d63f0a82b7e503bb36093770b}
+      \strng{authorfullhash}{a3c8080d63f0a82b7e503bb36093770b}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{booktitle}{Cyber Security}
-      \field{title}{Research Towards Key Issues of API Security}
-      \field{year}{2022}
+      \field{month}{1}
+      \field{title}{{Hands-On} {RESTful} {API} Design Patterns and Best Practices}
+      \field{year}{2019}
       \true{nocite}
-      \field{pages}{179\bibrangedash 192}
-      \range{pages}{14}
+      \keyw{RQ1}
     \endentry
-    \entry{Golmohammadi2023}{article}{}
-      \name{author}{3}{}{%
-        {{hash=67cab8dc4ef8baa0098dc563d9bf2b38}{%
-           family={Golmohammadi},
-           familyi={G\bibinitperiod},
-           given={Amid},
-           giveni={A\bibinitperiod}}}%
-        {{hash=1ee8937faff2cd4d874dbc89c6a70771}{%
+    \entry{Zhang2023}{article}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=1ee8937faff2cd4d874dbc89c6a70771}{%
            family={Zhang},
            familyi={Z\bibinitperiod},
            given={Man},
-           giveni={M\bibinitperiod}}}%
-        {{hash=ce60719b000244b24fc4e01f2153d73c}{%
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=ce60719b000244b24fc4e01f2153d73c}{%
            family={Arcuri},
            familyi={A\bibinitperiod},
            given={Andrea},
-           giveni={A\bibinitperiod}}}%
-      }
-      \list{location}{1}{%
-        {New York, NY, USA}%
+           giveni={A\bibinitperiod},
+           givenun=0}}%
       }
       \list{publisher}{1}{%
-        {Association for Computing Machinery}%
+        {Association for Computing Machinery (ACM)}%
       }
-      \strng{namehash}{e1a1f9fc911b6b52fa5e01097b734949}
-      \strng{fullhash}{e1a1f9fc911b6b52fa5e01097b734949}
-      \strng{bibnamehash}{e1a1f9fc911b6b52fa5e01097b734949}
-      \strng{authorbibnamehash}{e1a1f9fc911b6b52fa5e01097b734949}
-      \strng{authornamehash}{e1a1f9fc911b6b52fa5e01097b734949}
-      \strng{authorfullhash}{e1a1f9fc911b6b52fa5e01097b734949}
-      \field{sortinit}{7}
-      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
+      \strng{namehash}{b3fd78344ba3f572055f8cb0836c8e25}
+      \strng{fullhash}{b3fd78344ba3f572055f8cb0836c8e25}
+      \strng{bibnamehash}{b3fd78344ba3f572055f8cb0836c8e25}
+      \strng{authorbibnamehash}{b3fd78344ba3f572055f8cb0836c8e25}
+      \strng{authornamehash}{b3fd78344ba3f572055f8cb0836c8e25}
+      \strng{authorfullhash}{b3fd78344ba3f572055f8cb0836c8e25}
+      \field{sortinit}{Z}
+      \field{sortinithash}{96892c0b0a36bb8557c40c49813d48b3}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{issn}{1049-331X}
-      \field{journaltitle}{ACM Trans. Softw. Eng. Methodol.}
-      \field{month}{08}
-      \field{title}{Testing RESTful APIs: A Survey}
+      \field{issn}{1557-7392}
+      \field{journaltitle}{ACM Transactions on Software Engineering and Methodology}
+      \field{month}{9}
+      \field{number}{6}
+      \field{title}{Open Problems in Fuzzing RESTful APIs: A Comparison of Tools}
+      \field{volume}{32}
       \field{year}{2023}
       \true{nocite}
+      \field{pages}{1\bibrangedash 45}
+      \range{pages}{45}
       \verb{doi}
-      \verb 10.1145/3617175
+      \verb 10.1145/3597205
       \endverb
       \verb{urlraw}
-      \verb https://doi.org/10.1145/3617175
+      \verb http://dx.doi.org/10.1145/3597205
       \endverb
       \verb{url}
-      \verb https://doi.org/10.1145/3617175
+      \verb http://dx.doi.org/10.1145/3597205
       \endverb
-      \keyw{testing,REST,test case generation,survey,literature review,API,web service,fuzzing}
+      \keyw{RQ2}
     \endentry
-    \entry{williams2003test}{inproceedings}{}
-      \name{author}{3}{}{%
-        {{hash=cd83754669234897543ccba78955850c}{%
-           family={Williams},
-           familyi={W\bibinitperiod},
-           given={Laurie},
-           giveni={L\bibinitperiod}}}%
-        {{hash=5ddb0b2af5e92fd1f2ab3c0375a01259}{%
-           family={Maximilien},
-           familyi={M\bibinitperiod},
-           given={E\bibnamedelima Michael},
-           giveni={E\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
-        {{hash=65a8249810c8e23b80dc61782ba4eaae}{%
-           family={Vouk},
-           familyi={V\bibinitperiod},
-           given={Mladen},
-           giveni={M\bibinitperiod}}}%
+  \enddatalist
+  \datalist[entry]{apa/global//global/global}
+    \entry{Bakhtin2022}{article}{}
+      \name{author}{4}{}{%
+        {{un=0,uniquepart=base,hash=26b805322e74384072f1f7f945e8a0c1}{%
+           family={Bakhtin},
+           familyi={B\bibinitperiod},
+           given={Alexander},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=eb93f98f87923bb667729850f5d6f975}{%
+           family={Al\bibnamedelima Maruf},
+           familyi={A\bibinitperiod\bibinitdelim M\bibinitperiod},
+           given={Abdullah},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=8df67735f1deb43420e78323d979a19a}{%
+           family={Cerny},
+           familyi={C\bibinitperiod},
+           given={Tomas},
+           giveni={T\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=4d08ae1a3f71e9cc303d7cc0722f5186}{%
+           family={Taibi},
+           familyi={T\bibinitperiod},
+           given={Davide},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
       }
-      \list{organization}{1}{%
+      \list{publisher}{1}{%
         {IEEE}%
       }
-      \strng{namehash}{4f1c62b500bb857fa0769a42f45098d7}
-      \strng{fullhash}{4f1c62b500bb857fa0769a42f45098d7}
-      \strng{bibnamehash}{4f1c62b500bb857fa0769a42f45098d7}
-      \strng{authorbibnamehash}{4f1c62b500bb857fa0769a42f45098d7}
-      \strng{authornamehash}{4f1c62b500bb857fa0769a42f45098d7}
-      \strng{authorfullhash}{4f1c62b500bb857fa0769a42f45098d7}
-      \field{sortinit}{7}
-      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
+      \strng{namehash}{b41f4449d3972562e7e3c398107260e6}
+      \strng{fullhash}{185376536d336f5deffd9ebfea62818a}
+      \strng{bibnamehash}{185376536d336f5deffd9ebfea62818a}
+      \strng{authorbibnamehash}{185376536d336f5deffd9ebfea62818a}
+      \strng{authornamehash}{b41f4449d3972562e7e3c398107260e6}
+      \strng{authorfullhash}{185376536d336f5deffd9ebfea62818a}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{booktitle}{14th International Symposium on Software Reliability Engineering, 2003. ISSRE 2003.}
-      \field{title}{Test-driven development as a defect-reduction practice}
-      \field{year}{2003}
+      \field{journaltitle}{2022 IEEE International Conference on Services Computing (SCC)}
+      \field{month}{7}
+      \field{title}{Survey on Tools and Techniques Detecting Microservice API Patterns}
+      \field{year}{2022}
       \true{nocite}
-      \field{pages}{34\bibrangedash 45}
-      \range{pages}{12}
-    \endentry
-    \entry{Muhammad2021}{inproceedings}{}
-      \name{author}{3}{}{%
-        {{hash=fb7d03a39941725d4d87bfec91918545}{%
-           family={Idris},
-           familyi={I\bibinitperiod},
-           given={Muhammad},
-           giveni={M\bibinitperiod}}}%
-        {{hash=0cd3650af66f853e8e1fbb7645c907b6}{%
-           family={Syarif},
-           familyi={S\bibinitperiod},
-           given={Iwan},
-           giveni={I\bibinitperiod}}}%
-        {{hash=a6a9228916a3363efb6d75da9ffbdf5f}{%
-           family={Winarno},
-           familyi={W\bibinitperiod},
-           given={Idris},
-           giveni={I\bibinitperiod}}}%
-      }
-      \strng{namehash}{cb3eecbb4d5e2c37280395233a1cfadd}
-      \strng{fullhash}{cb3eecbb4d5e2c37280395233a1cfadd}
-      \strng{bibnamehash}{cb3eecbb4d5e2c37280395233a1cfadd}
-      \strng{authorbibnamehash}{cb3eecbb4d5e2c37280395233a1cfadd}
-      \strng{authornamehash}{cb3eecbb4d5e2c37280395233a1cfadd}
-      \strng{authorfullhash}{cb3eecbb4d5e2c37280395233a1cfadd}
-      \field{extraname}{1}
-      \field{sortinit}{7}
-      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{booktitle}{2021 International Electronics Symposium (IES)}
-      \field{title}{Development of Vulnerable Web Application Based on OWASP API Security Risks}
-      \field{year}{2021}
-      \true{nocite}
-      \field{pages}{190\bibrangedash 194}
-      \range{pages}{5}
       \verb{doi}
-      \verb 10.1109/IES53407.2021.9593934
+      \verb 10.1109/scc55611.2022.00018
       \endverb
+      \verb{urlraw}
+      \verb http://dx.doi.org/10.1109/SCC55611.2022.00018
+      \endverb
+      \verb{url}
+      \verb http://dx.doi.org/10.1109/SCC55611.2022.00018
+      \endverb
+      \keyw{RQ2}
     \endentry
-    \entry{Idris_Syarif_Winarno_2022}{article}{}
+    \entry{Idris2022-so}{article}{}
       \name{author}{3}{}{%
-        {{hash=fb7d03a39941725d4d87bfec91918545}{%
+        {{un=0,uniquepart=base,hash=fb7d03a39941725d4d87bfec91918545}{%
            family={Idris},
            familyi={I\bibinitperiod},
            given={Muhammad},
-           giveni={M\bibinitperiod}}}%
-        {{hash=0cd3650af66f853e8e1fbb7645c907b6}{%
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=0cd3650af66f853e8e1fbb7645c907b6}{%
            family={Syarif},
            familyi={S\bibinitperiod},
            given={Iwan},
-           giveni={I\bibinitperiod}}}%
-        {{hash=a6a9228916a3363efb6d75da9ffbdf5f}{%
+           giveni={I\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=a6a9228916a3363efb6d75da9ffbdf5f}{%
            family={Winarno},
            familyi={W\bibinitperiod},
            given={Idris},
-           giveni={I\bibinitperiod}}}%
+           giveni={I\bibinitperiod},
+           givenun=0}}%
       }
-      \strng{namehash}{cb3eecbb4d5e2c37280395233a1cfadd}
+      \list{publisher}{1}{%
+        {EMITTER International Journal of Engineering Technology}%
+      }
+      \strng{namehash}{05a760f0ad99503a4f3c12d9ad56c7c8}
       \strng{fullhash}{cb3eecbb4d5e2c37280395233a1cfadd}
       \strng{bibnamehash}{cb3eecbb4d5e2c37280395233a1cfadd}
       \strng{authorbibnamehash}{cb3eecbb4d5e2c37280395233a1cfadd}
-      \strng{authornamehash}{cb3eecbb4d5e2c37280395233a1cfadd}
+      \strng{authornamehash}{05a760f0ad99503a4f3c12d9ad56c7c8}
       \strng{authorfullhash}{cb3eecbb4d5e2c37280395233a1cfadd}
-      \field{extraname}{2}
-      \field{sortinit}{7}
-      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
+      \field{sortinit}{I}
+      \field{sortinithash}{8d291c51ee89b6cd86bf5379f0b151d8}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{journaltitle}{EMITTER International Journal of Engineering Technology}
+      \field{journaltitle}{EMIT. Int. J. Eng. Technol.}
       \field{month}{12}
-      \field{number}{2}
-      \field{title}{Web Application Security Education Platform Based on OWASP API Security Project}
-      \field{volume}{10}
+      \field{title}{Web application security education platform based on {OWASP} {API} security project}
       \field{year}{2022}
       \true{nocite}
       \field{pages}{246\bibrangedash 261}
       \range{pages}{16}
-      \verb{doi}
-      \verb 10.24003/emitter.v10i2.705
-      \endverb
-      \verb{urlraw}
-      \verb https://emitter.pens.ac.id/index.php/emitter/article/view/705
-      \endverb
-      \verb{url}
-      \verb https://emitter.pens.ac.id/index.php/emitter/article/view/705
-      \endverb
+      \keyw{RQ2}
     \endentry
-    \entry{Cheh2021}{inproceedings}{}
-      \name{author}{2}{}{%
-        {{hash=5d5b2918023b5189707e207c79763258}{%
-           family={Cheh},
-           familyi={C\bibinitperiod},
-           given={Carmen},
-           giveni={C\bibinitperiod}}}%
-        {{hash=cd4d796f03706c8cb82dab3cef21d431}{%
-           family={Chen},
-           familyi={C\bibinitperiod},
-           given={Binbin},
-           giveni={B\bibinitperiod}}}%
-      }
-      \strng{namehash}{ca1d481d8abdb4ff0c68b001f2566ba0}
-      \strng{fullhash}{ca1d481d8abdb4ff0c68b001f2566ba0}
-      \strng{bibnamehash}{ca1d481d8abdb4ff0c68b001f2566ba0}
-      \strng{authorbibnamehash}{ca1d481d8abdb4ff0c68b001f2566ba0}
-      \strng{authornamehash}{ca1d481d8abdb4ff0c68b001f2566ba0}
-      \strng{authorfullhash}{ca1d481d8abdb4ff0c68b001f2566ba0}
-      \field{extraname}{2}
-      \field{sortinit}{7}
-      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{booktitle}{2021 IEEE Secure Development Conference (SecDev)}
-      \field{title}{Analyzing OpenAPI Specifications for Security Design Issues}
-      \field{year}{2021}
-      \true{nocite}
-      \field{pages}{15\bibrangedash 22}
-      \range{pages}{8}
-      \verb{doi}
-      \verb 10.1109/SecDev51306.2021.00019
-      \endverb
-    \endentry
-    \entry{Modi2022}{article}{}
+    \entry{Kellezi2019}{inbook}{}
       \name{author}{3}{}{%
-        {{hash=31999c6bc3c870e3fd3fcd1a2f4456b0}{%
-           family={Modi},
+        {{un=0,uniquepart=base,hash=894d7f37b6a2f0e3b5211f749730f961}{%
+           family={Kellezi},
+           familyi={K\bibinitperiod},
+           given={Deina},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=c40a47a2b2ef63261f755b2ab9e55ff8}{%
+           family={Boegelund},
+           familyi={B\bibinitperiod},
+           given={Christian},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=447d0faa9b0633e00ba97021b6ef4af6}{%
+           family={Meng},
            familyi={M\bibinitperiod},
-           given={Bhavya},
-           giveni={B\bibinitperiod}}}%
-        {{hash=63a5b76946f4ba71bf9af059911264b2}{%
-           family={Chourasia},
-           familyi={C\bibinitperiod},
-           given={Uday},
-           giveni={U\bibinitperiod}}}%
-        {{hash=aaa2d6f5630cd3ad1b9e926e615787c4}{%
-           family={Pandey},
-           familyi={P\bibinitperiod},
-           given={Rajeev},
-           giveni={R\bibinitperiod}}}%
+           given={Weizhi},
+           giveni={W\bibinitperiod},
+           givenun=0}}%
       }
       \list{publisher}{1}{%
-        {{IOP} Publishing}%
+        {Springer International Publishing}%
       }
-      \strng{namehash}{5d4bf2f3e45d26d3f0d03db2750bd4df}
-      \strng{fullhash}{5d4bf2f3e45d26d3f0d03db2750bd4df}
-      \strng{bibnamehash}{5d4bf2f3e45d26d3f0d03db2750bd4df}
-      \strng{authorbibnamehash}{5d4bf2f3e45d26d3f0d03db2750bd4df}
-      \strng{authornamehash}{5d4bf2f3e45d26d3f0d03db2750bd4df}
-      \strng{authorfullhash}{5d4bf2f3e45d26d3f0d03db2750bd4df}
-      \field{sortinit}{8}
-      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
+      \strng{namehash}{68a077844df071ed85d7ec59c3a9b754}
+      \strng{fullhash}{c09314fe481696190f0d7790163a303a}
+      \strng{bibnamehash}{c09314fe481696190f0d7790163a303a}
+      \strng{authorbibnamehash}{c09314fe481696190f0d7790163a303a}
+      \strng{authornamehash}{68a077844df071ed85d7ec59c3a9b754}
+      \strng{authorfullhash}{c09314fe481696190f0d7790163a303a}
+      \field{sortinit}{K}
+      \field{sortinithash}{c02bf6bff1c488450c352b40f5d853ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{journaltitle}{{IOP} Conference Series: Materials Science and Engineering}
+      \field{booktitle}{Lecture Notes in Computer Science}
+      \field{isbn}{9783030369385}
+      \field{issn}{1611-3349}
+      \field{title}{Towards Secure Open Banking Architecture: An Evaluation with OWASP}
+      \field{year}{2019}
+      \true{nocite}
+      \field{pages}{185\bibrangedash 198}
+      \range{pages}{14}
+      \verb{doi}
+      \verb 10.1007/978-3-030-36938-5_11
+      \endverb
+      \verb{urlraw}
+      \verb http://dx.doi.org/10.1007/978-3-030-36938-5_11
+      \endverb
+      \verb{url}
+      \verb http://dx.doi.org/10.1007/978-3-030-36938-5_11
+      \endverb
+      \keyw{RQ1}
+    \endentry
+    \entry{KhodaParast2022}{article}{}
+      \name{author}{6}{}{%
+        {{un=0,uniquepart=base,hash=61e9146fe9b58d91c8a734bcb0921c8a}{%
+           family={Khoda\bibnamedelima Parast},
+           familyi={K\bibinitperiod\bibinitdelim P\bibinitperiod},
+           given={Fatemeh},
+           giveni={F\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=761f0af92ead64f21518341c831b4fb2}{%
+           family={Sindhav},
+           familyi={S\bibinitperiod},
+           given={Chandni},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=09647bf40f2aabb781e7a67658b4221a}{%
+           family={Nikam},
+           familyi={N\bibinitperiod},
+           given={Seema},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=7352fe982a6370997b66109f8dde189f}{%
+           family={Izadi\bibnamedelima Yekta},
+           familyi={I\bibinitperiod\bibinitdelim Y\bibinitperiod},
+           given={Hadiseh},
+           giveni={H\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=f70bc3f66f79cd7ec5cf0ef35d03fef9}{%
+           family={Kent},
+           familyi={K\bibinitperiod},
+           given={Kenneth\bibnamedelima B.},
+           giveni={K\bibinitperiod\bibinitdelim B\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=79db860a1a0490de9fd85361f223a42a}{%
+           family={Hakak},
+           familyi={H\bibinitperiod},
+           given={Saqib},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Elsevier BV}%
+      }
+      \strng{namehash}{b1f4dec905b4498363ca45e6a49ac3f7}
+      \strng{fullhash}{69316ccbbaaed0e30e54614e8d9368c2}
+      \strng{bibnamehash}{69316ccbbaaed0e30e54614e8d9368c2}
+      \strng{authorbibnamehash}{69316ccbbaaed0e30e54614e8d9368c2}
+      \strng{authornamehash}{b1f4dec905b4498363ca45e6a49ac3f7}
+      \strng{authorfullhash}{69316ccbbaaed0e30e54614e8d9368c2}
+      \field{sortinit}{K}
+      \field{sortinithash}{c02bf6bff1c488450c352b40f5d853ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{0167-4048}
+      \field{journaltitle}{Computers and Security}
       \field{month}{3}
-      \field{number}{1}
-      \field{title}{Design and implementation of {RESTFUL} {API} based model for vulnerability detection and mitigation}
-      \field{volume}{1228}
+      \field{title}{Cloud computing security: A survey of service-based models}
+      \field{volume}{114}
       \field{year}{2022}
       \true{nocite}
-      \field{pages}{012010}
+      \field{pages}{102580}
       \range{pages}{1}
       \verb{doi}
-      \verb 10.1088/1757-899x/1228/1/012010
+      \verb 10.1016/j.cose.2021.102580
       \endverb
       \verb{urlraw}
-      \verb https://doi.org/10.1088/1757-899x/1228/1/012010
+      \verb http://dx.doi.org/10.1016/j.cose.2021.102580
       \endverb
       \verb{url}
-      \verb https://doi.org/10.1088/1757-899x/1228/1/012010
+      \verb http://dx.doi.org/10.1016/j.cose.2021.102580
       \endverb
+      \keyw{RQ2}
     \endentry
-    \entry{Munsch2021}{article}{}
-      \name{author}{2}{}{%
-        {{hash=f857ad223f15c47edcaf7a603dc1a279}{%
-           family={Munsch},
-           familyi={M\bibinitperiod},
-           given={Alison},
-           giveni={A\bibinitperiod}}}%
-        {{hash=d13a7b75733d3c76cf61312df279e9b9}{%
-           family={Munsch},
-           familyi={M\bibinitperiod},
-           given={Peter},
-           giveni={P\bibinitperiod}}}%
+    \entry{Luo2016}{inbook}{}
+      \name{author}{6}{}{%
+        {{un=0,uniquepart=base,hash=e79a8fe12370710f305d0fd0a596e3a0}{%
+           family={Luo},
+           familyi={L\bibinitperiod},
+           given={Yang},
+           giveni={Y\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=34c75201863de18aabc373bd5ebb5701}{%
+           family={Puyang},
+           familyi={P\bibinitperiod},
+           given={Tian},
+           giveni={T\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=bc49fe7fd919aff04bc16dcfc742e517}{%
+           family={Luo},
+           familyi={L\bibinitperiod},
+           given={Wu},
+           giveni={W\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=bdde17bb869cf372e9a773a443d5ada4}{%
+           family={Shen},
+           familyi={S\bibinitperiod},
+           given={Qingni},
+           giveni={Q\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=8fa376f080df00d78ed648314e1908ae}{%
+           family={Ruan},
+           familyi={R\bibinitperiod},
+           given={Anbang},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=92239326fdf317deae1041871b4c9e62}{%
+           family={Wu},
+           familyi={W\bibinitperiod},
+           given={Zhonghai},
+           giveni={Z\bibinitperiod},
+           givenun=0}}%
       }
       \list{publisher}{1}{%
-        {John M. Pfau Library, California State University San Bernardino}%
+        {Springer International Publishing}%
       }
-      \strng{namehash}{2ac25d27683c3136a5e75ff5b929029c}
-      \strng{fullhash}{2ac25d27683c3136a5e75ff5b929029c}
-      \strng{bibnamehash}{2ac25d27683c3136a5e75ff5b929029c}
-      \strng{authorbibnamehash}{2ac25d27683c3136a5e75ff5b929029c}
-      \strng{authornamehash}{2ac25d27683c3136a5e75ff5b929029c}
-      \strng{authorfullhash}{2ac25d27683c3136a5e75ff5b929029c}
-      \field{sortinit}{8}
-      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
+      \strng{namehash}{20a2090c54b97e85f496d35963f2cf84}
+      \strng{fullhash}{0a67e714559c9d2463033eb451a77df9}
+      \strng{bibnamehash}{0a67e714559c9d2463033eb451a77df9}
+      \strng{authorbibnamehash}{0a67e714559c9d2463033eb451a77df9}
+      \strng{authornamehash}{20a2090c54b97e85f496d35963f2cf84}
+      \strng{authorfullhash}{0a67e714559c9d2463033eb451a77df9}
+      \field{sortinit}{L}
+      \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{journaltitle}{Journal of International Technology and Information Management}
-      \field{month}{1}
-      \field{number}{3}
-      \field{title}{The Future of {API} (Application Programming Interface) Security: The Adoption of {APIs} for Digital Communications and the Implications for Cyber Security Vulnerabilities}
-      \field{volume}{29}
-      \field{year}{2021}
+      \field{booktitle}{Lecture Notes in Computer Science}
+      \field{isbn}{9783319500119}
+      \field{issn}{1611-3349}
+      \field{title}{MultiPol: Towards a Multi-policy Authorization Framework for RESTful Interfaces in the Cloud}
+      \field{year}{2016}
       \true{nocite}
-      \field{pages}{24\bibrangedash 45}
-      \range{pages}{22}
+      \field{pages}{214\bibrangedash 226}
+      \range{pages}{13}
       \verb{doi}
-      \verb 10.58729/1941-6679.1454
+      \verb 10.1007/978-3-319-50011-9_17
       \endverb
       \verb{urlraw}
-      \verb https://doi.org/10.58729/1941-6679.1454
+      \verb http://dx.doi.org/10.1007/978-3-319-50011-9_17
       \endverb
       \verb{url}
-      \verb https://doi.org/10.58729/1941-6679.1454
+      \verb http://dx.doi.org/10.1007/978-3-319-50011-9_17
       \endverb
+      \keyw{RQ1}
     \endentry
-    \entry{zenodo2023}{article}{}
-      \name{author}{2}{}{%
-        {{hash=8452095ec98391bf7506a7ae250365ac}{%
-           family={{Sattam J Alharbi}},
-           familyi={S\bibinitperiod}}}%
-        {{hash=085f5158ec4aa19848e2bba043cb8fc1}{%
-           family={Moulahi},
+    \entry{Madden2021-oi}{book}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=53936df4b9be376f234b44cbb76a9015}{%
+           family={Madden},
            familyi={M\bibinitperiod},
-           given={Tarek},
-           giveni={T\bibinitperiod}}}%
+           given={Neil},
+           giveni={N\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{language}{1}{%
+        {en}%
+      }
+      \list{location}{1}{%
+        {New York, NY}%
+      }
+      \list{publisher}{1}{%
+        {Manning Publications}%
+      }
+      \strng{namehash}{53936df4b9be376f234b44cbb76a9015}
+      \strng{fullhash}{53936df4b9be376f234b44cbb76a9015}
+      \strng{bibnamehash}{53936df4b9be376f234b44cbb76a9015}
+      \strng{authorbibnamehash}{53936df4b9be376f234b44cbb76a9015}
+      \strng{authornamehash}{53936df4b9be376f234b44cbb76a9015}
+      \strng{authorfullhash}{53936df4b9be376f234b44cbb76a9015}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{month}{2}
+      \field{title}{{API} security in action}
+      \field{year}{2021}
+      \true{nocite}
+      \keyw{RQ1}
+    \endentry
+    \entry{https://doi.org/10.5281/zenodo.6941292}{misc}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=5d82b3e85e2c8936f9208f791bc3d494}{%
+           family={Martin-Lopez},
+           familyi={M\bibinithyphendelim L\bibinitperiod},
+           given={Alberto},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=efefdfdaba6c5894f391e59294e0dcbe}{%
+           family={Segura},
+           familyi={S\bibinitperiod},
+           given={Sergio},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=b14c1d1e3d4d80ea3948645cec4ba918}{%
+           family={Ruiz-Cortés},
+           familyi={R\bibinithyphendelim C\bibinitperiod},
+           given={Antonio},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
       }
       \list{publisher}{1}{%
         {Zenodo}%
       }
-      \strng{namehash}{f1652b3fc46d1ae09a20de011c9b22fc}
-      \strng{fullhash}{f1652b3fc46d1ae09a20de011c9b22fc}
-      \strng{bibnamehash}{f1652b3fc46d1ae09a20de011c9b22fc}
-      \strng{authorbibnamehash}{f1652b3fc46d1ae09a20de011c9b22fc}
-      \strng{authornamehash}{f1652b3fc46d1ae09a20de011c9b22fc}
-      \strng{authorfullhash}{f1652b3fc46d1ae09a20de011c9b22fc}
-      \field{extraname}{2}
-      \field{sortinit}{8}
-      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
+      \strng{namehash}{feb5d5d2c1d31362a33d325fd859d443}
+      \strng{fullhash}{8c00cfa91d5ef97aaad15a31c05830a7}
+      \strng{bibnamehash}{8c00cfa91d5ef97aaad15a31c05830a7}
+      \strng{authorbibnamehash}{8c00cfa91d5ef97aaad15a31c05830a7}
+      \strng{authornamehash}{feb5d5d2c1d31362a33d325fd859d443}
+      \strng{authorfullhash}{8c00cfa91d5ef97aaad15a31c05830a7}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{journaltitle}{International Journal of Innovative Research in Science Engineering and Technology}
-      \field{title}{API Security Testing: The Challenges of Security Testing for Restful APIs}
-      \field{year}{2023}
-      \true{nocite}
-      \verb{doi}
-      \verb 10.5281/ZENODO.7988410
-      \endverb
-      \verb{urlraw}
-      \verb https://zenodo.org/record/7988410
-      \endverb
-      \verb{url}
-      \verb https://zenodo.org/record/7988410
-      \endverb
-    \endentry
-    \entry{zhong2023}{misc}{}
-      \name{author}{1}{}{%
-        {{hash=a4880879828fc0f937868ade7da96df6}{%
-           family={Zhong},
-           familyi={Z\bibinitperiod},
-           given={Li},
-           giveni={L\bibinitperiod}}}%
-      }
-      \list{publisher}{1}{%
-        {arXiv}%
-      }
-      \strng{namehash}{a4880879828fc0f937868ade7da96df6}
-      \strng{fullhash}{a4880879828fc0f937868ade7da96df6}
-      \strng{bibnamehash}{a4880879828fc0f937868ade7da96df6}
-      \strng{authorbibnamehash}{a4880879828fc0f937868ade7da96df6}
-      \strng{authornamehash}{a4880879828fc0f937868ade7da96df6}
-      \strng{authorfullhash}{a4880879828fc0f937868ade7da96df6}
-      \field{sortinit}{8}
-      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{title}{A Survey of Prevent and Detect Access Control Vulnerabilities}
-      \field{year}{2023}
-      \true{nocite}
-      \verb{doi}
-      \verb 10.48550/ARXIV.2304.10600
-      \endverb
-      \verb{urlraw}
-      \verb https://arxiv.org/abs/2304.10600
-      \endverb
-      \verb{url}
-      \verb https://arxiv.org/abs/2304.10600
-      \endverb
-      \keyw{Cryptography and Security (cs.CR),Software Engineering (cs.SE),FOS: Computer and information sciences,FOS: Computer and information sciences}
-    \endentry
-    \entry{Corradini2023}{inproceedings}{}
-      \name{author}{3}{}{%
-        {{hash=becaeecbde8b262be853a70739697134}{%
-           family={Corradini},
-           familyi={C\bibinitperiod},
-           given={Davide},
-           giveni={D\bibinitperiod}}}%
-        {{hash=cf539208a51aa87632c190112f5ddb5e}{%
-           family={Pasqua},
-           familyi={P\bibinitperiod},
-           given={Michele},
-           giveni={M\bibinitperiod}}}%
-        {{hash=a5182c1c1b3e6526029b96990681479d}{%
-           family={Ceccato},
-           familyi={C\bibinitperiod},
-           given={Mariano},
-           giveni={M\bibinitperiod}}}%
-      }
-      \list{publisher}{1}{%
-        {arXiv}%
-      }
-      \strng{namehash}{b32005217a4bb8d1b84c97d50e4b45ea}
-      \strng{fullhash}{b32005217a4bb8d1b84c97d50e4b45ea}
-      \strng{bibnamehash}{b32005217a4bb8d1b84c97d50e4b45ea}
-      \strng{authorbibnamehash}{b32005217a4bb8d1b84c97d50e4b45ea}
-      \strng{authornamehash}{b32005217a4bb8d1b84c97d50e4b45ea}
-      \strng{authorfullhash}{b32005217a4bb8d1b84c97d50e4b45ea}
-      \field{sortinit}{8}
-      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{booktitle}{International Conference on Software Engineering (ICSE 2023)}
-      \field{title}{Automated Black-box Testing of Mass Assignment Vulnerabilities in RESTful APIs}
-      \field{year}{2023}
-      \true{nocite}
-      \verb{doi}
-      \verb 10.48550/ARXIV.2301.01261
-      \endverb
-      \verb{urlraw}
-      \verb https://arxiv.org/abs/2301.01261
-      \endverb
-      \verb{url}
-      \verb https://arxiv.org/abs/2301.01261
-      \endverb
-      \keyw{Cryptography and Security (cs.CR),Software Engineering (cs.SE),FOS: Computer and information sciences,FOS: Computer and information sciences}
-    \endentry
-    \entry{Auricchio2022}{article}{}
-      \name{author}{5}{}{%
-        {{hash=ccdfbfe4882c0dcb4b4f2362569547a1}{%
-           family={Auricchio},
-           familyi={A\bibinitperiod},
-           given={Nicola},
-           giveni={N\bibinitperiod}}}%
-        {{hash=3b1afca7330719535aacbb26b6fe9fbf}{%
-           family={Cappuccio},
-           familyi={C\bibinitperiod},
-           given={Andrea},
-           giveni={A\bibinitperiod}}}%
-        {{hash=93769074baf188133326d128ec50ac20}{%
-           family={Caturano},
-           familyi={C\bibinitperiod},
-           given={Francesco},
-           giveni={F\bibinitperiod}}}%
-        {{hash=11ea4a99af408ed0825ce269ae18a4b7}{%
-           family={Perrone},
-           familyi={P\bibinitperiod},
-           given={Gaetano},
-           giveni={G\bibinitperiod}}}%
-        {{hash=52cd6d6c1238a2b0982c2a1f6b4bcd89}{%
-           family={Romano},
-           familyi={R\bibinitperiod},
-           given={Simon\bibnamedelima Pietro},
-           giveni={S\bibinitperiod\bibinitdelim P\bibinitperiod}}}%
-      }
-      \list{publisher}{1}{%
-        {Elsevier {BV}}%
-      }
-      \strng{namehash}{d02e2d777a8cfd535968b7eaadadaa65}
-      \strng{fullhash}{71c0bb1ed9ee930ae5b06340d6aa2825}
-      \strng{bibnamehash}{71c0bb1ed9ee930ae5b06340d6aa2825}
-      \strng{authorbibnamehash}{71c0bb1ed9ee930ae5b06340d6aa2825}
-      \strng{authornamehash}{d02e2d777a8cfd535968b7eaadadaa65}
-      \strng{authorfullhash}{71c0bb1ed9ee930ae5b06340d6aa2825}
-      \field{sortinit}{8}
-      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{Computer Communications}
-      \field{month}{11}
-      \field{title}{An automated approach to Web Offensive Security}
-      \field{volume}{195}
+      \field{title}{Online Testing of RESTful APIs: Promises and Challenges}
       \field{year}{2022}
       \true{nocite}
-      \field{pages}{248\bibrangedash 261}
-      \range{pages}{14}
       \verb{doi}
-      \verb 10.1016/j.comcom.2022.08.018
+      \verb 10.5281/ZENODO.6941292
       \endverb
       \verb{urlraw}
-      \verb https://doi.org/10.1016/j.comcom.2022.08.018
+      \verb https://zenodo.org/record/6941292
       \endverb
       \verb{url}
-      \verb https://doi.org/10.1016/j.comcom.2022.08.018
+      \verb https://zenodo.org/record/6941292
       \endverb
+      \keyw{RQ2}
     \endentry
-    \entry{EMEKA2023}{article}{}
-      \name{author}{3}{}{%
-        {{hash=274af439e8a3dcb67fe5ff0a630a1e4d}{%
-           family={EMEKA},
-           familyi={E\bibinitperiod},
-           given={Busalire\bibnamedelima Onesmus},
-           giveni={B\bibinitperiod\bibinitdelim O\bibinitperiod}}}%
-        {{hash=c3a8da4109c16dbf5270c4955ceb7e10}{%
-           family={HIDAKA},
-           familyi={H\bibinitperiod},
-           given={Soichiro},
-           giveni={S\bibinitperiod}}}%
-        {{hash=0ae5c4c1024bfc46759b15d848826d46}{%
-           family={LIU},
-           familyi={L\bibinitperiod},
-           given={Shaoying},
-           giveni={S\bibinitperiod}}}%
-      }
-      \list{publisher}{2}{%
-        {Institute of Electronics, Information}%
-        {Communications Engineers ({IEICE})}%
-      }
-      \strng{namehash}{51b7c702e654e041dfad96d10359c4f3}
-      \strng{fullhash}{51b7c702e654e041dfad96d10359c4f3}
-      \strng{bibnamehash}{51b7c702e654e041dfad96d10359c4f3}
-      \strng{authorbibnamehash}{51b7c702e654e041dfad96d10359c4f3}
-      \strng{authornamehash}{51b7c702e654e041dfad96d10359c4f3}
-      \strng{authorfullhash}{51b7c702e654e041dfad96d10359c4f3}
-      \field{sortinit}{8}
-      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{{IEICE} Transactions on Information and Systems}
-      \field{month}{5}
-      \field{number}{5}
-      \field{title}{A Practical Model Driven Approach for Designing Security Aware {RESTful} Web {APIs} Using {SOFL}}
-      \field{volume}{E106.D}
-      \field{year}{2023}
-      \true{nocite}
-      \field{pages}{986\bibrangedash 1000}
-      \range{pages}{15}
-      \verb{doi}
-      \verb 10.1587/transinf.2022edp7194
-      \endverb
-      \verb{urlraw}
-      \verb https://doi.org/10.1587/transinf.2022edp7194
-      \endverb
-      \verb{url}
-      \verb https://doi.org/10.1587/transinf.2022edp7194
-      \endverb
-    \endentry
-    \entry{Ghanem2019}{article}{}
-      \name{author}{2}{}{%
-        {{hash=18a7a957841980b60838e9d264a89994}{%
-           family={Ghanem},
-           familyi={G\bibinitperiod},
-           given={Mohamed\bibnamedelima C.},
-           giveni={M\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
-        {{hash=41c43c77307f95543cc923246c4e4a8c}{%
-           family={Chen},
-           familyi={C\bibinitperiod},
-           given={Thomas\bibnamedelima M.},
-           giveni={T\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+    \entry{Siriwardena2020}{book}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=9ce0eaf78e13ddd2c4b1e42bf4eef728}{%
+           family={Siriwardena},
+           familyi={S\bibinitperiod},
+           given={Prabath},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
       }
       \list{publisher}{1}{%
-        {{MDPI} {AG}}%
+        {Apress}%
       }
-      \strng{namehash}{0f87097fb98a372b1cf66289cb93385d}
-      \strng{fullhash}{0f87097fb98a372b1cf66289cb93385d}
-      \strng{bibnamehash}{0f87097fb98a372b1cf66289cb93385d}
-      \strng{authorbibnamehash}{0f87097fb98a372b1cf66289cb93385d}
-      \strng{authornamehash}{0f87097fb98a372b1cf66289cb93385d}
-      \strng{authorfullhash}{0f87097fb98a372b1cf66289cb93385d}
-      \field{sortinit}{8}
-      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
+      \strng{namehash}{9ce0eaf78e13ddd2c4b1e42bf4eef728}
+      \strng{fullhash}{9ce0eaf78e13ddd2c4b1e42bf4eef728}
+      \strng{bibnamehash}{9ce0eaf78e13ddd2c4b1e42bf4eef728}
+      \strng{authorbibnamehash}{9ce0eaf78e13ddd2c4b1e42bf4eef728}
+      \strng{authornamehash}{9ce0eaf78e13ddd2c4b1e42bf4eef728}
+      \strng{authorfullhash}{9ce0eaf78e13ddd2c4b1e42bf4eef728}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{journaltitle}{Information}
-      \field{month}{12}
-      \field{number}{1}
-      \field{title}{Reinforcement Learning for Efficient Network Penetration Testing}
-      \field{volume}{11}
-      \field{year}{2019}
-      \true{nocite}
-      \field{pages}{6}
-      \range{pages}{1}
-      \verb{doi}
-      \verb 10.3390/info11010006
-      \endverb
-      \verb{urlraw}
-      \verb https://doi.org/10.3390/info11010006
-      \endverb
-      \verb{url}
-      \verb https://doi.org/10.3390/info11010006
-      \endverb
-    \endentry
-    \entry{Hu2020}{inproceedings}{}
-      \name{author}{3}{}{%
-        {{hash=1daa8ccd21abc198f48d4eac3bb90cc6}{%
-           family={Hu},
-           familyi={H\bibinitperiod},
-           given={Zhenguo},
-           giveni={Z\bibinitperiod}}}%
-        {{hash=80ec19d0f81ba0258d5051c10c568dd0}{%
-           family={Beuran},
-           familyi={B\bibinitperiod},
-           given={Razvan},
-           giveni={R\bibinitperiod}}}%
-        {{hash=51631c5b94f562ae4ae939c0f668841d}{%
-           family={Tan},
-           familyi={T\bibinitperiod},
-           given={Yasuo},
-           giveni={Y\bibinitperiod}}}%
-      }
-      \list{publisher}{1}{%
-        {IEEE}%
-      }
-      \strng{namehash}{2cb669428ffc638acc713bf86b2b3cfa}
-      \strng{fullhash}{2cb669428ffc638acc713bf86b2b3cfa}
-      \strng{bibnamehash}{2cb669428ffc638acc713bf86b2b3cfa}
-      \strng{authorbibnamehash}{2cb669428ffc638acc713bf86b2b3cfa}
-      \strng{authornamehash}{2cb669428ffc638acc713bf86b2b3cfa}
-      \strng{authorfullhash}{2cb669428ffc638acc713bf86b2b3cfa}
-      \field{sortinit}{8}
-      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{booktitle}{2020 {IEEE} European Symposium on Security and Privacy Workshops}
-      \field{month}{9}
-      \field{title}{Automated Penetration Testing Using Deep Reinforcement Learning}
+      \field{isbn}{9781484220504}
+      \field{title}{Advanced API Security: OAuth 2.0 and Beyond}
       \field{year}{2020}
       \true{nocite}
       \verb{doi}
-      \verb 10.1109/eurospw51379.2020.00010
+      \verb 10.1007/978-1-4842-2050-4
       \endverb
       \verb{urlraw}
-      \verb https://doi.org/10.1109/eurospw51379.2020.00010
+      \verb http://dx.doi.org/10.1007/978-1-4842-2050-4
       \endverb
       \verb{url}
-      \verb https://doi.org/10.1109/eurospw51379.2020.00010
+      \verb http://dx.doi.org/10.1007/978-1-4842-2050-4
       \endverb
+      \keyw{RQ1}
     \endentry
-    \entry{Schwartz2019}{misc}{}
+    \entry{Subramanian2019-ld}{book}{}
       \name{author}{2}{}{%
-        {{hash=a317e125cc7eb133bff1ce4497dc8877}{%
-           family={Schwartz},
+        {{un=0,uniquepart=base,hash=6def652417d1b974a74472e9705db265}{%
+           family={Subramanian},
            familyi={S\bibinitperiod},
-           given={Jonathon},
-           giveni={J\bibinitperiod}}}%
-        {{hash=2bf76a81789275cfc46befe0850cea36}{%
-           family={Kurniawati},
-           familyi={K\bibinitperiod},
-           given={Hanna},
-           giveni={H\bibinitperiod}}}%
+           given={Harihara},
+           giveni={H\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=4497ac9188c30d0f701c2730a8cb342e}{%
+           family={Raj},
+           familyi={R\bibinitperiod},
+           given={Pethuru},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {Birmingham, England}%
       }
       \list{publisher}{1}{%
-        {arXiv}%
+        {Packt Publishing}%
       }
-      \strng{namehash}{cbab419d6283b501003f61a844d69e59}
-      \strng{fullhash}{cbab419d6283b501003f61a844d69e59}
-      \strng{bibnamehash}{cbab419d6283b501003f61a844d69e59}
-      \strng{authorbibnamehash}{cbab419d6283b501003f61a844d69e59}
-      \strng{authornamehash}{cbab419d6283b501003f61a844d69e59}
-      \strng{authorfullhash}{cbab419d6283b501003f61a844d69e59}
-      \field{sortinit}{8}
-      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
+      \strng{namehash}{a3c8080d63f0a82b7e503bb36093770b}
+      \strng{fullhash}{a3c8080d63f0a82b7e503bb36093770b}
+      \strng{bibnamehash}{a3c8080d63f0a82b7e503bb36093770b}
+      \strng{authorbibnamehash}{a3c8080d63f0a82b7e503bb36093770b}
+      \strng{authornamehash}{a3c8080d63f0a82b7e503bb36093770b}
+      \strng{authorfullhash}{a3c8080d63f0a82b7e503bb36093770b}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{title}{Autonomous Penetration Testing using Reinforcement Learning}
+      \field{month}{1}
+      \field{title}{{Hands-On} {RESTful} {API} Design Patterns and Best Practices}
       \field{year}{2019}
       \true{nocite}
+      \keyw{RQ1}
+    \endentry
+    \entry{Zhang2023}{article}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=1ee8937faff2cd4d874dbc89c6a70771}{%
+           family={Zhang},
+           familyi={Z\bibinitperiod},
+           given={Man},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=ce60719b000244b24fc4e01f2153d73c}{%
+           family={Arcuri},
+           familyi={A\bibinitperiod},
+           given={Andrea},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Association for Computing Machinery (ACM)}%
+      }
+      \strng{namehash}{b3fd78344ba3f572055f8cb0836c8e25}
+      \strng{fullhash}{b3fd78344ba3f572055f8cb0836c8e25}
+      \strng{bibnamehash}{b3fd78344ba3f572055f8cb0836c8e25}
+      \strng{authorbibnamehash}{b3fd78344ba3f572055f8cb0836c8e25}
+      \strng{authornamehash}{b3fd78344ba3f572055f8cb0836c8e25}
+      \strng{authorfullhash}{b3fd78344ba3f572055f8cb0836c8e25}
+      \field{sortinit}{Z}
+      \field{sortinithash}{96892c0b0a36bb8557c40c49813d48b3}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{1557-7392}
+      \field{journaltitle}{ACM Transactions on Software Engineering and Methodology}
+      \field{month}{9}
+      \field{number}{6}
+      \field{title}{Open Problems in Fuzzing RESTful APIs: A Comparison of Tools}
+      \field{volume}{32}
+      \field{year}{2023}
+      \true{nocite}
+      \field{pages}{1\bibrangedash 45}
+      \range{pages}{45}
       \verb{doi}
-      \verb 10.48550/ARXIV.1905.05965
+      \verb 10.1145/3597205
       \endverb
       \verb{urlraw}
-      \verb https://arxiv.org/abs/1905.05965
+      \verb http://dx.doi.org/10.1145/3597205
       \endverb
       \verb{url}
-      \verb https://arxiv.org/abs/1905.05965
+      \verb http://dx.doi.org/10.1145/3597205
       \endverb
-      \keyw{Cryptography and Security (cs.CR),Artificial Intelligence (cs.AI),Machine Learning (cs.LG),FOS: Computer and information sciences,FOS: Computer and information sciences}
+      \keyw{RQ2}
     \endentry
   \enddatalist
 \endrefsection
