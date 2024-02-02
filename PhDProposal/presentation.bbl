@@ -19,6 +19,261 @@
 
 \refsection{0}
   \datalist[entry]{apa/apasortcite//global/global}
+    \entry{Ahmed2023}{inbook}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=34409410eab9de33013e24be7a39686e}{%
+           family={Ahmed},
+           familyi={A\bibinitperiod},
+           given={Seif},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=5000d890c1edea0882b7166b0c6b9686}{%
+           family={Hamdy},
+           familyi={H\bibinitperiod},
+           given={Abeer},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Springer Nature Singapore}%
+      }
+      \strng{namehash}{1a5097d05d96f9a14dc1747b22cdddd9}
+      \strng{fullhash}{1a5097d05d96f9a14dc1747b22cdddd9}
+      \strng{bibnamehash}{1a5097d05d96f9a14dc1747b22cdddd9}
+      \strng{authorbibnamehash}{1a5097d05d96f9a14dc1747b22cdddd9}
+      \strng{authornamehash}{1a5097d05d96f9a14dc1747b22cdddd9}
+      \strng{authorfullhash}{1a5097d05d96f9a14dc1747b22cdddd9}
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Smart Innovation, Systems and Technologies}
+      \field{isbn}{9789819967063}
+      \field{issn}{2190-3026}
+      \field{title}{Artificial Bee Colony for Automated Black-Box Testing of RESTful API}
+      \field{year}{2023}
+      \true{nocite}
+      \field{pages}{1\bibrangedash 17}
+      \range{pages}{17}
+      \verb{doi}
+      \verb 10.1007/978-981-99-6706-3_1
+      \endverb
+      \verb{urlraw}
+      \verb http://dx.doi.org/10.1007/978-981-99-6706-3_1
+      \endverb
+      \verb{url}
+      \verb http://dx.doi.org/10.1007/978-981-99-6706-3_1
+      \endverb
+      \keyw{RQ5}
+    \endentry
+    \entry{Ami2021}{article}{}
+      \name{author}{5}{}{%
+        {{un=0,uniquepart=base,hash=0adcf3a1ebe39bd08a4c0219285c3fbd}{%
+           family={Ami},
+           familyi={A\bibinitperiod},
+           given={Amit\bibnamedelima Seal},
+           giveni={A\bibinitperiod\bibinitdelim S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=0d7f1a17893bb70cb72665c5b8277049}{%
+           family={Kafle},
+           familyi={K\bibinitperiod},
+           given={Kaushal},
+           giveni={K\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=3c28911495f2364a07496d8bc82e245e}{%
+           family={Moran},
+           familyi={M\bibinitperiod},
+           given={Kevin},
+           giveni={K\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=4754b1cd55e18c17e668f1be4d8c2958}{%
+           family={Nadkarni},
+           familyi={N\bibinitperiod},
+           given={Adwait},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=e49aa631edbf4e6bb1f966390ca96328}{%
+           family={Poshyvanyk},
+           familyi={P\bibinitperiod},
+           given={Denys},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Association for Computing Machinery (ACM)}%
+      }
+      \strng{namehash}{b9635d68fcdee44e70da936b57472f1a}
+      \strng{fullhash}{919d9b1a46017519deae696f838830f3}
+      \strng{bibnamehash}{919d9b1a46017519deae696f838830f3}
+      \strng{authorbibnamehash}{919d9b1a46017519deae696f838830f3}
+      \strng{authornamehash}{b9635d68fcdee44e70da936b57472f1a}
+      \strng{authorfullhash}{919d9b1a46017519deae696f838830f3}
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{2471-2574}
+      \field{journaltitle}{ACM Transactions on Privacy and Security}
+      \field{month}{2}
+      \field{number}{3}
+      \field{title}{Systematic Mutation-Based Evaluation of the Soundness of Security-Focused Android Static Analysis Techniques}
+      \field{volume}{24}
+      \field{year}{2021}
+      \true{nocite}
+      \field{pages}{1\bibrangedash 37}
+      \range{pages}{37}
+      \verb{doi}
+      \verb 10.1145/3439802
+      \endverb
+      \verb{urlraw}
+      \verb http://dx.doi.org/10.1145/3439802
+      \endverb
+      \verb{url}
+      \verb http://dx.doi.org/10.1145/3439802
+      \endverb
+      \keyw{RQ5}
+    \endentry
+    \entry{masterjoa}{masterthesis}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=a27a1975d9b06e0bd69baf9534c8c3f4}{%
+           family={Andre},
+           familyi={A\bibinitperiod},
+           given={Jooo},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=5b0e8b879296139cca345444085739d8}{%
+           family={Agnelo},
+           familyi={A\bibinitperiod},
+           given={Nunes},
+           giveni={N\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{01668ed175c4e8decc1b667b9362a4eb}
+      \strng{fullhash}{01668ed175c4e8decc1b667b9362a4eb}
+      \strng{bibnamehash}{01668ed175c4e8decc1b667b9362a4eb}
+      \strng{authorbibnamehash}{01668ed175c4e8decc1b667b9362a4eb}
+      \strng{authornamehash}{01668ed175c4e8decc1b667b9362a4eb}
+      \strng{authorfullhash}{01668ed175c4e8decc1b667b9362a4eb}
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{A ROBUSTNESS TESTING APPROACH FOR RESTFUL WEB SERVICES}
+      \field{year}{2020}
+      \true{nocite}
+      \keyw{RQ5}
+    \endentry
+    \entry{9159068}{article}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=ce60719b000244b24fc4e01f2153d73c}{%
+           family={Arcuri},
+           familyi={A\bibinitperiod},
+           given={Andrea},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=a2d9e5f8a0a3d8e3f5081927057fa3ca}{%
+           family={Galeotti},
+           familyi={G\bibinitperiod},
+           given={Juan\bibnamedelima P.},
+           giveni={J\bibinitperiod\bibinitdelim P\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{d06424420a4b9a0c3749857a7ae57ce9}
+      \strng{fullhash}{d06424420a4b9a0c3749857a7ae57ce9}
+      \strng{bibnamehash}{d06424420a4b9a0c3749857a7ae57ce9}
+      \strng{authorbibnamehash}{d06424420a4b9a0c3749857a7ae57ce9}
+      \strng{authornamehash}{d06424420a4b9a0c3749857a7ae57ce9}
+      \strng{authorfullhash}{d06424420a4b9a0c3749857a7ae57ce9}
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{2020 IEEE 13th International Conference on Software Testing, Validation and Verification (ICST)}
+      \field{title}{Testability Transformations For Existing APIs}
+      \field{year}{2020}
+      \true{nocite}
+      \field{pages}{153\bibrangedash 163}
+      \range{pages}{11}
+      \verb{doi}
+      \verb 10.1109/ICST46399.2020.00025
+      \endverb
+      \keyw{RQ5}
+    \endentry
+    \entry{https://doi.org/10.48550/arxiv.2005.11498}{misc}{}
+      \name{author}{5}{}{%
+        {{un=0,uniquepart=base,hash=ca69d865b3da6f4f2a9f37e01036c0e9}{%
+           family={Atlidakis},
+           familyi={A\bibinitperiod},
+           given={Vaggelis},
+           giveni={V\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=f6d016d1fc674824752dd2e63ee52cf5}{%
+           family={Geambasu},
+           familyi={G\bibinitperiod},
+           given={Roxana},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=9d2d477c053bf8048a308bb409d1eb99}{%
+           family={Godefroid},
+           familyi={G\bibinitperiod},
+           given={Patrice},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=205e20ed085a50eb5dc6b936622edb7d}{%
+           family={Polishchuk},
+           familyi={P\bibinitperiod},
+           given={Marina},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=0806c08947a2a72e09479f9555c0dad5}{%
+           family={Ray},
+           familyi={R\bibinitperiod},
+           given={Baishakhi},
+           giveni={B\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {arXiv}%
+      }
+      \strng{namehash}{4f41a62799ec7ed5a469744b12233c53}
+      \strng{fullhash}{e056885951a988a1a57310d7517901a4}
+      \strng{bibnamehash}{e056885951a988a1a57310d7517901a4}
+      \strng{authorbibnamehash}{e056885951a988a1a57310d7517901a4}
+      \strng{authornamehash}{4f41a62799ec7ed5a469744b12233c53}
+      \strng{authorfullhash}{e056885951a988a1a57310d7517901a4}
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Pythia: Grammar-Based Fuzzing of REST APIs with Coverage-guided Feedback and Learning-based Mutations}
+      \field{year}{2020}
+      \true{nocite}
+      \verb{doi}
+      \verb 10.48550/ARXIV.2005.11498
+      \endverb
+      \verb{urlraw}
+      \verb https://arxiv.org/abs/2005.11498
+      \endverb
+      \verb{url}
+      \verb https://arxiv.org/abs/2005.11498
+      \endverb
+      \keyw{RQ5}
+    \endentry
     \entry{Bakhtin2022}{article}{}
       \name{author}{4}{}{%
         {{un=0,uniquepart=base,hash=26b805322e74384072f1f7f945e8a0c1}{%
@@ -77,6 +332,258 @@
       \verb http://dx.doi.org/10.1109/SCC55611.2022.00018
       \endverb
       \keyw{RQ2}
+    \endentry
+    \entry{Belhadi2024}{article}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=cfb31ec8d0389763b9ffcf7568c708e2}{%
+           family={Belhadi},
+           familyi={B\bibinitperiod},
+           given={Asma},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=1ee8937faff2cd4d874dbc89c6a70771}{%
+           family={Zhang},
+           familyi={Z\bibinitperiod},
+           given={Man},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=ce60719b000244b24fc4e01f2153d73c}{%
+           family={Arcuri},
+           familyi={A\bibinitperiod},
+           given={Andrea},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Association for Computing Machinery (ACM)}%
+      }
+      \strng{namehash}{107a67971711ccc66ba62ec5c9561a26}
+      \strng{fullhash}{1d9668430dd77d3a857af20bba9dd9c8}
+      \strng{bibnamehash}{1d9668430dd77d3a857af20bba9dd9c8}
+      \strng{authorbibnamehash}{1d9668430dd77d3a857af20bba9dd9c8}
+      \strng{authornamehash}{107a67971711ccc66ba62ec5c9561a26}
+      \strng{authorfullhash}{1d9668430dd77d3a857af20bba9dd9c8}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{1559-114X}
+      \field{journaltitle}{ACM Transactions on the Web}
+      \field{month}{1}
+      \field{number}{1}
+      \field{title}{Random Testing and Evolutionary Testing for Fuzzing GraphQL APIs}
+      \field{volume}{18}
+      \field{year}{2024}
+      \true{nocite}
+      \field{pages}{1\bibrangedash 41}
+      \range{pages}{41}
+      \verb{doi}
+      \verb 10.1145/3609427
+      \endverb
+      \verb{urlraw}
+      \verb http://dx.doi.org/10.1145/3609427
+      \endverb
+      \verb{url}
+      \verb http://dx.doi.org/10.1145/3609427
+      \endverb
+      \keyw{RQ5}
+    \endentry
+    \entry{Corradini2022}{article}{}
+      \name{author}{6}{}{%
+        {{un=0,uniquepart=base,hash=becaeecbde8b262be853a70739697134}{%
+           family={Corradini},
+           familyi={C\bibinitperiod},
+           given={Davide},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=804124a4f961f951f978edebdac99631}{%
+           family={Zampieri},
+           familyi={Z\bibinitperiod},
+           given={Amedeo},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=cf539208a51aa87632c190112f5ddb5e}{%
+           family={Pasqua},
+           familyi={P\bibinitperiod},
+           given={Michele},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=68bf172c210854edc5dd212461c5b716}{%
+           family={Viglianisi},
+           familyi={V\bibinitperiod},
+           given={Emanuele},
+           giveni={E\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=4c3c8e5cdfb030b35ae5688dda0875b0}{%
+           family={Dallago},
+           familyi={D\bibinitperiod},
+           given={Michael},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=a5182c1c1b3e6526029b96990681479d}{%
+           family={Ceccato},
+           familyi={C\bibinitperiod},
+           given={Mariano},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Wiley}%
+      }
+      \strng{namehash}{fd4c7a34744a914e9ea557070e9f1d4d}
+      \strng{fullhash}{3a1f9e8f3936e7b700554e03e774ee80}
+      \strng{bibnamehash}{3a1f9e8f3936e7b700554e03e774ee80}
+      \strng{authorbibnamehash}{3a1f9e8f3936e7b700554e03e774ee80}
+      \strng{authornamehash}{fd4c7a34744a914e9ea557070e9f1d4d}
+      \strng{authorfullhash}{3a1f9e8f3936e7b700554e03e774ee80}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{1099-1689}
+      \field{journaltitle}{Software Testing, Verification and Reliability}
+      \field{month}{1}
+      \field{number}{5}
+      \field{title}{Automated black‐box testing of nominal and error scenarios in RESTful APIs}
+      \field{volume}{32}
+      \field{year}{2022}
+      \true{nocite}
+      \verb{doi}
+      \verb 10.1002/stvr.1808
+      \endverb
+      \verb{urlraw}
+      \verb http://dx.doi.org/10.1002/stvr.1808
+      \endverb
+      \verb{url}
+      \verb http://dx.doi.org/10.1002/stvr.1808
+      \endverb
+      \keyw{RQ4}
+    \endentry
+    \entry{Ehsan2022}{article}{}
+      \name{author}{4}{}{%
+        {{un=0,uniquepart=base,hash=79a6cb0a4ebdbe4a91e4839e557dfe17}{%
+           family={Ehsan},
+           familyi={E\bibinitperiod},
+           given={Adeel},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=f8ad79e950968e698c9db1fe8f09d99c}{%
+           family={Abuhaliqa},
+           familyi={A\bibinitperiod},
+           given={Mohammed\bibnamedelimb Ahmad\bibnamedelimb M.\bibnamedelimi E.},
+           giveni={M\bibinitperiod\bibinitdelim A\bibinitperiod\bibinitdelim M\bibinitperiod\bibinitdelim E\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=7f6d1e7c6ce46531a6ad470b3485bb48}{%
+           family={Catal},
+           familyi={C\bibinitperiod},
+           given={Cagatay},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=c2792eeb632cac0b203d774187c7b931}{%
+           family={Mishra},
+           familyi={M\bibinitperiod},
+           given={Deepti},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {MDPI AG}%
+      }
+      \strng{namehash}{202e9510e49e06552ccea3ed148c9963}
+      \strng{fullhash}{50a92ec41c642065440b288d1a0961ce}
+      \strng{bibnamehash}{50a92ec41c642065440b288d1a0961ce}
+      \strng{authorbibnamehash}{50a92ec41c642065440b288d1a0961ce}
+      \strng{authornamehash}{202e9510e49e06552ccea3ed148c9963}
+      \strng{authorfullhash}{50a92ec41c642065440b288d1a0961ce}
+      \field{sortinit}{E}
+      \field{sortinithash}{8da8a182d344d5b9047633dfc0cc9131}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{2076-3417}
+      \field{journaltitle}{Applied Sciences}
+      \field{month}{4}
+      \field{number}{9}
+      \field{title}{RESTful API Testing Methodologies: Rationale, Challenges, and Solution Directions}
+      \field{volume}{12}
+      \field{year}{2022}
+      \true{nocite}
+      \field{pages}{4369}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.3390/app12094369
+      \endverb
+      \verb{urlraw}
+      \verb http://dx.doi.org/10.3390/app12094369
+      \endverb
+      \verb{url}
+      \verb http://dx.doi.org/10.3390/app12094369
+      \endverb
+      \keyw{RQ5}
+    \endentry
+    \entry{Felcio2023}{article}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=40c2b18dc38cec80cdae5a3b0708e2b9}{%
+           family={Felício},
+           familyi={F\bibinitperiod},
+           given={Duarte},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=e67a057fefaa2a5d1cfc5d32bb71a5eb}{%
+           family={Simão},
+           familyi={S\bibinitperiod},
+           given={José},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=d520d0f4b2da727be27d3bf76da17e03}{%
+           family={Datia},
+           familyi={D\bibinitperiod},
+           given={Nuno},
+           giveni={N\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Elsevier BV}%
+      }
+      \strng{namehash}{d568ca75cabf78a9106457f12427c70f}
+      \strng{fullhash}{eed82c0e6b18f3d80ba55f4cfc4bc528}
+      \strng{bibnamehash}{eed82c0e6b18f3d80ba55f4cfc4bc528}
+      \strng{authorbibnamehash}{eed82c0e6b18f3d80ba55f4cfc4bc528}
+      \strng{authornamehash}{d568ca75cabf78a9106457f12427c70f}
+      \strng{authorfullhash}{eed82c0e6b18f3d80ba55f4cfc4bc528}
+      \field{sortinit}{F}
+      \field{sortinithash}{2638baaa20439f1b5a8f80c6c08a13b4}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{1877-0509}
+      \field{journaltitle}{Procedia Computer Science}
+      \field{title}{RapiTest: Continuous Black-Box Testing of RESTful Web APIs}
+      \field{volume}{219}
+      \field{year}{2023}
+      \true{nocite}
+      \field{pages}{537\bibrangedash 545}
+      \range{pages}{9}
+      \verb{doi}
+      \verb 10.1016/j.procs.2023.01.322
+      \endverb
+      \verb{urlraw}
+      \verb http://dx.doi.org/10.1016/j.procs.2023.01.322
+      \endverb
+      \verb{url}
+      \verb http://dx.doi.org/10.1016/j.procs.2023.01.322
+      \endverb
+      \keyw{RQ5}
     \endentry
     \entry{Hussain2020}{article}{}
       \name{author}{4}{}{%
@@ -392,6 +899,121 @@
       \endverb
       \keyw{RQ2}
     \endentry
+    \entry{Kim2022}{article}{}
+      \name{author}{4}{}{%
+        {{un=0,uniquepart=base,hash=57d384713dde644a3ea42834bb4f19ef}{%
+           family={Kim},
+           familyi={K\bibinitperiod},
+           given={Myeongsoo},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=00746f927e22473ec410d62eccefa4a5}{%
+           family={Xin},
+           familyi={X\bibinitperiod},
+           given={Qi},
+           giveni={Q\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=cd04b692368fa886a72debaaceba36ef}{%
+           family={Sinha},
+           familyi={S\bibinitperiod},
+           given={Saurabh},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=c5e6ca7f1a50c8c19fcf29685cc61793}{%
+           family={Orso},
+           familyi={O\bibinitperiod},
+           given={Alessandro},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {ACM}%
+      }
+      \strng{namehash}{d0e5638675acc66194d6cd750eebe8ed}
+      \strng{fullhash}{6eb169e2e535bcdd22761ceb5f0a4595}
+      \strng{bibnamehash}{6eb169e2e535bcdd22761ceb5f0a4595}
+      \strng{authorbibnamehash}{6eb169e2e535bcdd22761ceb5f0a4595}
+      \strng{authornamehash}{d0e5638675acc66194d6cd750eebe8ed}
+      \strng{authorfullhash}{6eb169e2e535bcdd22761ceb5f0a4595}
+      \field{sortinit}{K}
+      \field{sortinithash}{c02bf6bff1c488450c352b40f5d853ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Proceedings of the 31st ACM SIGSOFT International Symposium on Software Testing and Analysis}
+      \field{month}{7}
+      \field{series}{ISSTA ’22}
+      \field{title}{Automated test generation for REST APIs: no time to rest yet}
+      \field{year}{2022}
+      \true{nocite}
+      \verb{doi}
+      \verb 10.1145/3533767.3534401
+      \endverb
+      \verb{urlraw}
+      \verb http://dx.doi.org/10.1145/3533767.3534401
+      \endverb
+      \verb{url}
+      \verb http://dx.doi.org/10.1145/3533767.3534401
+      \endverb
+      \keyw{RQ4}
+    \endentry
+    \entry{Leotta2023}{article}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=195bbef5226e67489c0979057feee037}{%
+           family={Leotta},
+           familyi={L\bibinitperiod},
+           given={Maurizio},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=9da288b94666ff3c31c4aa5fa626e233}{%
+           family={Paparella},
+           familyi={P\bibinitperiod},
+           given={Davide},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=4ee41f96d413672a97365aa556a0c8d8}{%
+           family={Ricca},
+           familyi={R\bibinitperiod},
+           given={Filippo},
+           giveni={F\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{2}{%
+        {Springer Science}%
+        {Business Media LLC}%
+      }
+      \strng{namehash}{a83f4dc523b1c9d264a28c8def49617e}
+      \strng{fullhash}{1fb72ae927db6d8f1ac2ee49f934420f}
+      \strng{bibnamehash}{1fb72ae927db6d8f1ac2ee49f934420f}
+      \strng{authorbibnamehash}{1fb72ae927db6d8f1ac2ee49f934420f}
+      \strng{authornamehash}{a83f4dc523b1c9d264a28c8def49617e}
+      \strng{authorfullhash}{1fb72ae927db6d8f1ac2ee49f934420f}
+      \field{sortinit}{L}
+      \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{1573-1367}
+      \field{journaltitle}{Software Quality Journal}
+      \field{month}{4}
+      \field{title}{Mutta: a novel tool for E2E web mutation testing}
+      \field{year}{2023}
+      \true{nocite}
+      \verb{doi}
+      \verb 10.1007/s11219-023-09616-6
+      \endverb
+      \verb{urlraw}
+      \verb http://dx.doi.org/10.1007/s11219-023-09616-6
+      \endverb
+      \verb{url}
+      \verb http://dx.doi.org/10.1007/s11219-023-09616-6
+      \endverb
+      \keyw{RQ5}
+    \endentry
     \entry{Luo2016}{inbook}{}
       \name{author}{6}{}{%
         {{un=0,uniquepart=base,hash=e79a8fe12370710f305d0fd0a596e3a0}{%
@@ -466,6 +1088,93 @@
       \endverb
       \keyw{RQ1}
     \endentry
+    \entry{https://doi.org/10.48550/arxiv.2303.02545}{misc}{}
+      \name{author}{9}{}{%
+        {{un=0,uniquepart=base,hash=2a06f3e9950a8353301a9d4c265a4c33}{%
+           family={Lyu},
+           familyi={L\bibinitperiod},
+           given={Chenyang},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=aa29b1c26b0c78d20022a321ea59ba3e}{%
+           family={Xu},
+           familyi={X\bibinitperiod},
+           given={Jiacheng},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=6468302f7741c170edc641669f883ce7}{%
+           family={Ji},
+           familyi={J\bibinitperiod},
+           given={Shouling},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=cf26d8cbd1dd6ab1e036a5c28a7bd7dc}{%
+           family={Zhang},
+           familyi={Z\bibinitperiod},
+           given={Xuhong},
+           giveni={X\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=ada5a2d29c3b3e1bfc2430788802e732}{%
+           family={Wang},
+           familyi={W\bibinitperiod},
+           given={Qinying},
+           giveni={Q\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=9ccf761ff0246edae6390e05627033b2}{%
+           family={Zhao},
+           familyi={Z\bibinitperiod},
+           given={Binbin},
+           giveni={B\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=412f0f977a8c162ae11b93ee49a2d4c8}{%
+           family={Pan},
+           familyi={P\bibinitperiod},
+           given={Gaoning},
+           giveni={G\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=0979631962d67da3f16e265d34392902}{%
+           family={Cao},
+           familyi={C\bibinitperiod},
+           given={Wei},
+           giveni={W\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=7745320884bdcf3405645bc3d30f0c8e}{%
+           family={Beyah},
+           familyi={B\bibinitperiod},
+           given={Raheem},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {arXiv}%
+      }
+      \strng{namehash}{a623a69c83e80ab4e975320551aad8b2}
+      \strng{fullhash}{9f0ed336aca7a8fe08254e07a5fc8314}
+      \strng{bibnamehash}{9f0ed336aca7a8fe08254e07a5fc8314}
+      \strng{authorbibnamehash}{9f0ed336aca7a8fe08254e07a5fc8314}
+      \strng{authornamehash}{a623a69c83e80ab4e975320551aad8b2}
+      \strng{authorfullhash}{9f0ed336aca7a8fe08254e07a5fc8314}
+      \field{sortinit}{L}
+      \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{MINER: A Hybrid Data-Driven Approach for REST API Fuzzing}
+      \field{year}{2023}
+      \true{nocite}
+      \verb{doi}
+      \verb 10.48550/ARXIV.2303.02545
+      \endverb
+      \verb{urlraw}
+      \verb https://arxiv.org/abs/2303.02545
+      \endverb
+      \verb{url}
+      \verb https://arxiv.org/abs/2303.02545
+      \endverb
+      \keyw{RQ5}
+    \endentry
     \entry{Madden2021-oi}{book}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=53936df4b9be376f234b44cbb76a9015}{%
@@ -503,6 +1212,120 @@
       \true{nocite}
       \keyw{RQ1}
     \endentry
+    \entry{Marculescu2022}{article}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=09f6307d60e41228388aec87ccb87135}{%
+           family={Marculescu},
+           familyi={M\bibinitperiod},
+           given={Bogdan},
+           giveni={B\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=1ee8937faff2cd4d874dbc89c6a70771}{%
+           family={Zhang},
+           familyi={Z\bibinitperiod},
+           given={Man},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=ce60719b000244b24fc4e01f2153d73c}{%
+           family={Arcuri},
+           familyi={A\bibinitperiod},
+           given={Andrea},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Association for Computing Machinery (ACM)}%
+      }
+      \strng{namehash}{720a51e6a0b300fffe3ddef4e2515df8}
+      \strng{fullhash}{f1803f198ebadce5e78dbba2acbb890f}
+      \strng{bibnamehash}{f1803f198ebadce5e78dbba2acbb890f}
+      \strng{authorbibnamehash}{f1803f198ebadce5e78dbba2acbb890f}
+      \strng{authornamehash}{720a51e6a0b300fffe3ddef4e2515df8}
+      \strng{authorfullhash}{f1803f198ebadce5e78dbba2acbb890f}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{1557-7392}
+      \field{journaltitle}{ACM Transactions on Software Engineering and Methodology}
+      \field{month}{3}
+      \field{number}{3}
+      \field{title}{On the Faults Found in REST APIs by Automated Test Generation}
+      \field{volume}{31}
+      \field{year}{2022}
+      \true{nocite}
+      \field{pages}{1\bibrangedash 43}
+      \range{pages}{43}
+      \verb{doi}
+      \verb 10.1145/3491038
+      \endverb
+      \verb{urlraw}
+      \verb http://dx.doi.org/10.1145/3491038
+      \endverb
+      \verb{url}
+      \verb http://dx.doi.org/10.1145/3491038
+      \endverb
+      \keyw{RQ4}
+    \endentry
+    \entry{MartinLopez2020}{inbook}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=5d82b3e85e2c8936f9208f791bc3d494}{%
+           family={Martin-Lopez},
+           familyi={M\bibinithyphendelim L\bibinitperiod},
+           given={Alberto},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=efefdfdaba6c5894f391e59294e0dcbe}{%
+           family={Segura},
+           familyi={S\bibinitperiod},
+           given={Sergio},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=b14c1d1e3d4d80ea3948645cec4ba918}{%
+           family={Ruiz-Cortés},
+           familyi={R\bibinithyphendelim C\bibinitperiod},
+           given={Antonio},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Springer International Publishing}%
+      }
+      \strng{namehash}{feb5d5d2c1d31362a33d325fd859d443}
+      \strng{fullhash}{8c00cfa91d5ef97aaad15a31c05830a7}
+      \strng{bibnamehash}{8c00cfa91d5ef97aaad15a31c05830a7}
+      \strng{authorbibnamehash}{8c00cfa91d5ef97aaad15a31c05830a7}
+      \strng{authornamehash}{feb5d5d2c1d31362a33d325fd859d443}
+      \strng{authorfullhash}{8c00cfa91d5ef97aaad15a31c05830a7}
+      \field{extraname}{1}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Lecture Notes in Computer Science}
+      \field{isbn}{9783030653101}
+      \field{issn}{1611-3349}
+      \field{title}{RESTest: Black-Box Constraint-Based Testing of RESTful Web APIs}
+      \field{year}{2020}
+      \true{nocite}
+      \field{pages}{459\bibrangedash 475}
+      \range{pages}{17}
+      \verb{doi}
+      \verb 10.1007/978-3-030-65310-1_33
+      \endverb
+      \verb{urlraw}
+      \verb http://dx.doi.org/10.1007/978-3-030-65310-1_33
+      \endverb
+      \verb{url}
+      \verb http://dx.doi.org/10.1007/978-3-030-65310-1_33
+      \endverb
+    \endentry
     \entry{https://doi.org/10.5281/zenodo.6941292}{misc}{}
       \name{author}{3}{}{%
         {{un=0,uniquepart=base,hash=5d82b3e85e2c8936f9208f791bc3d494}{%
@@ -533,6 +1356,7 @@
       \strng{authorbibnamehash}{8c00cfa91d5ef97aaad15a31c05830a7}
       \strng{authornamehash}{feb5d5d2c1d31362a33d325fd859d443}
       \strng{authorfullhash}{8c00cfa91d5ef97aaad15a31c05830a7}
+      \field{extraname}{2}
       \field{sortinit}{M}
       \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
       \field{extradatescope}{labelyear}
@@ -553,6 +1377,63 @@
       \verb https://zenodo.org/record/6941292
       \endverb
       \keyw{RQ2}
+    \endentry
+    \entry{https://doi.org/10.48550/arxiv.2102.11378}{misc}{}
+      \name{author}{4}{}{%
+        {{un=0,uniquepart=base,hash=a673dc4b2e359fff7ce733ef3abfbc93}{%
+           family={Petrović},
+           familyi={P\bibinitperiod},
+           given={Goran},
+           giveni={G\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=ceb46697221ec97e2ba21c8e231dd167}{%
+           family={Ivanković},
+           familyi={I\bibinitperiod},
+           given={Marko},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=fc66f39b83d69c05a49d023f90b98586}{%
+           family={Fraser},
+           familyi={F\bibinitperiod},
+           given={Gordon},
+           giveni={G\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=9fcba76088dd579db7d1f516567ed877}{%
+           family={Just},
+           familyi={J\bibinitperiod},
+           given={René},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {arXiv}%
+      }
+      \strng{namehash}{b7825d56a8a091f594275d54b1136e48}
+      \strng{fullhash}{a28d0175df253fd04d25c53bad2875c8}
+      \strng{bibnamehash}{a28d0175df253fd04d25c53bad2875c8}
+      \strng{authorbibnamehash}{a28d0175df253fd04d25c53bad2875c8}
+      \strng{authornamehash}{b7825d56a8a091f594275d54b1136e48}
+      \strng{authorfullhash}{a28d0175df253fd04d25c53bad2875c8}
+      \field{sortinit}{P}
+      \field{sortinithash}{ff3bcf24f47321b42cb156c2cc8a8422}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Practical Mutation Testing at Scale}
+      \field{year}{2021}
+      \true{nocite}
+      \verb{doi}
+      \verb 10.48550/ARXIV.2102.11378
+      \endverb
+      \verb{urlraw}
+      \verb https://arxiv.org/abs/2102.11378
+      \endverb
+      \verb{url}
+      \verb https://arxiv.org/abs/2102.11378
+      \endverb
+      \keyw{RQ5}
     \endentry
     \entry{Roth2020}{article}{}
       \name{author}{5}{}{%
@@ -617,6 +1498,70 @@
       \verb{url}
       \verb http://dx.doi.org/10.14722/ndss.2020.23046
       \endverb
+      \keyw{RQ3}
+    \endentry
+    \entry{Snchez2022}{article}{}
+      \name{author}{4}{}{%
+        {{un=0,uniquepart=base,hash=11409066bbbbf39796ba408a0d779f4d}{%
+           family={Sánchez},
+           familyi={S\bibinitperiod},
+           given={Ana\bibnamedelima B.},
+           giveni={A\bibinitperiod\bibinitdelim B\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=3f00aaf0898745c9b49e42154513d9eb}{%
+           family={Delgado-Pérez},
+           familyi={D\bibinithyphendelim P\bibinitperiod},
+           given={Pedro},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=65c54d12aada5f0a851fe28211cf5638}{%
+           family={Medina-Bulo},
+           familyi={M\bibinithyphendelim B\bibinitperiod},
+           given={Inmaculada},
+           giveni={I\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=efefdfdaba6c5894f391e59294e0dcbe}{%
+           family={Segura},
+           familyi={S\bibinitperiod},
+           given={Sergio},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{2}{%
+        {Springer Science}%
+        {Business Media LLC}%
+      }
+      \strng{namehash}{4c24660e42a8eb159b637539a3463a8f}
+      \strng{fullhash}{5583bd0497d103f8269ef719a8f61f13}
+      \strng{bibnamehash}{5583bd0497d103f8269ef719a8f61f13}
+      \strng{authorbibnamehash}{5583bd0497d103f8269ef719a8f61f13}
+      \strng{authornamehash}{4c24660e42a8eb159b637539a3463a8f}
+      \strng{authorfullhash}{5583bd0497d103f8269ef719a8f61f13}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{1573-7616}
+      \field{journaltitle}{Empirical Software Engineering}
+      \field{month}{7}
+      \field{number}{6}
+      \field{title}{Mutation testing in the wild: findings from GitHub}
+      \field{volume}{27}
+      \field{year}{2022}
+      \true{nocite}
+      \verb{doi}
+      \verb 10.1007/s10664-022-10177-8
+      \endverb
+      \verb{urlraw}
+      \verb http://dx.doi.org/10.1007/s10664-022-10177-8
+      \endverb
+      \verb{url}
+      \verb http://dx.doi.org/10.1007/s10664-022-10177-8
+      \endverb
+      \keyw{RQ5}
     \endentry
     \entry{Siriwardena2020}{book}{}
       \name{author}{1}{}{%
@@ -698,6 +1643,124 @@
       \true{nocite}
       \keyw{RQ1}
     \endentry
+    \entry{Tokos2023}{masterthesis}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=49ab9bf415f71e9d643e43de5039576d}{%
+           family={Tokos},
+           familyi={T\bibinitperiod},
+           given={Alexander},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{49ab9bf415f71e9d643e43de5039576d}
+      \strng{fullhash}{49ab9bf415f71e9d643e43de5039576d}
+      \strng{bibnamehash}{49ab9bf415f71e9d643e43de5039576d}
+      \strng{authorbibnamehash}{49ab9bf415f71e9d643e43de5039576d}
+      \strng{authornamehash}{49ab9bf415f71e9d643e43de5039576d}
+      \strng{authorfullhash}{49ab9bf415f71e9d643e43de5039576d}
+      \field{sortinit}{T}
+      \field{sortinithash}{9af77f0292593c26bde9a56e688eaee9}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Web applications and services are widely used today. Security is an important factor since web applications are accessed via the internet. Web services often expose their functionality through web application programming interfaces (API), and a common type of API is REST API (or RESTful API), which is an API that follows the representational state transfer architecture. Vulnerabilities in these interfaces can lead to security breaches. Therefore, they must be secure and reliable. Thoroughly testing APIs is a very time-consuming task, but there are ways to automate it, and one option is fuzz testing. In this thesis, the fuzzing tools Fuzz-lightyear, Schemathesis, and RESTler are evaluated to determine if they are effective at finding faults in REST APIs. All three tools can generate and run test cases based on OpenAPI specifications. The evaluation is based on the performance of the tools in a series of experiments. The experiments involve executing the fuzzing tools against three different APIs and comparing the results. The metrics that are used for the evaluation include the number of server errors (Test cases that return a server error) found, the number of semantic errors (Test cases that fail because of a mismatch between the OpenAPI specification and the test case response), execution time, and the number of requests sent. The experiment results show that Schemanthesis excels at finding semantic errors, while RESTler is better at finding server errors. Fuzz-lightyear found no server errors and fewer semantic errors than Schemathesis but had a short execution time. In conclusion, RESTler and Schemathesis are effective at finding faults when fuzz testing in APIs, while Fuzz-lightyear is not.}
+      \field{title}{Evaluating fuzzing tools for automated testing of REST APIs using OpenAPI specification}
+      \field{year}{2023}
+      \true{nocite}
+      \keyw{RQ4}
+    \endentry
+    \entry{9724904}{article}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=8e559d41b24990f003e76d315cec8b66}{%
+           family={Tsai},
+           familyi={T\bibinitperiod},
+           given={Chung-Hsuan},
+           giveni={C\bibinithyphendelim H\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=4cfa34e6520638adffeea23745446a16}{%
+           family={Tsai},
+           familyi={T\bibinitperiod},
+           given={Shi-Chun},
+           giveni={S\bibinithyphendelim C\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=1e68ec11c96677c282e78d4e3ceb47c4}{%
+           family={Huang},
+           familyi={H\bibinitperiod},
+           given={Shih-Kun},
+           giveni={S\bibinithyphendelim K\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{b1a42c4348562155fe6b29f340e5899c}
+      \strng{fullhash}{a6c4b4ae394e312f217862348f74bfc3}
+      \strng{bibnamehash}{a6c4b4ae394e312f217862348f74bfc3}
+      \strng{authorbibnamehash}{a6c4b4ae394e312f217862348f74bfc3}
+      \strng{authornamehash}{b1a42c4348562155fe6b29f340e5899c}
+      \strng{authorfullhash}{a6c4b4ae394e312f217862348f74bfc3}
+      \field{sortinit}{T}
+      \field{sortinithash}{9af77f0292593c26bde9a56e688eaee9}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{2021 IEEE 21st International Conference on Software Quality, Reliability and Security (QRS)}
+      \field{title}{REST API Fuzzing by Coverage Level Guided Blackbox Testing}
+      \field{year}{2021}
+      \true{nocite}
+      \field{pages}{291\bibrangedash 300}
+      \range{pages}{10}
+      \verb{doi}
+      \verb 10.1109/QRS54544.2021.00040
+      \endverb
+      \keyw{RQ4}
+    \endentry
+    \entry{9159077}{article}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=68bf172c210854edc5dd212461c5b716}{%
+           family={Viglianisi},
+           familyi={V\bibinitperiod},
+           given={Emanuele},
+           giveni={E\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=4c3c8e5cdfb030b35ae5688dda0875b0}{%
+           family={Dallago},
+           familyi={D\bibinitperiod},
+           given={Michael},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=a5182c1c1b3e6526029b96990681479d}{%
+           family={Ceccato},
+           familyi={C\bibinitperiod},
+           given={Mariano},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{f8c7bbd3fbebff6f5119d6c545478e96}
+      \strng{fullhash}{8f7ba7950a530fadaf96136cbe151a93}
+      \strng{bibnamehash}{8f7ba7950a530fadaf96136cbe151a93}
+      \strng{authorbibnamehash}{8f7ba7950a530fadaf96136cbe151a93}
+      \strng{authornamehash}{f8c7bbd3fbebff6f5119d6c545478e96}
+      \strng{authorfullhash}{8f7ba7950a530fadaf96136cbe151a93}
+      \field{sortinit}{V}
+      \field{sortinithash}{afb52128e5b4dc4b843768c0113d673b}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{2020 IEEE 13th International Conference on Software Testing, Validation and Verification (ICST)}
+      \field{title}{RESTTESTGEN: Automated Black-Box Testing of RESTful APIs}
+      \field{year}{2020}
+      \true{nocite}
+      \field{pages}{142\bibrangedash 152}
+      \range{pages}{11}
+      \verb{doi}
+      \verb 10.1109/ICST46399.2020.00024
+      \endverb
+      \keyw{RQ4}
+    \endentry
     \entry{247694}{article}{}
       \name{author}{6}{}{%
         {{un=0,uniquepart=base,hash=a6dde54e48d789d848f5d10fb1d8c3f0}{%
@@ -768,6 +1831,105 @@
       \verb https://www.usenix.org/conference/usenixsecurity20/presentation/votipka-understanding
       \endverb
       \keyw{RQ3}
+    \endentry
+    \entry{Wu2022}{article}{}
+      \name{author}{4}{}{%
+        {{un=0,uniquepart=base,hash=01aa755e3eb5f9500526a0619612c97b}{%
+           family={Wu},
+           familyi={W\bibinitperiod},
+           given={Huayao},
+           giveni={H\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=ef31f9e21b1605e90df9fb1a41856ec8}{%
+           family={Xu},
+           familyi={X\bibinitperiod},
+           given={Lixin},
+           giveni={L\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=63c7f77d567553110b77a36d90f1270c}{%
+           family={Niu},
+           familyi={N\bibinitperiod},
+           given={Xintao},
+           giveni={X\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=0b15cc15acbb483a69a5f9b066fa977f}{%
+           family={Nie},
+           familyi={N\bibinitperiod},
+           given={Changhai},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {ACM}%
+      }
+      \strng{namehash}{1eb110a7bfbf497e5a1459f6c0f157e3}
+      \strng{fullhash}{ae739b09ba868693acb8c9a6dddad48a}
+      \strng{bibnamehash}{ae739b09ba868693acb8c9a6dddad48a}
+      \strng{authorbibnamehash}{ae739b09ba868693acb8c9a6dddad48a}
+      \strng{authornamehash}{1eb110a7bfbf497e5a1459f6c0f157e3}
+      \strng{authorfullhash}{ae739b09ba868693acb8c9a6dddad48a}
+      \field{sortinit}{W}
+      \field{sortinithash}{4315d78024d0cea9b57a0c6f0e35ed0d}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Proceedings of the 44th International Conference on Software Engineering}
+      \field{month}{5}
+      \field{series}{ICSE 22}
+      \field{title}{Combinatorial testing of RESTful APIs}
+      \field{year}{2022}
+      \true{nocite}
+      \verb{doi}
+      \verb 10.1145/3510003.3510151
+      \endverb
+      \verb{urlraw}
+      \verb http://dx.doi.org/10.1145/3510003.3510151
+      \endverb
+      \verb{url}
+      \verb http://dx.doi.org/10.1145/3510003.3510151
+      \endverb
+      \keyw{RQ5}
+    \endentry
+    \entry{9609146}{article}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=b643527d03a1a63c65f06f169949f4bf}{%
+           family={Yandrapally},
+           familyi={Y\bibinitperiod},
+           given={Rahulkrishna},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=627904935c9ec79cfb7f3a336d102812}{%
+           family={Mesbah},
+           familyi={M\bibinitperiod},
+           given={Ali},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{e9260b5b4b1efa4155e564ed97599a41}
+      \strng{fullhash}{e9260b5b4b1efa4155e564ed97599a41}
+      \strng{bibnamehash}{e9260b5b4b1efa4155e564ed97599a41}
+      \strng{authorbibnamehash}{e9260b5b4b1efa4155e564ed97599a41}
+      \strng{authornamehash}{e9260b5b4b1efa4155e564ed97599a41}
+      \strng{authorfullhash}{e9260b5b4b1efa4155e564ed97599a41}
+      \field{sortinit}{Y}
+      \field{sortinithash}{fd67ad5a9ef0f7456bdd9aab10fe1495}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{2021 IEEE International Conference on Software Maintenance and Evolution (ICSME)}
+      \field{title}{Mutation Analysis for Assessing End-to-End Web Tests}
+      \field{year}{2021}
+      \true{nocite}
+      \field{pages}{183\bibrangedash 194}
+      \range{pages}{12}
+      \verb{doi}
+      \verb 10.1109/ICSME52107.2021.00023
+      \endverb
+      \keyw{RQ5}
     \endentry
     \entry{Zhang2023}{article}{}
       \name{author}{2}{}{%
@@ -823,6 +1985,261 @@
     \endentry
   \enddatalist
   \datalist[entry]{apa/global//global/global}
+    \entry{Ahmed2023}{inbook}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=34409410eab9de33013e24be7a39686e}{%
+           family={Ahmed},
+           familyi={A\bibinitperiod},
+           given={Seif},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=5000d890c1edea0882b7166b0c6b9686}{%
+           family={Hamdy},
+           familyi={H\bibinitperiod},
+           given={Abeer},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Springer Nature Singapore}%
+      }
+      \strng{namehash}{1a5097d05d96f9a14dc1747b22cdddd9}
+      \strng{fullhash}{1a5097d05d96f9a14dc1747b22cdddd9}
+      \strng{bibnamehash}{1a5097d05d96f9a14dc1747b22cdddd9}
+      \strng{authorbibnamehash}{1a5097d05d96f9a14dc1747b22cdddd9}
+      \strng{authornamehash}{1a5097d05d96f9a14dc1747b22cdddd9}
+      \strng{authorfullhash}{1a5097d05d96f9a14dc1747b22cdddd9}
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Smart Innovation, Systems and Technologies}
+      \field{isbn}{9789819967063}
+      \field{issn}{2190-3026}
+      \field{title}{Artificial Bee Colony for Automated Black-Box Testing of RESTful API}
+      \field{year}{2023}
+      \true{nocite}
+      \field{pages}{1\bibrangedash 17}
+      \range{pages}{17}
+      \verb{doi}
+      \verb 10.1007/978-981-99-6706-3_1
+      \endverb
+      \verb{urlraw}
+      \verb http://dx.doi.org/10.1007/978-981-99-6706-3_1
+      \endverb
+      \verb{url}
+      \verb http://dx.doi.org/10.1007/978-981-99-6706-3_1
+      \endverb
+      \keyw{RQ5}
+    \endentry
+    \entry{Ami2021}{article}{}
+      \name{author}{5}{}{%
+        {{un=0,uniquepart=base,hash=0adcf3a1ebe39bd08a4c0219285c3fbd}{%
+           family={Ami},
+           familyi={A\bibinitperiod},
+           given={Amit\bibnamedelima Seal},
+           giveni={A\bibinitperiod\bibinitdelim S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=0d7f1a17893bb70cb72665c5b8277049}{%
+           family={Kafle},
+           familyi={K\bibinitperiod},
+           given={Kaushal},
+           giveni={K\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=3c28911495f2364a07496d8bc82e245e}{%
+           family={Moran},
+           familyi={M\bibinitperiod},
+           given={Kevin},
+           giveni={K\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=4754b1cd55e18c17e668f1be4d8c2958}{%
+           family={Nadkarni},
+           familyi={N\bibinitperiod},
+           given={Adwait},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=e49aa631edbf4e6bb1f966390ca96328}{%
+           family={Poshyvanyk},
+           familyi={P\bibinitperiod},
+           given={Denys},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Association for Computing Machinery (ACM)}%
+      }
+      \strng{namehash}{b9635d68fcdee44e70da936b57472f1a}
+      \strng{fullhash}{919d9b1a46017519deae696f838830f3}
+      \strng{bibnamehash}{919d9b1a46017519deae696f838830f3}
+      \strng{authorbibnamehash}{919d9b1a46017519deae696f838830f3}
+      \strng{authornamehash}{b9635d68fcdee44e70da936b57472f1a}
+      \strng{authorfullhash}{919d9b1a46017519deae696f838830f3}
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{2471-2574}
+      \field{journaltitle}{ACM Transactions on Privacy and Security}
+      \field{month}{2}
+      \field{number}{3}
+      \field{title}{Systematic Mutation-Based Evaluation of the Soundness of Security-Focused Android Static Analysis Techniques}
+      \field{volume}{24}
+      \field{year}{2021}
+      \true{nocite}
+      \field{pages}{1\bibrangedash 37}
+      \range{pages}{37}
+      \verb{doi}
+      \verb 10.1145/3439802
+      \endverb
+      \verb{urlraw}
+      \verb http://dx.doi.org/10.1145/3439802
+      \endverb
+      \verb{url}
+      \verb http://dx.doi.org/10.1145/3439802
+      \endverb
+      \keyw{RQ5}
+    \endentry
+    \entry{masterjoa}{masterthesis}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=a27a1975d9b06e0bd69baf9534c8c3f4}{%
+           family={Andre},
+           familyi={A\bibinitperiod},
+           given={Jooo},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=5b0e8b879296139cca345444085739d8}{%
+           family={Agnelo},
+           familyi={A\bibinitperiod},
+           given={Nunes},
+           giveni={N\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{01668ed175c4e8decc1b667b9362a4eb}
+      \strng{fullhash}{01668ed175c4e8decc1b667b9362a4eb}
+      \strng{bibnamehash}{01668ed175c4e8decc1b667b9362a4eb}
+      \strng{authorbibnamehash}{01668ed175c4e8decc1b667b9362a4eb}
+      \strng{authornamehash}{01668ed175c4e8decc1b667b9362a4eb}
+      \strng{authorfullhash}{01668ed175c4e8decc1b667b9362a4eb}
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{A ROBUSTNESS TESTING APPROACH FOR RESTFUL WEB SERVICES}
+      \field{year}{2020}
+      \true{nocite}
+      \keyw{RQ5}
+    \endentry
+    \entry{9159068}{article}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=ce60719b000244b24fc4e01f2153d73c}{%
+           family={Arcuri},
+           familyi={A\bibinitperiod},
+           given={Andrea},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=a2d9e5f8a0a3d8e3f5081927057fa3ca}{%
+           family={Galeotti},
+           familyi={G\bibinitperiod},
+           given={Juan\bibnamedelima P.},
+           giveni={J\bibinitperiod\bibinitdelim P\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{d06424420a4b9a0c3749857a7ae57ce9}
+      \strng{fullhash}{d06424420a4b9a0c3749857a7ae57ce9}
+      \strng{bibnamehash}{d06424420a4b9a0c3749857a7ae57ce9}
+      \strng{authorbibnamehash}{d06424420a4b9a0c3749857a7ae57ce9}
+      \strng{authornamehash}{d06424420a4b9a0c3749857a7ae57ce9}
+      \strng{authorfullhash}{d06424420a4b9a0c3749857a7ae57ce9}
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{2020 IEEE 13th International Conference on Software Testing, Validation and Verification (ICST)}
+      \field{title}{Testability Transformations For Existing APIs}
+      \field{year}{2020}
+      \true{nocite}
+      \field{pages}{153\bibrangedash 163}
+      \range{pages}{11}
+      \verb{doi}
+      \verb 10.1109/ICST46399.2020.00025
+      \endverb
+      \keyw{RQ5}
+    \endentry
+    \entry{https://doi.org/10.48550/arxiv.2005.11498}{misc}{}
+      \name{author}{5}{}{%
+        {{un=0,uniquepart=base,hash=ca69d865b3da6f4f2a9f37e01036c0e9}{%
+           family={Atlidakis},
+           familyi={A\bibinitperiod},
+           given={Vaggelis},
+           giveni={V\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=f6d016d1fc674824752dd2e63ee52cf5}{%
+           family={Geambasu},
+           familyi={G\bibinitperiod},
+           given={Roxana},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=9d2d477c053bf8048a308bb409d1eb99}{%
+           family={Godefroid},
+           familyi={G\bibinitperiod},
+           given={Patrice},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=205e20ed085a50eb5dc6b936622edb7d}{%
+           family={Polishchuk},
+           familyi={P\bibinitperiod},
+           given={Marina},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=0806c08947a2a72e09479f9555c0dad5}{%
+           family={Ray},
+           familyi={R\bibinitperiod},
+           given={Baishakhi},
+           giveni={B\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {arXiv}%
+      }
+      \strng{namehash}{4f41a62799ec7ed5a469744b12233c53}
+      \strng{fullhash}{e056885951a988a1a57310d7517901a4}
+      \strng{bibnamehash}{e056885951a988a1a57310d7517901a4}
+      \strng{authorbibnamehash}{e056885951a988a1a57310d7517901a4}
+      \strng{authornamehash}{4f41a62799ec7ed5a469744b12233c53}
+      \strng{authorfullhash}{e056885951a988a1a57310d7517901a4}
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Pythia: Grammar-Based Fuzzing of REST APIs with Coverage-guided Feedback and Learning-based Mutations}
+      \field{year}{2020}
+      \true{nocite}
+      \verb{doi}
+      \verb 10.48550/ARXIV.2005.11498
+      \endverb
+      \verb{urlraw}
+      \verb https://arxiv.org/abs/2005.11498
+      \endverb
+      \verb{url}
+      \verb https://arxiv.org/abs/2005.11498
+      \endverb
+      \keyw{RQ5}
+    \endentry
     \entry{Bakhtin2022}{article}{}
       \name{author}{4}{}{%
         {{un=0,uniquepart=base,hash=26b805322e74384072f1f7f945e8a0c1}{%
@@ -881,6 +2298,258 @@
       \verb http://dx.doi.org/10.1109/SCC55611.2022.00018
       \endverb
       \keyw{RQ2}
+    \endentry
+    \entry{Belhadi2024}{article}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=cfb31ec8d0389763b9ffcf7568c708e2}{%
+           family={Belhadi},
+           familyi={B\bibinitperiod},
+           given={Asma},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=1ee8937faff2cd4d874dbc89c6a70771}{%
+           family={Zhang},
+           familyi={Z\bibinitperiod},
+           given={Man},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=ce60719b000244b24fc4e01f2153d73c}{%
+           family={Arcuri},
+           familyi={A\bibinitperiod},
+           given={Andrea},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Association for Computing Machinery (ACM)}%
+      }
+      \strng{namehash}{107a67971711ccc66ba62ec5c9561a26}
+      \strng{fullhash}{1d9668430dd77d3a857af20bba9dd9c8}
+      \strng{bibnamehash}{1d9668430dd77d3a857af20bba9dd9c8}
+      \strng{authorbibnamehash}{1d9668430dd77d3a857af20bba9dd9c8}
+      \strng{authornamehash}{107a67971711ccc66ba62ec5c9561a26}
+      \strng{authorfullhash}{1d9668430dd77d3a857af20bba9dd9c8}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{1559-114X}
+      \field{journaltitle}{ACM Transactions on the Web}
+      \field{month}{1}
+      \field{number}{1}
+      \field{title}{Random Testing and Evolutionary Testing for Fuzzing GraphQL APIs}
+      \field{volume}{18}
+      \field{year}{2024}
+      \true{nocite}
+      \field{pages}{1\bibrangedash 41}
+      \range{pages}{41}
+      \verb{doi}
+      \verb 10.1145/3609427
+      \endverb
+      \verb{urlraw}
+      \verb http://dx.doi.org/10.1145/3609427
+      \endverb
+      \verb{url}
+      \verb http://dx.doi.org/10.1145/3609427
+      \endverb
+      \keyw{RQ5}
+    \endentry
+    \entry{Corradini2022}{article}{}
+      \name{author}{6}{}{%
+        {{un=0,uniquepart=base,hash=becaeecbde8b262be853a70739697134}{%
+           family={Corradini},
+           familyi={C\bibinitperiod},
+           given={Davide},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=804124a4f961f951f978edebdac99631}{%
+           family={Zampieri},
+           familyi={Z\bibinitperiod},
+           given={Amedeo},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=cf539208a51aa87632c190112f5ddb5e}{%
+           family={Pasqua},
+           familyi={P\bibinitperiod},
+           given={Michele},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=68bf172c210854edc5dd212461c5b716}{%
+           family={Viglianisi},
+           familyi={V\bibinitperiod},
+           given={Emanuele},
+           giveni={E\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=4c3c8e5cdfb030b35ae5688dda0875b0}{%
+           family={Dallago},
+           familyi={D\bibinitperiod},
+           given={Michael},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=a5182c1c1b3e6526029b96990681479d}{%
+           family={Ceccato},
+           familyi={C\bibinitperiod},
+           given={Mariano},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Wiley}%
+      }
+      \strng{namehash}{fd4c7a34744a914e9ea557070e9f1d4d}
+      \strng{fullhash}{3a1f9e8f3936e7b700554e03e774ee80}
+      \strng{bibnamehash}{3a1f9e8f3936e7b700554e03e774ee80}
+      \strng{authorbibnamehash}{3a1f9e8f3936e7b700554e03e774ee80}
+      \strng{authornamehash}{fd4c7a34744a914e9ea557070e9f1d4d}
+      \strng{authorfullhash}{3a1f9e8f3936e7b700554e03e774ee80}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{1099-1689}
+      \field{journaltitle}{Software Testing, Verification and Reliability}
+      \field{month}{1}
+      \field{number}{5}
+      \field{title}{Automated black‐box testing of nominal and error scenarios in RESTful APIs}
+      \field{volume}{32}
+      \field{year}{2022}
+      \true{nocite}
+      \verb{doi}
+      \verb 10.1002/stvr.1808
+      \endverb
+      \verb{urlraw}
+      \verb http://dx.doi.org/10.1002/stvr.1808
+      \endverb
+      \verb{url}
+      \verb http://dx.doi.org/10.1002/stvr.1808
+      \endverb
+      \keyw{RQ4}
+    \endentry
+    \entry{Ehsan2022}{article}{}
+      \name{author}{4}{}{%
+        {{un=0,uniquepart=base,hash=79a6cb0a4ebdbe4a91e4839e557dfe17}{%
+           family={Ehsan},
+           familyi={E\bibinitperiod},
+           given={Adeel},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=f8ad79e950968e698c9db1fe8f09d99c}{%
+           family={Abuhaliqa},
+           familyi={A\bibinitperiod},
+           given={Mohammed\bibnamedelimb Ahmad\bibnamedelimb M.\bibnamedelimi E.},
+           giveni={M\bibinitperiod\bibinitdelim A\bibinitperiod\bibinitdelim M\bibinitperiod\bibinitdelim E\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=7f6d1e7c6ce46531a6ad470b3485bb48}{%
+           family={Catal},
+           familyi={C\bibinitperiod},
+           given={Cagatay},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=c2792eeb632cac0b203d774187c7b931}{%
+           family={Mishra},
+           familyi={M\bibinitperiod},
+           given={Deepti},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {MDPI AG}%
+      }
+      \strng{namehash}{202e9510e49e06552ccea3ed148c9963}
+      \strng{fullhash}{50a92ec41c642065440b288d1a0961ce}
+      \strng{bibnamehash}{50a92ec41c642065440b288d1a0961ce}
+      \strng{authorbibnamehash}{50a92ec41c642065440b288d1a0961ce}
+      \strng{authornamehash}{202e9510e49e06552ccea3ed148c9963}
+      \strng{authorfullhash}{50a92ec41c642065440b288d1a0961ce}
+      \field{sortinit}{E}
+      \field{sortinithash}{8da8a182d344d5b9047633dfc0cc9131}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{2076-3417}
+      \field{journaltitle}{Applied Sciences}
+      \field{month}{4}
+      \field{number}{9}
+      \field{title}{RESTful API Testing Methodologies: Rationale, Challenges, and Solution Directions}
+      \field{volume}{12}
+      \field{year}{2022}
+      \true{nocite}
+      \field{pages}{4369}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.3390/app12094369
+      \endverb
+      \verb{urlraw}
+      \verb http://dx.doi.org/10.3390/app12094369
+      \endverb
+      \verb{url}
+      \verb http://dx.doi.org/10.3390/app12094369
+      \endverb
+      \keyw{RQ5}
+    \endentry
+    \entry{Felcio2023}{article}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=40c2b18dc38cec80cdae5a3b0708e2b9}{%
+           family={Felício},
+           familyi={F\bibinitperiod},
+           given={Duarte},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=e67a057fefaa2a5d1cfc5d32bb71a5eb}{%
+           family={Simão},
+           familyi={S\bibinitperiod},
+           given={José},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=d520d0f4b2da727be27d3bf76da17e03}{%
+           family={Datia},
+           familyi={D\bibinitperiod},
+           given={Nuno},
+           giveni={N\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Elsevier BV}%
+      }
+      \strng{namehash}{d568ca75cabf78a9106457f12427c70f}
+      \strng{fullhash}{eed82c0e6b18f3d80ba55f4cfc4bc528}
+      \strng{bibnamehash}{eed82c0e6b18f3d80ba55f4cfc4bc528}
+      \strng{authorbibnamehash}{eed82c0e6b18f3d80ba55f4cfc4bc528}
+      \strng{authornamehash}{d568ca75cabf78a9106457f12427c70f}
+      \strng{authorfullhash}{eed82c0e6b18f3d80ba55f4cfc4bc528}
+      \field{sortinit}{F}
+      \field{sortinithash}{2638baaa20439f1b5a8f80c6c08a13b4}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{1877-0509}
+      \field{journaltitle}{Procedia Computer Science}
+      \field{title}{RapiTest: Continuous Black-Box Testing of RESTful Web APIs}
+      \field{volume}{219}
+      \field{year}{2023}
+      \true{nocite}
+      \field{pages}{537\bibrangedash 545}
+      \range{pages}{9}
+      \verb{doi}
+      \verb 10.1016/j.procs.2023.01.322
+      \endverb
+      \verb{urlraw}
+      \verb http://dx.doi.org/10.1016/j.procs.2023.01.322
+      \endverb
+      \verb{url}
+      \verb http://dx.doi.org/10.1016/j.procs.2023.01.322
+      \endverb
+      \keyw{RQ5}
     \endentry
     \entry{Hussain2020}{article}{}
       \name{author}{4}{}{%
@@ -1196,6 +2865,121 @@
       \endverb
       \keyw{RQ2}
     \endentry
+    \entry{Kim2022}{article}{}
+      \name{author}{4}{}{%
+        {{un=0,uniquepart=base,hash=57d384713dde644a3ea42834bb4f19ef}{%
+           family={Kim},
+           familyi={K\bibinitperiod},
+           given={Myeongsoo},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=00746f927e22473ec410d62eccefa4a5}{%
+           family={Xin},
+           familyi={X\bibinitperiod},
+           given={Qi},
+           giveni={Q\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=cd04b692368fa886a72debaaceba36ef}{%
+           family={Sinha},
+           familyi={S\bibinitperiod},
+           given={Saurabh},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=c5e6ca7f1a50c8c19fcf29685cc61793}{%
+           family={Orso},
+           familyi={O\bibinitperiod},
+           given={Alessandro},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {ACM}%
+      }
+      \strng{namehash}{d0e5638675acc66194d6cd750eebe8ed}
+      \strng{fullhash}{6eb169e2e535bcdd22761ceb5f0a4595}
+      \strng{bibnamehash}{6eb169e2e535bcdd22761ceb5f0a4595}
+      \strng{authorbibnamehash}{6eb169e2e535bcdd22761ceb5f0a4595}
+      \strng{authornamehash}{d0e5638675acc66194d6cd750eebe8ed}
+      \strng{authorfullhash}{6eb169e2e535bcdd22761ceb5f0a4595}
+      \field{sortinit}{K}
+      \field{sortinithash}{c02bf6bff1c488450c352b40f5d853ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Proceedings of the 31st ACM SIGSOFT International Symposium on Software Testing and Analysis}
+      \field{month}{7}
+      \field{series}{ISSTA ’22}
+      \field{title}{Automated test generation for REST APIs: no time to rest yet}
+      \field{year}{2022}
+      \true{nocite}
+      \verb{doi}
+      \verb 10.1145/3533767.3534401
+      \endverb
+      \verb{urlraw}
+      \verb http://dx.doi.org/10.1145/3533767.3534401
+      \endverb
+      \verb{url}
+      \verb http://dx.doi.org/10.1145/3533767.3534401
+      \endverb
+      \keyw{RQ4}
+    \endentry
+    \entry{Leotta2023}{article}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=195bbef5226e67489c0979057feee037}{%
+           family={Leotta},
+           familyi={L\bibinitperiod},
+           given={Maurizio},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=9da288b94666ff3c31c4aa5fa626e233}{%
+           family={Paparella},
+           familyi={P\bibinitperiod},
+           given={Davide},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=4ee41f96d413672a97365aa556a0c8d8}{%
+           family={Ricca},
+           familyi={R\bibinitperiod},
+           given={Filippo},
+           giveni={F\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{2}{%
+        {Springer Science}%
+        {Business Media LLC}%
+      }
+      \strng{namehash}{a83f4dc523b1c9d264a28c8def49617e}
+      \strng{fullhash}{1fb72ae927db6d8f1ac2ee49f934420f}
+      \strng{bibnamehash}{1fb72ae927db6d8f1ac2ee49f934420f}
+      \strng{authorbibnamehash}{1fb72ae927db6d8f1ac2ee49f934420f}
+      \strng{authornamehash}{a83f4dc523b1c9d264a28c8def49617e}
+      \strng{authorfullhash}{1fb72ae927db6d8f1ac2ee49f934420f}
+      \field{sortinit}{L}
+      \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{1573-1367}
+      \field{journaltitle}{Software Quality Journal}
+      \field{month}{4}
+      \field{title}{Mutta: a novel tool for E2E web mutation testing}
+      \field{year}{2023}
+      \true{nocite}
+      \verb{doi}
+      \verb 10.1007/s11219-023-09616-6
+      \endverb
+      \verb{urlraw}
+      \verb http://dx.doi.org/10.1007/s11219-023-09616-6
+      \endverb
+      \verb{url}
+      \verb http://dx.doi.org/10.1007/s11219-023-09616-6
+      \endverb
+      \keyw{RQ5}
+    \endentry
     \entry{Luo2016}{inbook}{}
       \name{author}{6}{}{%
         {{un=0,uniquepart=base,hash=e79a8fe12370710f305d0fd0a596e3a0}{%
@@ -1270,6 +3054,93 @@
       \endverb
       \keyw{RQ1}
     \endentry
+    \entry{https://doi.org/10.48550/arxiv.2303.02545}{misc}{}
+      \name{author}{9}{}{%
+        {{un=0,uniquepart=base,hash=2a06f3e9950a8353301a9d4c265a4c33}{%
+           family={Lyu},
+           familyi={L\bibinitperiod},
+           given={Chenyang},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=aa29b1c26b0c78d20022a321ea59ba3e}{%
+           family={Xu},
+           familyi={X\bibinitperiod},
+           given={Jiacheng},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=6468302f7741c170edc641669f883ce7}{%
+           family={Ji},
+           familyi={J\bibinitperiod},
+           given={Shouling},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=cf26d8cbd1dd6ab1e036a5c28a7bd7dc}{%
+           family={Zhang},
+           familyi={Z\bibinitperiod},
+           given={Xuhong},
+           giveni={X\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=ada5a2d29c3b3e1bfc2430788802e732}{%
+           family={Wang},
+           familyi={W\bibinitperiod},
+           given={Qinying},
+           giveni={Q\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=9ccf761ff0246edae6390e05627033b2}{%
+           family={Zhao},
+           familyi={Z\bibinitperiod},
+           given={Binbin},
+           giveni={B\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=412f0f977a8c162ae11b93ee49a2d4c8}{%
+           family={Pan},
+           familyi={P\bibinitperiod},
+           given={Gaoning},
+           giveni={G\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=0979631962d67da3f16e265d34392902}{%
+           family={Cao},
+           familyi={C\bibinitperiod},
+           given={Wei},
+           giveni={W\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=7745320884bdcf3405645bc3d30f0c8e}{%
+           family={Beyah},
+           familyi={B\bibinitperiod},
+           given={Raheem},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {arXiv}%
+      }
+      \strng{namehash}{a623a69c83e80ab4e975320551aad8b2}
+      \strng{fullhash}{9f0ed336aca7a8fe08254e07a5fc8314}
+      \strng{bibnamehash}{9f0ed336aca7a8fe08254e07a5fc8314}
+      \strng{authorbibnamehash}{9f0ed336aca7a8fe08254e07a5fc8314}
+      \strng{authornamehash}{a623a69c83e80ab4e975320551aad8b2}
+      \strng{authorfullhash}{9f0ed336aca7a8fe08254e07a5fc8314}
+      \field{sortinit}{L}
+      \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{MINER: A Hybrid Data-Driven Approach for REST API Fuzzing}
+      \field{year}{2023}
+      \true{nocite}
+      \verb{doi}
+      \verb 10.48550/ARXIV.2303.02545
+      \endverb
+      \verb{urlraw}
+      \verb https://arxiv.org/abs/2303.02545
+      \endverb
+      \verb{url}
+      \verb https://arxiv.org/abs/2303.02545
+      \endverb
+      \keyw{RQ5}
+    \endentry
     \entry{Madden2021-oi}{book}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=53936df4b9be376f234b44cbb76a9015}{%
@@ -1307,6 +3178,120 @@
       \true{nocite}
       \keyw{RQ1}
     \endentry
+    \entry{Marculescu2022}{article}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=09f6307d60e41228388aec87ccb87135}{%
+           family={Marculescu},
+           familyi={M\bibinitperiod},
+           given={Bogdan},
+           giveni={B\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=1ee8937faff2cd4d874dbc89c6a70771}{%
+           family={Zhang},
+           familyi={Z\bibinitperiod},
+           given={Man},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=ce60719b000244b24fc4e01f2153d73c}{%
+           family={Arcuri},
+           familyi={A\bibinitperiod},
+           given={Andrea},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Association for Computing Machinery (ACM)}%
+      }
+      \strng{namehash}{720a51e6a0b300fffe3ddef4e2515df8}
+      \strng{fullhash}{f1803f198ebadce5e78dbba2acbb890f}
+      \strng{bibnamehash}{f1803f198ebadce5e78dbba2acbb890f}
+      \strng{authorbibnamehash}{f1803f198ebadce5e78dbba2acbb890f}
+      \strng{authornamehash}{720a51e6a0b300fffe3ddef4e2515df8}
+      \strng{authorfullhash}{f1803f198ebadce5e78dbba2acbb890f}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{1557-7392}
+      \field{journaltitle}{ACM Transactions on Software Engineering and Methodology}
+      \field{month}{3}
+      \field{number}{3}
+      \field{title}{On the Faults Found in REST APIs by Automated Test Generation}
+      \field{volume}{31}
+      \field{year}{2022}
+      \true{nocite}
+      \field{pages}{1\bibrangedash 43}
+      \range{pages}{43}
+      \verb{doi}
+      \verb 10.1145/3491038
+      \endverb
+      \verb{urlraw}
+      \verb http://dx.doi.org/10.1145/3491038
+      \endverb
+      \verb{url}
+      \verb http://dx.doi.org/10.1145/3491038
+      \endverb
+      \keyw{RQ4}
+    \endentry
+    \entry{MartinLopez2020}{inbook}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=5d82b3e85e2c8936f9208f791bc3d494}{%
+           family={Martin-Lopez},
+           familyi={M\bibinithyphendelim L\bibinitperiod},
+           given={Alberto},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=efefdfdaba6c5894f391e59294e0dcbe}{%
+           family={Segura},
+           familyi={S\bibinitperiod},
+           given={Sergio},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=b14c1d1e3d4d80ea3948645cec4ba918}{%
+           family={Ruiz-Cortés},
+           familyi={R\bibinithyphendelim C\bibinitperiod},
+           given={Antonio},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Springer International Publishing}%
+      }
+      \strng{namehash}{feb5d5d2c1d31362a33d325fd859d443}
+      \strng{fullhash}{8c00cfa91d5ef97aaad15a31c05830a7}
+      \strng{bibnamehash}{8c00cfa91d5ef97aaad15a31c05830a7}
+      \strng{authorbibnamehash}{8c00cfa91d5ef97aaad15a31c05830a7}
+      \strng{authornamehash}{feb5d5d2c1d31362a33d325fd859d443}
+      \strng{authorfullhash}{8c00cfa91d5ef97aaad15a31c05830a7}
+      \field{extraname}{1}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Lecture Notes in Computer Science}
+      \field{isbn}{9783030653101}
+      \field{issn}{1611-3349}
+      \field{title}{RESTest: Black-Box Constraint-Based Testing of RESTful Web APIs}
+      \field{year}{2020}
+      \true{nocite}
+      \field{pages}{459\bibrangedash 475}
+      \range{pages}{17}
+      \verb{doi}
+      \verb 10.1007/978-3-030-65310-1_33
+      \endverb
+      \verb{urlraw}
+      \verb http://dx.doi.org/10.1007/978-3-030-65310-1_33
+      \endverb
+      \verb{url}
+      \verb http://dx.doi.org/10.1007/978-3-030-65310-1_33
+      \endverb
+    \endentry
     \entry{https://doi.org/10.5281/zenodo.6941292}{misc}{}
       \name{author}{3}{}{%
         {{un=0,uniquepart=base,hash=5d82b3e85e2c8936f9208f791bc3d494}{%
@@ -1337,6 +3322,7 @@
       \strng{authorbibnamehash}{8c00cfa91d5ef97aaad15a31c05830a7}
       \strng{authornamehash}{feb5d5d2c1d31362a33d325fd859d443}
       \strng{authorfullhash}{8c00cfa91d5ef97aaad15a31c05830a7}
+      \field{extraname}{2}
       \field{sortinit}{M}
       \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
       \field{extradatescope}{labelyear}
@@ -1357,6 +3343,63 @@
       \verb https://zenodo.org/record/6941292
       \endverb
       \keyw{RQ2}
+    \endentry
+    \entry{https://doi.org/10.48550/arxiv.2102.11378}{misc}{}
+      \name{author}{4}{}{%
+        {{un=0,uniquepart=base,hash=a673dc4b2e359fff7ce733ef3abfbc93}{%
+           family={Petrović},
+           familyi={P\bibinitperiod},
+           given={Goran},
+           giveni={G\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=ceb46697221ec97e2ba21c8e231dd167}{%
+           family={Ivanković},
+           familyi={I\bibinitperiod},
+           given={Marko},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=fc66f39b83d69c05a49d023f90b98586}{%
+           family={Fraser},
+           familyi={F\bibinitperiod},
+           given={Gordon},
+           giveni={G\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=9fcba76088dd579db7d1f516567ed877}{%
+           family={Just},
+           familyi={J\bibinitperiod},
+           given={René},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {arXiv}%
+      }
+      \strng{namehash}{b7825d56a8a091f594275d54b1136e48}
+      \strng{fullhash}{a28d0175df253fd04d25c53bad2875c8}
+      \strng{bibnamehash}{a28d0175df253fd04d25c53bad2875c8}
+      \strng{authorbibnamehash}{a28d0175df253fd04d25c53bad2875c8}
+      \strng{authornamehash}{b7825d56a8a091f594275d54b1136e48}
+      \strng{authorfullhash}{a28d0175df253fd04d25c53bad2875c8}
+      \field{sortinit}{P}
+      \field{sortinithash}{ff3bcf24f47321b42cb156c2cc8a8422}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Practical Mutation Testing at Scale}
+      \field{year}{2021}
+      \true{nocite}
+      \verb{doi}
+      \verb 10.48550/ARXIV.2102.11378
+      \endverb
+      \verb{urlraw}
+      \verb https://arxiv.org/abs/2102.11378
+      \endverb
+      \verb{url}
+      \verb https://arxiv.org/abs/2102.11378
+      \endverb
+      \keyw{RQ5}
     \endentry
     \entry{Roth2020}{article}{}
       \name{author}{5}{}{%
@@ -1421,6 +3464,70 @@
       \verb{url}
       \verb http://dx.doi.org/10.14722/ndss.2020.23046
       \endverb
+      \keyw{RQ3}
+    \endentry
+    \entry{Snchez2022}{article}{}
+      \name{author}{4}{}{%
+        {{un=0,uniquepart=base,hash=11409066bbbbf39796ba408a0d779f4d}{%
+           family={Sánchez},
+           familyi={S\bibinitperiod},
+           given={Ana\bibnamedelima B.},
+           giveni={A\bibinitperiod\bibinitdelim B\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=3f00aaf0898745c9b49e42154513d9eb}{%
+           family={Delgado-Pérez},
+           familyi={D\bibinithyphendelim P\bibinitperiod},
+           given={Pedro},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=65c54d12aada5f0a851fe28211cf5638}{%
+           family={Medina-Bulo},
+           familyi={M\bibinithyphendelim B\bibinitperiod},
+           given={Inmaculada},
+           giveni={I\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=efefdfdaba6c5894f391e59294e0dcbe}{%
+           family={Segura},
+           familyi={S\bibinitperiod},
+           given={Sergio},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{2}{%
+        {Springer Science}%
+        {Business Media LLC}%
+      }
+      \strng{namehash}{4c24660e42a8eb159b637539a3463a8f}
+      \strng{fullhash}{5583bd0497d103f8269ef719a8f61f13}
+      \strng{bibnamehash}{5583bd0497d103f8269ef719a8f61f13}
+      \strng{authorbibnamehash}{5583bd0497d103f8269ef719a8f61f13}
+      \strng{authornamehash}{4c24660e42a8eb159b637539a3463a8f}
+      \strng{authorfullhash}{5583bd0497d103f8269ef719a8f61f13}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{1573-7616}
+      \field{journaltitle}{Empirical Software Engineering}
+      \field{month}{7}
+      \field{number}{6}
+      \field{title}{Mutation testing in the wild: findings from GitHub}
+      \field{volume}{27}
+      \field{year}{2022}
+      \true{nocite}
+      \verb{doi}
+      \verb 10.1007/s10664-022-10177-8
+      \endverb
+      \verb{urlraw}
+      \verb http://dx.doi.org/10.1007/s10664-022-10177-8
+      \endverb
+      \verb{url}
+      \verb http://dx.doi.org/10.1007/s10664-022-10177-8
+      \endverb
+      \keyw{RQ5}
     \endentry
     \entry{Siriwardena2020}{book}{}
       \name{author}{1}{}{%
@@ -1502,6 +3609,124 @@
       \true{nocite}
       \keyw{RQ1}
     \endentry
+    \entry{Tokos2023}{masterthesis}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=49ab9bf415f71e9d643e43de5039576d}{%
+           family={Tokos},
+           familyi={T\bibinitperiod},
+           given={Alexander},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{49ab9bf415f71e9d643e43de5039576d}
+      \strng{fullhash}{49ab9bf415f71e9d643e43de5039576d}
+      \strng{bibnamehash}{49ab9bf415f71e9d643e43de5039576d}
+      \strng{authorbibnamehash}{49ab9bf415f71e9d643e43de5039576d}
+      \strng{authornamehash}{49ab9bf415f71e9d643e43de5039576d}
+      \strng{authorfullhash}{49ab9bf415f71e9d643e43de5039576d}
+      \field{sortinit}{T}
+      \field{sortinithash}{9af77f0292593c26bde9a56e688eaee9}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Web applications and services are widely used today. Security is an important factor since web applications are accessed via the internet. Web services often expose their functionality through web application programming interfaces (API), and a common type of API is REST API (or RESTful API), which is an API that follows the representational state transfer architecture. Vulnerabilities in these interfaces can lead to security breaches. Therefore, they must be secure and reliable. Thoroughly testing APIs is a very time-consuming task, but there are ways to automate it, and one option is fuzz testing. In this thesis, the fuzzing tools Fuzz-lightyear, Schemathesis, and RESTler are evaluated to determine if they are effective at finding faults in REST APIs. All three tools can generate and run test cases based on OpenAPI specifications. The evaluation is based on the performance of the tools in a series of experiments. The experiments involve executing the fuzzing tools against three different APIs and comparing the results. The metrics that are used for the evaluation include the number of server errors (Test cases that return a server error) found, the number of semantic errors (Test cases that fail because of a mismatch between the OpenAPI specification and the test case response), execution time, and the number of requests sent. The experiment results show that Schemanthesis excels at finding semantic errors, while RESTler is better at finding server errors. Fuzz-lightyear found no server errors and fewer semantic errors than Schemathesis but had a short execution time. In conclusion, RESTler and Schemathesis are effective at finding faults when fuzz testing in APIs, while Fuzz-lightyear is not.}
+      \field{title}{Evaluating fuzzing tools for automated testing of REST APIs using OpenAPI specification}
+      \field{year}{2023}
+      \true{nocite}
+      \keyw{RQ4}
+    \endentry
+    \entry{9724904}{article}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=8e559d41b24990f003e76d315cec8b66}{%
+           family={Tsai},
+           familyi={T\bibinitperiod},
+           given={Chung-Hsuan},
+           giveni={C\bibinithyphendelim H\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=4cfa34e6520638adffeea23745446a16}{%
+           family={Tsai},
+           familyi={T\bibinitperiod},
+           given={Shi-Chun},
+           giveni={S\bibinithyphendelim C\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=1e68ec11c96677c282e78d4e3ceb47c4}{%
+           family={Huang},
+           familyi={H\bibinitperiod},
+           given={Shih-Kun},
+           giveni={S\bibinithyphendelim K\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{b1a42c4348562155fe6b29f340e5899c}
+      \strng{fullhash}{a6c4b4ae394e312f217862348f74bfc3}
+      \strng{bibnamehash}{a6c4b4ae394e312f217862348f74bfc3}
+      \strng{authorbibnamehash}{a6c4b4ae394e312f217862348f74bfc3}
+      \strng{authornamehash}{b1a42c4348562155fe6b29f340e5899c}
+      \strng{authorfullhash}{a6c4b4ae394e312f217862348f74bfc3}
+      \field{sortinit}{T}
+      \field{sortinithash}{9af77f0292593c26bde9a56e688eaee9}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{2021 IEEE 21st International Conference on Software Quality, Reliability and Security (QRS)}
+      \field{title}{REST API Fuzzing by Coverage Level Guided Blackbox Testing}
+      \field{year}{2021}
+      \true{nocite}
+      \field{pages}{291\bibrangedash 300}
+      \range{pages}{10}
+      \verb{doi}
+      \verb 10.1109/QRS54544.2021.00040
+      \endverb
+      \keyw{RQ4}
+    \endentry
+    \entry{9159077}{article}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=68bf172c210854edc5dd212461c5b716}{%
+           family={Viglianisi},
+           familyi={V\bibinitperiod},
+           given={Emanuele},
+           giveni={E\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=4c3c8e5cdfb030b35ae5688dda0875b0}{%
+           family={Dallago},
+           familyi={D\bibinitperiod},
+           given={Michael},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=a5182c1c1b3e6526029b96990681479d}{%
+           family={Ceccato},
+           familyi={C\bibinitperiod},
+           given={Mariano},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{f8c7bbd3fbebff6f5119d6c545478e96}
+      \strng{fullhash}{8f7ba7950a530fadaf96136cbe151a93}
+      \strng{bibnamehash}{8f7ba7950a530fadaf96136cbe151a93}
+      \strng{authorbibnamehash}{8f7ba7950a530fadaf96136cbe151a93}
+      \strng{authornamehash}{f8c7bbd3fbebff6f5119d6c545478e96}
+      \strng{authorfullhash}{8f7ba7950a530fadaf96136cbe151a93}
+      \field{sortinit}{V}
+      \field{sortinithash}{afb52128e5b4dc4b843768c0113d673b}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{2020 IEEE 13th International Conference on Software Testing, Validation and Verification (ICST)}
+      \field{title}{RESTTESTGEN: Automated Black-Box Testing of RESTful APIs}
+      \field{year}{2020}
+      \true{nocite}
+      \field{pages}{142\bibrangedash 152}
+      \range{pages}{11}
+      \verb{doi}
+      \verb 10.1109/ICST46399.2020.00024
+      \endverb
+      \keyw{RQ4}
+    \endentry
     \entry{247694}{article}{}
       \name{author}{6}{}{%
         {{un=0,uniquepart=base,hash=a6dde54e48d789d848f5d10fb1d8c3f0}{%
@@ -1572,6 +3797,105 @@
       \verb https://www.usenix.org/conference/usenixsecurity20/presentation/votipka-understanding
       \endverb
       \keyw{RQ3}
+    \endentry
+    \entry{Wu2022}{article}{}
+      \name{author}{4}{}{%
+        {{un=0,uniquepart=base,hash=01aa755e3eb5f9500526a0619612c97b}{%
+           family={Wu},
+           familyi={W\bibinitperiod},
+           given={Huayao},
+           giveni={H\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=ef31f9e21b1605e90df9fb1a41856ec8}{%
+           family={Xu},
+           familyi={X\bibinitperiod},
+           given={Lixin},
+           giveni={L\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=63c7f77d567553110b77a36d90f1270c}{%
+           family={Niu},
+           familyi={N\bibinitperiod},
+           given={Xintao},
+           giveni={X\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=0b15cc15acbb483a69a5f9b066fa977f}{%
+           family={Nie},
+           familyi={N\bibinitperiod},
+           given={Changhai},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {ACM}%
+      }
+      \strng{namehash}{1eb110a7bfbf497e5a1459f6c0f157e3}
+      \strng{fullhash}{ae739b09ba868693acb8c9a6dddad48a}
+      \strng{bibnamehash}{ae739b09ba868693acb8c9a6dddad48a}
+      \strng{authorbibnamehash}{ae739b09ba868693acb8c9a6dddad48a}
+      \strng{authornamehash}{1eb110a7bfbf497e5a1459f6c0f157e3}
+      \strng{authorfullhash}{ae739b09ba868693acb8c9a6dddad48a}
+      \field{sortinit}{W}
+      \field{sortinithash}{4315d78024d0cea9b57a0c6f0e35ed0d}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Proceedings of the 44th International Conference on Software Engineering}
+      \field{month}{5}
+      \field{series}{ICSE 22}
+      \field{title}{Combinatorial testing of RESTful APIs}
+      \field{year}{2022}
+      \true{nocite}
+      \verb{doi}
+      \verb 10.1145/3510003.3510151
+      \endverb
+      \verb{urlraw}
+      \verb http://dx.doi.org/10.1145/3510003.3510151
+      \endverb
+      \verb{url}
+      \verb http://dx.doi.org/10.1145/3510003.3510151
+      \endverb
+      \keyw{RQ5}
+    \endentry
+    \entry{9609146}{article}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=b643527d03a1a63c65f06f169949f4bf}{%
+           family={Yandrapally},
+           familyi={Y\bibinitperiod},
+           given={Rahulkrishna},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=627904935c9ec79cfb7f3a336d102812}{%
+           family={Mesbah},
+           familyi={M\bibinitperiod},
+           given={Ali},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{e9260b5b4b1efa4155e564ed97599a41}
+      \strng{fullhash}{e9260b5b4b1efa4155e564ed97599a41}
+      \strng{bibnamehash}{e9260b5b4b1efa4155e564ed97599a41}
+      \strng{authorbibnamehash}{e9260b5b4b1efa4155e564ed97599a41}
+      \strng{authornamehash}{e9260b5b4b1efa4155e564ed97599a41}
+      \strng{authorfullhash}{e9260b5b4b1efa4155e564ed97599a41}
+      \field{sortinit}{Y}
+      \field{sortinithash}{fd67ad5a9ef0f7456bdd9aab10fe1495}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{2021 IEEE International Conference on Software Maintenance and Evolution (ICSME)}
+      \field{title}{Mutation Analysis for Assessing End-to-End Web Tests}
+      \field{year}{2021}
+      \true{nocite}
+      \field{pages}{183\bibrangedash 194}
+      \range{pages}{12}
+      \verb{doi}
+      \verb 10.1109/ICSME52107.2021.00023
+      \endverb
+      \keyw{RQ5}
     \endentry
     \entry{Zhang2023}{article}{}
       \name{author}{2}{}{%

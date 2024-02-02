@@ -45,6 +45,7 @@
 \addbibresource{references/rq3.bib}
 \addbibresource{references/rq4.bib}
 \addbibresource{references/rq5.bib}
+%\addbibresource{references/references.bib}
 % Glossary entries
 \usepackage[acronym]{glossaries}
 \newacronym{ML}{ML}{machine learning}
@@ -239,9 +240,9 @@ Develop a collection of security-aware mutation operators designed for safeguard
   \end{enumerate}
 \end{frame}
 
-\begin{frame}{RQ2: References}
+\begin{frame}[allowframebreaks]{RQ2: References}
   \printbibliography[keyword={RQ2}]
-    \end{frame}
+  \end{frame}
 
   \begin{frame}{RQ3: Common configuration mistakes}
     \begin{enumerate}
@@ -254,12 +255,12 @@ Develop a collection of security-aware mutation operators designed for safeguard
     \end{enumerate}
   \end{frame}
 
-  \begin{frame}{RQ3: References}
+  \begin{frame}[allowframebreaks]{RQ3: References}
     \printbibliography[keyword={RQ3}]
   \end{frame}
 
   \begin{frame}{RQ4: Testing techniques and tools}
-    Penertration testing, vulnerability assessment, and network scanning. 
+    Penetration testing, vulnerability assessment, and network scanning. 
     \begin{enumerate}
       \item OWASP ZAP: Penetration testing.
       \item Postman: API testing.
@@ -268,10 +269,10 @@ Develop a collection of security-aware mutation operators designed for safeguard
       \item Nmap: Network scanning.
       \item Metasploit: Penetration testing.
     \end{enumerate}
-    Thechniques: Fuzzing, black box, statistical.
+    Techniques: Fuzzing, black box, statistical.
   \end{frame}
 
-  \begin{frame}{RQ4: References}
+  \begin{frame}[allowframebreaks]{RQ4: References}
     \printbibliography[keyword={RQ4}]
   \end{frame}
 
@@ -283,14 +284,24 @@ Develop a collection of security-aware mutation operators designed for safeguard
     \end{enumerate}
   \end{frame}
 
-  \begin{frame}{RQ5: References}
+  \begin{frame}[allowframebreaks]{RQ5: References}
    \printbibliography[keyword={RQ5}]
   \end{frame}
+
+\subsection{Next tasks}
+
+\begin{frame}{Tasks}
+  \begin{enumerate}
+    \item Finish the literature review: Categories and subcategories. Article of the review of the state of the art.
+    \item Adjust the proposal according to this guidelines.
+    \item Defense of the proposal.
+  \end{enumerate}
+\end{frame}
 
 \subsection{Challenges}
 
 \begin{frame}{Challenges}
-\begin{enumerate} e
+\begin{enumerate}
     \item RESTFul APIs handle sensitive information that needs to be protected, software testing evaluates how they are handled, but because vulnerabilities are constantly being discovered, there is an opportunity for improvement in this area.
     \item Mutation testing has proven to be a strategy for evaluating the security of applications, there has been a lot of work done related to specific applications in languages such as Java and Python, there is an opportunity to contribute to the development of RESTFul API.
     \item Security is a challenge for software development today, and several recent studies have identified security gaps in many of them, which could be studied to provide a framework for the development of tools to assess data security and generate recommendations for improvement.
@@ -313,7 +324,7 @@ Total: 3 years.
 
 \begin{frame}[allowframebreaks]
 \frametitle{References}
-  \printbibliography{heading=bibintoc}
+  \printbibliography
 \end{frame}
 
 \end{document}
