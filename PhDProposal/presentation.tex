@@ -45,6 +45,7 @@
 \addbibresource{references/rq3.bib}
 \addbibresource{references/rq4.bib}
 \addbibresource{references/rq5.bib}
+\addbibresource{references/methodology.bib}
 %\addbibresource{references/references.bib}
 % Glossary entries
 \usepackage[acronym]{glossaries}
@@ -130,7 +131,7 @@
 	\vskip 3pt
 }
 
-\date{February 2nd, 2024}
+\date{February 23th, 2024}
 
 
 \begin{frame}[plain]\maketitle\end{frame}
@@ -308,19 +309,82 @@ Develop a collection of security-aware mutation operators designed for safeguard
 \end{enumerate}
 \end{frame}
 
+\section{Scope}
 
-\section{Work plan}
+\begin{frame}{Scope}
+  \begin{enumerate}
+    \item Security configuration files of applications based on Django and Flask.
+    \item A selected compatible versions of these frameworks.
+    \item A selected group of vulnerabilities: security of exchange of data, authentication policies and authorization policies. 
+    \item The mutation operators are modifications of the configuration files
+    \item The approach is apply penetration testing and black box testing to test the mutation operators
+    \item The mutation operators are going to design in a open source mutation testing engine
+    \item The objective measurements are the mutation score of a vulnerabilities selected group and the perfect of redundant and unuseful mutants
+  \end{enumerate}
 
-\begin{frame}{Contribution selection}
-Working plan: Following the snowball methodology
-\begin{itemize}
-    \item Review of vulnerabilities in RESTFul APIs: Survey in the interception between mutation testing and security evaluation in Restful-API.
-    \item Description of the mutation operators
-    \item Prototype implementation and testing
-\end{itemize}
-Total: 3 years.
 \end{frame}
 
+\section{Methodology}
+
+\begin{frame}[allowframebreaks]{Methodology}
+  We identified four big steps: 
+  \begin{enumerate}
+    \item Systematic review of the literature according to \cite{Kitchenham2002}.
+    \item Design of the secure-aware mutation operators for the RESTFul API services.
+    \item Development of the secure-aware mutation operators for the RESTFul API services.
+    \item Validation of the secure-aware mutation operators for the RESTFul API services.
+  \end{enumerate}
+\end{frame}
+
+\begin{frame}[allowframebreaks]{Systematic review of literature}
+  \begin{enumerate}
+    \item Plan review
+      \begin{enumerate}
+        \item Define the research questions. 
+        \item Develop the review protocol: Snowball method. 
+        \item Validate the review protocol. 
+      \end{enumerate}
+    \item Conduct review
+      \begin{enumerate}
+        \item Identify relevant study
+        \item Select primary sources
+        \item Extract data
+        \item Select data
+      \end{enumerate}
+    \item Report review
+      \begin{enumerate}
+        \item Summarize the review
+        \item Interpret the review
+        \item Validate the review
+      \end{enumerate}
+    \end{enumerate}
+\end{frame}
+
+\begin{frame}[allowframebreaks]{Design of mutation operators}
+  \begin{enumerate}
+    \item Description of the change of the security configuration properties according to the selected vulnerabilities.
+    \item Validation of the proposed artificial security vulnerabilities to be introduced: State machine strategy.
+    \item Changing of source code strategies to introduce an artificial vulnerability: Source code modification based on creation a mutated security configuration file introducing modifications.
+  \end{enumerate}
+\end{frame}
+
+\begin{frame}[allowframebreaks]{Develop of mutation operators}
+  \begin{enumerate}
+    \item TDD Methodology: Validation a priori of strategies to modify the code
+    \item Select a python-based mutation testing engine
+    \item Codification of the mutation operators
+    \item Evaluation of the unuseful and redundant mutants: according to \cite{Papadakis2019}
+    \item introducing black-box tests and penetration tests to the evaluation
+  \end{enumerate}
+\end{frame}
+
+\begin{frame}[allowframebreaks]{Validation of mutation operators}
+  \begin{enumerate}
+    \item Selection of a group API-based applications in Django and Flask (compatible version) in open source repositories like Github and Gitlab
+    \item Application of the mutation testing strategy using black-box tests and pentration tests
+    \item Analysis of the mutation score and percent of useful mutatans to evalute the perfomance of the strategy
+  \end{enumerate}
+\end{frame}
 
 \begin{frame}[allowframebreaks]
 \frametitle{References}
