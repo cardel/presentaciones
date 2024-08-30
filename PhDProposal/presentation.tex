@@ -77,7 +77,7 @@
 \let\@@magyar@captionfix\relax
 \makeatother
 
-\title[Research proposal]{Characterizing and understanding security risks through Fuzzing Secure-Aware Mutation Testing of RESTFul-API services}
+\title[Research proposal]{Characterizing and understanding security risks through Security-Aware Mutation Testing of security configuration in RESTful APIs}
 %\subtitle{Subtitle Of Presentation}
 
 %\beamertemplatenavigationsymbolsempty
@@ -101,10 +101,12 @@
     %Jesus A. Aranda, Universidad del Valle \\
     %James Ortiz, Universite de Namur
     }
+
+\usepackage{tikz}
+\usetikzlibrary{shapes.geometric, arrows, positioning}
+
+
 \begin{document}
-
-
-
 
 \institute{
 	\vskip 5pt
@@ -127,11 +129,11 @@
 	\vskip 5pt
 	%Escuela de Ingenieria de Sistemas y Computacion\\
 	%Universidad del Valle\\
-	Colombia
+	%Colombia
 	\vskip 3pt
 }
 
-\date{February 23th, 2024}
+\date{August, 2024}
 
 
 \begin{frame}[plain]\maketitle\end{frame}
@@ -148,27 +150,108 @@
 
 \section{Research Proposal}
 
-\begin{frame}{Problem}
-
-\begin{enumerate}
-    \item API-RESTFul is an architectural style for designing web services
-    \item RESTFul APIs exchange sensitive information and private date
-    \item Top 10 vulnerabilities Application Security Project (OWASP) \url{https://owasp.org/www-project-api-security/}
-    \item Coverage of the security tests: penetration and policies
-    \item Opportunity for mutation testing
-\end{enumerate}
+\begin{frame}
+    \frametitle{Context}
+    \begin{itemize}
+        \item RESTful API: An architectural style for designing web services.
+        \begin{itemize}
+            \item Uses HTTP requests to access resources.
+            \item Offers flexibility and scalability for system communication.
+        \end{itemize}
+        \item Security challenges in RESTful APIs:
+        \begin{itemize}
+            \item Exchange of sensitive data (passwords, credit card numbers, personal information).
+            \item Vulnerabilities due to lack of authentication and authorization.
+        \end{itemize}
+        \item Modern security practices:
+        \begin{itemize}
+            \item Encrypting communication.
+            \item Requiring authentication.
+            \item Input validation.
+            \item Restricting resource access.
+        \end{itemize}
+    \end{itemize}
 \end{frame}
 
+\begin{frame}
+    \frametitle{The Problem}
+    \begin{itemize}
+        \item RESTful APIs often handle sensitive and private data.
+        \item Critical security mechanisms:
+        \begin{itemize}
+            \item Authorization and access policies.
+            \item Access restrictions and encryption.
+        \end{itemize}
+        \item OWASP 2023 reports an increase in API security risks:
+        \begin{itemize}
+            \item Authorization lacking.
+            \item Uncontrolled resource consumption.
+            \item Security misconfiguration.
+            \item Unauthorized data access.
+        \end{itemize}
+        \item Companies must invest in:
+        \begin{itemize}
+            \item Updating applications and security policies.
+            \item Monitoring data exchange.
+            \item Implementing encryption protocols (HTTPS/TLS).
+            \item Authorization mechanisms (OAuth).
+            \item Access restrictions (CORS).
+        \end{itemize}
+    \end{itemize}
+\end{frame}
+
+\begin{frame}[allowframebreaks]
+    \frametitle{The Importance of Software Testing}
+    \begin{itemize}
+        \item Growing importance of software testing in detecting vulnerabilities:
+        \begin{itemize}
+            \item Early identification and fixing of vulnerabilities.
+            \item Prevent exploitation by attackers.
+        \end{itemize}
+        \item Common vulnerabilities in RESTful APIs:
+        \begin{itemize}
+            \item Broken object-level authorization.
+            \item Broken user authentication.
+            \item Excessive data exposure.
+        \end{itemize}
+        \item Other security risks:
+        \begin{itemize}
+            \item Injection attacks (malicious code).
+            \item Rate limiting attacks (API overload).
+            \item Denial-of-service attacks.
+        \end{itemize}
+    \end{itemize}
+\end{frame}
+
+\begin{frame}[allowframebreaks]
+    \frametitle{Role of Mutation Testing}
+    \begin{itemize}
+        \item Mutation testing: A tool to evaluate security test capabilities.
+        \begin{itemize}
+            \item Creates new scenarios by mutating code.
+            \item Helps identify potential new vulnerabilities.
+        \end{itemize}
+        \item Benefits of mutation testing:
+        \begin{itemize}
+            \item Detects unexpected vulnerabilities.
+            \item Simulates risk situations exploited by attackers.
+        \end{itemize}
+        \item Need for security-aware mutation operators:
+        \begin{itemize}
+            \item Provides a framework for security tests.
+            \item Evaluates the quality of security tests performed by developers.
+        \end{itemize}
+    \end{itemize}
+\end{frame}
 
 \begin{frame}{Research question}
-¿How to design fuzzed secure-aware mutation operators in the coverage of the vulnerabilities in the configuration of security policies in RESTFul APis?
+How can security-aware mutation operators be designed to improve the coverage of security testing for vulnerabilities in the configuration of security policies in RESTful APIs?
 \end{frame}
-
 
 
 \begin{frame}{Objectives}
 
-Develop a collection of security-aware mutation operators designed for safeguarding the configuration of security policies within RESTFul API services.
+Develop a collection of security-aware mutation operators designed for the evaluation of the configuration of security policies files within RESTful APIs.
 
 \end{frame}
 
@@ -179,10 +262,10 @@ Develop a collection of security-aware mutation operators designed for safeguard
     \begin{tabular}{|p{0.5\textwidth}|p{0.5\textwidth}|}
         \hline
          \textbf{Specific objective} & \textbf{Expected result} \\ \hline
-         1.  Identification of the elements of the security policies in API-RESTFul services &  Characteristics of the security policies in API-Restful services  \\  \hline
-         2. Describe a set of fuzzed security-aware mutation operators for testing of security policies in API-RESTFul services & Description of the mutation operators according to the elements of security policies in API-Restful services  \\  \hline
-         3. Develop the set of security-aware mutation operators for testing in Django Rest and Flask Frameworks in Python    & Source code of the secure-aware mutation operators \\  \hline
-         4. Evaluate the proposed security-aware mutation operators in RESTFul API services & Report about the performance of the created operators against tools from the literature.
+         1. Identification of the elements of the security policies in RESTful APIs  &  Characteristics of the security policies in RESTful API, related to exchanging of data   \\  \hline
+         2. Describe a set of code-based security-aware mutation operators for testing of security policies   files in RESTful APIs  & Description of the mutation operators, introducing some misconfiguration security policies in the exchanging of data in RESTful APIs\\  \hline
+         3. Develop the set of security-aware mutation operators for security configuration files  & Description of the operators to be applied in security configuration files \\  \hline
+         4. Evaluate the proposed security-aware mutation operators in the coverage of the security tests  & Report about the performance of the created operators against tools from the literature.
          \\ \hline
     \end{tabular}
     \caption{Specific objectives and expected results}
@@ -190,200 +273,176 @@ Develop a collection of security-aware mutation operators designed for safeguard
 \end{table}
 \end{frame}
 
-\section{Literature Review}
-
-\begin{frame}{Strategy}
-  \begin{enumerate}
-    \item Questions about the current state of art in the configuration security policies of RESTFul APIs.
-    \item Window of time from 2000 to 2024. \url{https://doi.org/10.1515/itit-2013-1035}
-    \item Emphasis in the last 5 years. \url{https://doi.org/10.1145/3617175}, \url{https://journal.ijresm.com/index.php/ijresm/article/view/970} the rise of the RESTFul APIs.
-    \end{enumerate}
-\end{frame}
-
-\begin{frame}{Research questions}
-	\begin{enumerate}
-    \item RQ1: What are the elements of the security configuration policies in the RESTFul API Services?
-		\item RQ2: What are the current challenges about the security policies of RESTFul API Services?
-    \item RQ3: What are the most common configuration security mistakes of the developers in the building of RESTFul API Services?
-    \item RQ4: What are the current testing techniques and tools for the testing of configuration policies of RESTFul API Services based on Python?
-    \item RQ5: What experiences have been reported in the literature about the use of mutation testing for the security testing of RESTFul API Services?
-	\end{enumerate}
-\end{frame}
-
-\nocite{*}
-
-\begin{frame}{RQ1: Elements of security configuration policies}
-  %\cite{Siriwardena2020, Subramanian2019-ld, Luo2016, Madden2021-oi, Kellezi2019}
-  \begin{enumerate}
-    \item Authentication: Methods for the identification of the user.
-      \item Authorization: Methods for the access control.
-    \item Encryption: Protocol SSL/TLS.
-    \item Data masking: Hide sensitive data in logs and responses.
-    \item Input validation and sanitization: Prevent injection attacks (SQL, XSS).
-    \item Thottling: Number of requests per time.
-    \item API Keys: Each user with their own key.
-    \item Login level: Detailed and security monitoring.
-  \end{enumerate}
-\end{frame}
-
-\begin{frame}[allowframebreaks]{RQ1: References}
-  \printbibliography[keyword={RQ1}]
-\end{frame}
-  
-
-\begin{frame}{RQ2: Current challenges}
-  %\cite{Kellezi2019}
-  \begin{enumerate}
-    \item Keep the data integrity in RESTFul API Services is a challenge that changes every day.
-    \item Several recent studies have identified security gaps in many of them.
-    \item One of the most problems about software vulnerabilities is the configuration security policies of RESTFul APIs
-    \item Testing methods and tools are not enough to cover all the vulnerabilities.
-  \end{enumerate}
-\end{frame}
-
-\begin{frame}[allowframebreaks]{RQ2: References}
-  \printbibliography[keyword={RQ2}]
-  \end{frame}
-
-  \begin{frame}{RQ3: Common configuration mistakes}
-    \begin{enumerate}
-      \item Lack of input validation.
-      \item Insecure deserialization.
-      \item Lack of proper authentication and authorization.
-      \item Insecure direct object references.
-      \item Lack of proper logging and monitoring.
-        \item Insecure communication with untrusted components.
-    \end{enumerate}
-  \end{frame}
-
-  \begin{frame}[allowframebreaks]{RQ3: References}
-    \printbibliography[keyword={RQ3}]
-  \end{frame}
-
-  \begin{frame}{RQ4: Testing techniques and tools}
-    Penetration testing, vulnerability assessment, and network scanning. 
-    \begin{enumerate}
-      \item OWASP ZAP: Penetration testing.
-      \item Postman: API testing.
-      \item Burp Suite: Penetration testing.
-      \item Nessus: Vulnerability assessment.
-      \item Nmap: Network scanning.
-      \item Metasploit: Penetration testing.
-    \end{enumerate}
-    Techniques: Fuzzing, black box, statistical.
-  \end{frame}
-
-  \begin{frame}[allowframebreaks]{RQ4: References}
-    \printbibliography[keyword={RQ4}]
-  \end{frame}
-
-  \begin{frame}{RQ5: Mutation testing in security of RESTFul API Services}
-    \begin{enumerate}
-      \item Mutation testing has proven to be a strategy for evaluating the security of applications.
-      \item The literature suggests an emphasis in data integrity.
-      \item Different strategies for the mutation testing: using artificial intelligence, black box testing, penetration testing, validation of data integrity and statistical methods.
-    \end{enumerate}
-  \end{frame}
-
-  \begin{frame}[allowframebreaks]{RQ5: References}
-   \printbibliography[keyword={RQ5}]
-  \end{frame}
-
-\subsection{Next tasks}
-
-\begin{frame}{Tasks}
-  \begin{enumerate}
-    \item Finish the literature review: Categories and subcategories. Article of the review of the state of the art.
-    \item Adjust the proposal according to this guidelines.
-    \item Defense of the proposal.
-  \end{enumerate}
-\end{frame}
-
-\subsection{Challenges}
-
-\begin{frame}{Challenges}
-\begin{enumerate}
-    \item RESTFul APIs handle sensitive information that needs to be protected, software testing evaluates how they are handled, but because vulnerabilities are constantly being discovered, there is an opportunity for improvement in this area.
-    \item Mutation testing has proven to be a strategy for evaluating the security of applications, there has been a lot of work done related to specific applications in languages such as Java and Python, there is an opportunity to contribute to the development of RESTFul API.
-    \item Security is a challenge for software development today, and several recent studies have identified security gaps in many of them, which could be studied to provide a framework for the development of tools to assess data security and generate recommendations for improvement.
-\end{enumerate}
-\end{frame}
-
-\section{Scope}
-
-\begin{frame}{Scope}
-  \begin{enumerate}
-    \item Security configuration files of applications based on Django and Flask.
-    \item A selected compatible versions of these frameworks.
-    \item A selected group of vulnerabilities: security of exchange of data, authentication policies and authorization policies. 
-    \item The mutation operators are modifications of the configuration files
-    \item The approach is apply penetration testing and black box testing to test the mutation operators
-    \item The mutation operators are going to design in a open source mutation testing engine
-    \item The objective measurements are the mutation score of a vulnerabilities selected group and the perfect of redundant and unuseful mutants
-  \end{enumerate}
-
-\end{frame}
-
 \section{Methodology}
 
-\begin{frame}[allowframebreaks]{Methodology}
-  We identified four big steps: 
-  \begin{enumerate}
-    \item Systematic review of the literature according to \cite{Kitchenham2002}.
-    \item Design of the secure-aware mutation operators for the RESTFul API services.
-    \item Development of the secure-aware mutation operators for the RESTFul API services.
-    \item Validation of the secure-aware mutation operators for the RESTFul API services.
-  \end{enumerate}
+\subsection{Description of the methodology}
+
+\begin{frame}
+    \frametitle{Introduction}
+    \begin{itemize}
+        \item Review of vulnerabilities in RESTful APIs
+        \item Description of mutation operators
+        \item Prototype implementation and testing
+    \end{itemize}
 \end{frame}
 
-\begin{frame}[allowframebreaks]{Systematic review of literature}
-  \begin{enumerate}
-    \item Plan review
-      \begin{enumerate}
-        \item Define the research questions. 
-        \item Develop the review protocol: Snowball method. 
-        \item Validate the review protocol. 
-      \end{enumerate}
-    \item Conduct review
-      \begin{enumerate}
-        \item Identify relevant study
-        \item Select primary sources
-        \item Extract data
-        \item Select data
-      \end{enumerate}
-    \item Report review
-      \begin{enumerate}
-        \item Summarize the review
-        \item Interpret the review
-        \item Validate the review
-      \end{enumerate}
+\begin{frame}
+    \frametitle{Review of Vulnerabilities in RESTful APIs}
+    \begin{itemize}
+        \item Research methodology: Snowballing \cite{Chaim2008}
+        \item Initial focus: Recent surveys on mutation testing \cite{Papadakis2019}, testing challenges for RESTful APIs \cite{Ehsan2022}, and software security testing \cite{Golmohammadi2023}.
+        \item Identification of common vulnerabilities and mitigation strategies.
+        \item Focus on OWASP 2023 top 10 vulnerabilities.
+    \end{itemize}
+\end{frame}
+
+\begin{frame}
+    \frametitle{OWASP Top 10 Vulnerabilities for 2023}
+    \begin{enumerate}
+        \item Broken object-level authorization
+        \item Broken authentication
+        \item Unrestricted resource consumption
+        \item Broken authorization at the role level
+        \item Unrestricted access to sensitive business flows
+        \item Server-side request forgery (SSRF)
+        \item Security misconfiguration
+        \item Inadequate inventory management
+        \item Insecure API consumption
     \end{enumerate}
 \end{frame}
 
-\begin{frame}[allowframebreaks]{Design of mutation operators}
-  \begin{enumerate}
-    \item Description of the change of the security configuration properties according to the selected vulnerabilities.
-    \item Validation of the proposed artificial security vulnerabilities to be introduced: State machine strategy.
-    \item Changing of source code strategies to introduce an artificial vulnerability: Source code modification based on creation a mutated security configuration file introducing modifications.
-  \end{enumerate}
+\begin{frame}
+    \frametitle{Objective of the Vulnerability Review}
+    \begin{itemize}
+        \item Explore characteristics of common vulnerabilities.
+        \item Analyze how these vulnerabilities are handled in the software development process.
+        \item Identify strategies used to mitigate vulnerabilities.
+        \item Determine mutation operators to implement in the prototype.
+    \end{itemize}
 \end{frame}
 
-\begin{frame}[allowframebreaks]{Develop of mutation operators}
-  \begin{enumerate}
-    \item TDD Methodology: Validation a priori of strategies to modify the code
-    \item Select a python-based mutation testing engine
-    \item Codification of the mutation operators
-    \item Evaluation of the unuseful and redundant mutants: according to \cite{Papadakis2019}
-    \item introducing black-box tests and penetration tests to the evaluation
-  \end{enumerate}
+\begin{frame}
+    \frametitle{Description of Mutation Operators}
+    \begin{itemize}
+        \item Define strategy to introduce vulnerabilities into source code.
+        \item Variations of mutation operators to produce vulnerability effects.
+        \item Analyze possible redundant mutants produced by the mutation operators.
+    \end{itemize}
 \end{frame}
 
-\begin{frame}[allowframebreaks]{Validation of mutation operators}
-  \begin{enumerate}
-    \item Selection of a group API-based applications in Django and Flask (compatible version) in open source repositories like Github and Gitlab
-    \item Application of the mutation testing strategy using black-box tests and pentration tests
-    \item Analysis of the mutation score and percent of useful mutatans to evalute the perfomance of the strategy
-  \end{enumerate}
+\begin{frame}
+    \frametitle{Mutation Operators: Implementation Details}
+    \begin{itemize}
+        \item Focus on modifying:
+        \begin{itemize}
+            \item Configuration files of the RESTful API
+            \item Source code of the API
+            \item Test cases
+        \end{itemize}
+        \item Goal: Introduce vulnerabilities to analyze and test mitigation strategies.
+    \end{itemize}
+\end{frame}
+
+\begin{frame}
+    \frametitle{Prototype Implementation and Testing}
+    \begin{itemize}
+        \item Approach: Test-Driven Development (TDD) \cite{williams2003test}
+        \item Generate test cases from mutation operator descriptions.
+        \item Validate the effect of mutation operators in introducing and identifying vulnerabilities.
+    \end{itemize}
+\end{frame}
+
+\begin{frame}
+    \frametitle{Expected Outcomes}
+    \begin{itemize}
+        \item Successful identification of vulnerabilities through mutation testing.
+        \item Effective mitigation strategies for each identified vulnerability.
+        \item A comprehensive list of mutation operators applicable to RESTful API security testing.
+    \end{itemize}
+\end{frame}
+
+\section{Phases of the Project}
+\begin{frame}
+    \frametitle{Phases of the Project}
+    This project defines four phases to approach the objectives:
+    \begin{enumerate}
+        \item Systematic review of the literature \cite{Kitchenham2002}.
+        \item Design of the security-aware mutation operators for RESTful API services \cite{Peffers2007}.
+        \item Development of the security-aware mutation operators using TDD methodology.
+        \item Evaluation of the mutation operators using metrics \cite{Ahmed2010}.
+    \end{enumerate}
+\end{frame}
+
+\section{Systematic Review of the Literature}
+\begin{frame}
+    \frametitle{Systematic Review of the Literature}
+    \begin{itemize}
+        \item Conduct a systematic review to identify existing security-aware mutation operators.
+        \item Steps to follow:
+        \begin{enumerate}
+            \item Developing a research question.
+            \item Identifying relevant databases.
+            \item Defining search terms.
+            \item Selection criteria.
+            \item Data extraction and analysis.
+        \end{enumerate}
+    \end{itemize}
+\end{frame}
+
+\subsection{Research Methodology}
+
+\begin{frame}
+    \frametitle{Research Questions}
+    Key questions guiding the literature review:
+    \begin{enumerate}
+        \item What are the existing mutation operators for testing the security of RESTful APIs?
+        \item How effective are these mutation operators in detecting security vulnerabilities?
+        \item What are the limitations of current mutation operators?
+        \item What elements define vulnerabilities in RESTful API services?
+        \item How are these vulnerabilities handled in development?
+        \item Strategies for mitigating vulnerabilities?
+        \item Common security misconfigurations?
+    \end{enumerate}
+\end{frame}
+
+\begin{frame}
+    \frametitle{Design of the Security-aware Mutation Operators}
+    The design phase focuses on defining and specifying mutation operators based on identified vulnerabilities.
+    \begin{itemize}
+        \item Identification of vulnerability elements.
+        \item Specification of mutation operators.
+        \item Description of mutation application.
+        \item Determination of testing elements.
+        \item Analysis of coverage and redundancy.
+        \item Evaluation of operator effectiveness.
+        \item Refinement and iteration.
+    \end{itemize}
+\end{frame}
+
+\begin{frame}
+    \frametitle{Development of the Security-aware Mutation Operators}
+    \begin{itemize}
+        \item TDD methodology to ensure desired effects.
+        \item Steps in the development phase:
+        \begin{enumerate}
+            \item Selection of case studies using Python frameworks.
+            \item Coding mutation operators using tools like MutPy and MutMut.
+            \item Analyzing coverage and redundancy metrics.
+            \item Evaluating operator effectiveness.
+            \item Refactoring code post-test.
+        \end{enumerate}
+    \end{itemize}
+\end{frame}
+
+\begin{frame}
+    \frametitle{Evaluation of the Security-aware Mutation Operators}
+    The evaluation phase measures the effectiveness of mutation operators using key metrics.
+    \begin{itemize}
+        \item \textbf{Benchmark Selection:} Choosing RESTful APIs with known vulnerabilities.
+        \item \textbf{Mutation Operator Application:} Generating mutant APIs using designed operators.
+        \item \textbf{Test Execution:} Running test cases against original and mutant APIs.
+        \item \textbf{Evaluation and Analysis:} Using metrics like mutation coverage, fault detection rate, and false positive rate.
+    \end{itemize}
 \end{frame}
 
 \begin{frame}[allowframebreaks]
