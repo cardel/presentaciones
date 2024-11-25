@@ -21,7 +21,8 @@
 \usepackage{physics}
 \usepackage{xcolor}
 \usepackage{hyperref}
-
+\usepackage{tikz}
+\usetikzlibrary{positioning, shapes.geometric}
 % Enable colored hyperlinks
 \hypersetup{colorlinks=true}
 
@@ -224,7 +225,11 @@ Designing security-aware mutation operators for RESTful APIs can enhance the val
     \item Challenges include managing various data formats (e.g., JSON, XML) and ensuring comprehensive test coverage.
 \end{itemize}
 \end{block}
-
+\pagebreak
+\begin{block}{Current state of the art}
+ \url{https://colab.research.google.com/drive/1mpjyxEQ1i_6HD_4jj8MP0UbP99tM8i9u?usp=sharing}
+\end{block}
+\pagebreak
 \begin{block}{Gaps Identified}
 \begin{itemize}
     \item Mutation operators are often language-specific, limiting general applicability.
@@ -341,7 +346,35 @@ The project timeline is structured over 24 months, covering the following phases
 \pagebreak
 \begin{block}{Visual Timeline}
 \centering
-%\includegraphics[width=\textwidth]{timeline_placeholder} % Replace with actual timeline diagram if available.
+\begin{figure}[h]
+    \centering
+    \scalebox{0.4}{
+    \begin{tikzpicture}
+        % Línea de tiempo
+        \draw[->, thick] (0,0) -- (24,0) node[right]{Time (Months)};
+
+        % Marcadores de fases
+        \draw[thick] (0,0) -- (0,-0.5) node[below]{1};
+        \draw[thick] (6,0) -- (6,-0.5) node[below]{6};
+        \draw[thick] (12,0) -- (12,-0.5) node[below]{12};
+        \draw[thick] (18,0) -- (18,-0.5) node[below]{18};
+        \draw[thick] (24,0) -- (24,-0.5) node[below]{24};
+
+        % Fases
+        \node[align=center, text width=3cm, fill=red!20] at (3,1) {Literature \\ Review};
+        \node[align=center, text width=3cm, fill=blue!20] at (9,1) {Design};
+        \node[align=center, text width=3cm, fill=green!20] at (15,1) {Development};
+        \node[align=center, text width=3cm, fill=yellow!20] at (21,1) {Evaluation};
+
+        % Notas adicionales
+        \node[align=left] at (3,-1) {\footnotesize Review vulnerabilities \\ Identify operators};
+        \node[align=left] at (9,-2) {\footnotesize Define strategies \\ Describe operators};
+        \node[align=left] at (15,-3) {\footnotesize Implement tools \\ Refactor code};
+        \node[align=left] at (21,-4) {\footnotesize Apply case studies \\ Evaluate metrics};
+    \end{tikzpicture}
+  }
+    \caption{Timeline of Methodology}
+\end{figure}%\includegraphics[width=\textwidth]{timeline_placeholder} % Replace with actual timeline diagram if available.
 \end{block}
 \end{frame}
 
