@@ -1,2 +1,2 @@
-TARGET=defense
+TARGET=report
 include Makefile.include
