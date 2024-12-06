@@ -109,12 +109,12 @@
 \let\@@magyar@captionfix\relax
 \makeatother
 
-\title{Characterizing and understanding security risks through Security-Aware Mutation Testing of security configuration in RESTful APIs}
-\subtitle{Report 2: Review of comments of the last meeting and progress}
+\title{Characterizing and understanding security risks through Security-Aware Mutation Testing of security configuration in RESTful APIs \\
+\large{Report 2: Review of comments of the last meeting and progress}}
 
 \author{
     \large{Carlos Andres Delgado Saavedra}\\
-    \footnotesize \href{mailto:carlos.andres.delgado@correounivalle.edu.co}{carlos.andres.delgado@correounivalle.edu.co} 
+    \footnotesize \href{mailto:carlos.andres.delgado@correounivalle.edu.co}{carlos.andres.delgado@correounivalle.edu.co}\\ 
     Advisors:\\
     Jesus A. Aranda, Universidad del Valle \\
     Gills Perrouin, University of Namur,
@@ -128,6 +128,72 @@
 
 \maketitle
 
+\section{Questions about the work}
 
+
+\begin{enumerate}
+    \item What are the existing mutation operators for security testing of restful APIs?
+    \item How effective are these mutation operators in detecting security vulnerabilities?
+    \item What are the limitations of the current mutation operators?
+    \item How can we detect these vulnerabilities currently?
+    \item What are the elements defined in restful services?
+    \item How are these vulnerabilities handled in the software development process?
+    \item What strategies are there for improving security practices in restful APIs?
+    \item What elements define common security misconfigurations in restful APIs?
+    \item How can security-aware mutation operators be designed to improve the coverage of security testing in the configuration of security policies in restful APIs?
+    \item What is the planning for the next two years for completing the tasks?
+\end{enumerate}
+
+\section{Answers to questions}
+
+\subsection{Existing Mutation Operators for Security Testing of RESTful APIs}
+
+The field of security testing for RESTful APIs has seen several advancements with respect to mutation operators designed to uncover vulnerabilities. These mutation operators are crucial for generating test cases that can effectively assess the security posture of APIs. Below, we discuss notable mutation operators and relevant research:
+
+\begin{enumerate}
+
+    \item \textbf{Real Coded Genetic Algorithm (RGA-MS):} 
+    Mishra et al. propose the RGA-MS, a novel algorithm aimed at maximizing mutation coverage. This algorithm applies path coverage-based testing as a precursor to mutation testing, achieving high mutation scores by optimizing test data \cite{mishra2022novel}.
+
+    \item \textbf{Adaptive Hypermutation:} 
+    Zhang and Arcuri introduced an adaptive weight-based hypermutation operator specifically designed for REST API testing. This operator, integrated into the EvoMaster tool, adjusts mutation strategies based on gene fitness impact, enhancing coverage and enabling better test case generation \cite{zhang2021adaptive}.
+
+    \item \textbf{Pythia's Learning-Based Mutation:}
+    Atlidakis et al. introduced Pythia, which utilizes learning-based mutation strategies for REST API fuzzing. By injecting slight deviations from learned usage patterns, Pythia creates valid test cases while prioritizing those likely to expose new bugs \cite{atlidakis2020pythia}.
+
+    \item \textbf{Mutation Operators with Data Type Constraints:}
+    Liu and Chen proposed seven mutation operators targeting input data type constraints for testing REST APIs, such as Constraint Value Replacement (CVR) and Logical Connectives Replacement (LCR). These operators optimize test data generation and improve coverage \cite{liu2017optimized}.
+
+    \item \textbf{Mutation over Execution Traces:}
+    Paiva et al. focus on extending test suites by mutating test cases based on user execution traces. This involves operators that mimic potential real failures, enhancing the richness of the test cases \cite{paiva2020test}.
+
+    \item \textbf{Security-Oriented Mutation Operators:}
+    Salva and Sue present an approach with 17 specialized mutation operators aimed at enhancing security testing for RESTful APIs. These operators generate security-specific test cases, addressing vulnerabilities effectively \cite{salva2020security}.
+
+\end{enumerate}
+
+The continued evolution and application of these mutation operators illustrate significant advancements in efficiently testing Restful APIs by improving test coverage and detecting security weaknesses.
+
+\begin{thebibliography}{9}
+
+\bibitem{mishra2022novel}
+Mishra, D. B., Acharya, B., Rath, D., Gerogiannis, V. C., \& Kanavos, A. (2022). A Novel Real Coded Genetic Algorithm for Software Mutation Testing. \textit{Symmetry, 14}(8), 1525. https://doi.org/10.3390/sym14081525
+
+\bibitem{zhang2021adaptive}
+Zhang, M., \& Arcuri, A. (2021).Adaptive Hypermutation for Search-Based System Test Generation: A Study on REST APIs with EvoMaster. \textit{ACM Trans. Softw. Eng. Methodol., 31}(1), 52 pages. https://doi.org/10.1145/3464940
+
+\bibitem{atlidakis2020pythia}
+Atlidakis, V., Geambasu, R., Godefroid, P., Polishchuk, M., \& Ray, B. (2020). Pythia Grammar-based fuzzing of rest APIs with coverage-guided feedback and learning-based mutations. \textit{arXiv preprint arXiv:2005.11498}.
+
+\bibitem{liu2017optimized}
+Liu, J., \& Chen, W. (2017). Optimized Test Data Generation for RESTful Web Service. \textit{2017 24th Asia-Pacific Software Engineering Conference (APSEC)}. doi:10.1109/apsec.2017.85
+
+\bibitem{paiva2020test}
+Paiva, A. C. R., Restivo, A., \& Almeida, S. (2020). Test case generation based on mutations over user execution traces. \textit{Software Quality Journal}. doi:10.1007/s11219-020-09503-4
+
+\bibitem{salva2020security}
+Salva, S., \& Sue, J. Security Testing of RESTful APIs With Test Case Mutation (n.d.). \textit{LIMOS - UMR CNRS 6158, Clermont Auvergne University, UCA, France}.
+
+\end{thebibliography}
 
 \end{document}
