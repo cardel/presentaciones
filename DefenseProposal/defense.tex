@@ -162,7 +162,7 @@ Security challenges, such as misconfigurations and vulnerabilities in RESTful AP
 \end{block}
 
 \begin{block}{Key Idea}
-Mutation testing introduces deliberate changes (mutations) into code to assess the effectiveness of security tests. This research explores security-aware mutation operators to improve the security configuration of RESTful APIs.
+Mutation testing introduces deliberate changes (mutations) in a program to assess the effectiveness of security tests. This research explores security-aware mutation operators to improve the security configuration of RESTful APIs.
 \end{block}
 \end{frame}
 
@@ -266,6 +266,7 @@ Designing security-aware mutation operators for RESTful APIs can enhance the val
       \item Test case generation
       \item Source code based
       \item Model based mutation testing
+      \item Mixed strategies
   \end{enumerate}
 \end{block}
 \pagebreak
@@ -353,7 +354,7 @@ The research is divided into four key phases:
     \end{itemize}
     \item \textbf{Design of Mutation Operators:} 
     \begin{itemize}
-        \item Define strategies to introduce vulnerabilities into code.
+        \item Define strategies to introduce vulnerabilities using models.
         \item Specify and describe security-aware mutation operators.
     \end{itemize}
     \item \textbf{Development of Mutation Operators:} 
@@ -403,10 +404,10 @@ The project timeline is structured over 24 months, covering the following phases
         \item Specify and describe the proposed mutation operators.
     \end{itemize}
 
-    \item \textbf{Development of Mutation Operators:} Months 13-18
+    \item \textbf{Verification of Mutation Operators:} Months 13-18
     \begin{itemize}
-        \item Implement the mutation operators in selected testing tools.
-        \item Refactor code to ensure efficiency and maintainability.
+      \item Select the strategy to validate the mutation operators.
+      \item Evaluate a set of testing cases to validate the operators.
     \end{itemize}
 
     \item \textbf{Evaluation:} Months 19-24
@@ -442,7 +443,7 @@ The project timeline is structured over 24 months, covering the following phases
         % Notas adicionales
         \node[align=left] at (3,-1) {\footnotesize Review vulnerabilities \\ Identify operators};
         \node[align=left] at (9,-2) {\footnotesize Define strategies \\ Describe operators};
-        \node[align=left] at (15,-3) {\footnotesize Implement tools \\ Refactor code};
+        \node[align=left] at (15,-3) {\footnotesize Validate operators \\ Refactor implementation};
         \node[align=left] at (21,-4) {\footnotesize Apply case studies \\ Evaluate metrics};
     \end{tikzpicture}
   }
@@ -481,6 +482,7 @@ The project timeline is structured over 24 months, covering the following phases
 \end{frame}
 
 %Print all bibliography
-\printbibliography[heading=bibintoc]
+\nocite{*}
+\printbibliography[]
 
 \end{document}
