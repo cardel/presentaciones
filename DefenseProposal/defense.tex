@@ -47,6 +47,7 @@
 \addbibresource{references/rq4.bib}
 \addbibresource{references/rq5.bib}
 \addbibresource{references/methodology.bib}
+\addbibresource{references/others.bib}
 %\addbibresource{references/references.bib}
 % Glossary entries
 \usepackage[acronym]{glossaries}
@@ -188,7 +189,40 @@ Mutation testing introduces deliberate changes (mutations) into code to assess t
     \item High dependency on developers to manually ensure secure configurations.
 \end{itemize}
 \end{block}
+\end{frame}
 
+\begin{frame}{Mutation Testing}
+Open problems according to Papadakis\cite{Papadakis2019}
+\begin{enumerate}
+    \item Approximately 5\% of the mutants are useful
+    \item Small semantic deviations vs blind syntactical deviations
+    \item Mutations may be tailored to useful mutants
+    \item Many redundant mutants
+    \item Not strong evidence that the mutants are correlated with real faults
+\end{enumerate}
+\end{frame}
+
+\begin{frame}{Mutation Testing}
+Open problems according to Papadakis\cite{Papadakis2019}
+\begin{enumerate}
+    \setcounter{enumi}{5}
+    \item What types of faults are not captured by simple or complex mutants? 
+    \item What percentage of future regression errors can we capture with mutations? 
+    \item When is it appropriate to stop the testing process? 
+    \item How should we integrate mutation testing into our development process?
+\end{enumerate}
+\end{frame}
+
+\begin{frame}{Mutation Testing}
+Open problems according to Loise\cite{Loise2017}
+\begin{enumerate}
+    \item Collect security patterns in a database to create operators
+    \item Operators to generate vulnerable versions of the software
+    \item Creation of the security regression tests
+\end{enumerate}
+\end{frame}
+
+\begin{frame}[allowframebreaks]
 \begin{block}{Research Question}
 \textit{How can security-aware mutation operators be designed to improve the coverage of security testing for vulnerabilities in the configuration of security policies in RESTful APIs?}
 \end{block}
@@ -446,5 +480,7 @@ The project timeline is structured over 24 months, covering the following phases
 \end{block}
 \end{frame}
 
+%Print all bibliography
+\printbibliography[heading=bibintoc]
 
 \end{document}
