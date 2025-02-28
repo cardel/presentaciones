@@ -79,7 +79,7 @@
 \let\@@magyar@captionfix\relax
 \makeatother
 
-\title[Defense of Research proposal]{Characterizing and understanding security risks through Security-Aware Mutation Testing of security configuration in RESTful APIs}
+\title[Defense of Research proposal]{Characterizing and understanding security risks through Security-Aware Mutation Testing of security configuration in RESTFul APIs}
 %\subtitle{Subtitle Of Presentation}
 
 %\beamertemplatenavigationsymbolsempty
@@ -150,21 +150,21 @@
 	\tableofcontents % Throughout your presentation, if you choose to use \section{} and \subsection{} commands, these will automatically be printed on this slide as an overview of your presentation
 \end{frame}
 
-\section{Introduction}
-\begin{frame}[allowframebreaks]
-\frametitle{Introduction}
-\begin{block}{Background}
-RESTful APIs are essential for enabling communication between web applications and services, facilitating operations such as reading, updating, creating, and deleting data. However, the exchange of sensitive information introduces significant security risks.
-\end{block}
-
-\begin{block}{Significance}
-Security challenges, such as misconfigurations and vulnerabilities in RESTful APIs, can lead to unauthorized access and data breaches. Testing mechanisms, like mutation testing, help address these challenges by evaluating the robustness of security configurations.
-\end{block}
-
-\begin{block}{Key Idea}
-Mutation testing introduces deliberate changes (mutations) in a program to assess the effectiveness of security tests. This research explores security-aware mutation operators to improve the security configuration of RESTful APIs.
-\end{block}
-\end{frame}
+% \section{Introduction}
+% \begin{frame}[allowframebreaks]
+% \frametitle{Introduction}
+% \begin{block}{Background}
+% RESTFul APIs are essential for enabling communication between web applications and services, facilitating operations such as reading, updating, creating, and deleting data. However, the exchange of sensitive information introduces significant security risks.
+% \end{block}
+%
+% \begin{block}{Significance}
+% Security challenges, such as misconfigurations and vulnerabilities in RESTFul APIs, can lead to unauthorized access and data breaches. Testing mechanisms, like mutation testing, help address these challenges by evaluating the robustness of security configurations.
+% \end{block}
+%
+% \begin{block}{Key Idea}
+% Mutation testing introduces deliberate changes (mutations) in a program to assess the effectiveness of security tests. This research explores security-aware mutation operators to improve the security configuration of RESTFul APIs.
+% \end{block}
+% \end{frame}
 
 \section{Problem statement}
 
@@ -173,7 +173,7 @@ Mutation testing introduces deliberate changes (mutations) in a program to asses
 \frametitle{Problem Statement}
 \begin{block}{Challenges in API Security}
 \begin{itemize}
-    \item RESTful APIs handle sensitive information, such as passwords and personal data.
+    \item RESTFul APIs handle sensitive information, such as passwords and personal data.
     \item Common vulnerabilities include:
     \begin{itemize}
         \item Authorization issues
@@ -224,19 +224,19 @@ Open problems according to \cite{Loise2017}
 
 \begin{frame}[allowframebreaks]
 \begin{block}{Research Question}
-\textit{How can security-aware mutation operators be designed to improve the coverage of security testing for vulnerabilities in the configuration of security policies in RESTful APIs?}
+\textit{How can security-aware mutation operators be designed to improve the coverage of security testing for vulnerabilities in the configuration of security policies in RESTFul APIs?}
 \end{block}
 
 \begin{block}{Hypothesis}
-Designing security-aware mutation operators for RESTful APIs can enhance the validation of security configuration policies, reducing the risk of vulnerabilities.
+Designing security-aware mutation operators for RESTFul APIs can enhance the validation of security configuration policies, reducing the risk of vulnerabilities.
 \end{block}
 \end{frame}
 
-\section{Literature Review}
+\section{Research Questions}
 
 
 \begin{frame}[allowframebreaks]
-\frametitle{Literature Review}
+\frametitle{Research Questions}
 \begin{block}{Overview of Mutation Testing}
 \begin{itemize}
     \item Introduced in 1972 as a method to evaluate software reliability by modifying code to create faults.
@@ -248,20 +248,21 @@ Designing security-aware mutation operators for RESTful APIs can enhance the val
 \end{itemize}
 \end{block}
 
-\begin{block}{Security Testing in RESTful APIs}
+\begin{block}{Security Testing in RESTFul APIs}
 \begin{itemize}
     \item Focuses on detecting vulnerabilities in API endpoints.
     \item Common testing methods:
     \begin{itemize}
         \item Black-box and white-box testing
         \item Penetration testing and property-based testing
+
     \end{itemize}
     \item Challenges include managing various data formats (e.g., JSON, XML) and ensuring comprehensive test coverage.
 \end{itemize}
 \end{block}
 \pagebreak
 \begin{block}{Q1}
-     What are the existing mutation operators for security testing of restful APIs?
+     What are the existing mutation operators for security testing of RESTFul APIs?
      \begin{enumerate}
       \item Test case generation
       \item Source code based
@@ -274,48 +275,49 @@ Designing security-aware mutation operators for RESTful APIs can enhance the val
     How effective are these mutation operators in detecting security vulnerabilities?
   \begin{enumerate}
     \item Test case generation operators are effective in detecting vulnerabilities and easy to generalize.
-    \item Model-based mutation depends of the abstraction level of the language.
+    \item Model-based mutation depends of the abstraction level of the language and verification strategies.
     \item Test case generation mutation operators are specific to the language, it is complex to generalize.
   \end{enumerate}
 \end{block}
     %\item What are the limitations of the current mutation operators?
     %\item How can we detect these vulnerabilities currently?
-    %\item What are the elements defined in restful services?
+    %\item What are the elements defined in RESTFul services?
     %\item How are these vulnerabilities handled in the software development process?
 \pagebreak
 \begin{block}{Q3}
-    What strategies are there for improving security practices in restful APIs?
+    What strategies are there for improving security practices in RESTFul APIs?
     \begin{enumerate}
       \item CORS
       \item Auth based authentication
-      \item Encryption of the query parameters
+      \item Encryption of the query parameters and data
+      \item Sanitize data
     \end{enumerate}
   \end{block}
 \pagebreak
 \begin{block}{Q4}
-    What elements define common security misconfigurations in restful APIs?
+    What elements define common security misconfigurations in RESTFul APIs?
     \begin{enumerate}
-      \item CORS missconfigurations
+      \item CORS misconfigurations
       \item Bad configuration of the authentication, using leak credentials.
       \item Not using encryption for the query parameters.
+      \item Using default configurations.
+      \item Insecure HTTP methods.
+      \item Insufficient log and monitoring.
+      \item Data exposure.
     \end{enumerate}
 
-   % \item How can security-aware mutation operators be designed to improve the coverage of security testing in the configuration of security policies in restful APIs?
+   % \item How can security-aware mutation operators be designed to improve the coverage of security testing in the configuration of security policies in RESTFul APIs?
    % \item What is the planning for the next two years for completing the tasks?
 \end{block}
 \pagebreak
 \begin{block}{Gaps Identified}
 \begin{itemize}
     \item Mutation operators are often language-specific, limiting general applicability.
-    \item Insufficient focus on security-aware mutation testing for RESTful APIs.
+    \item Insufficient focus on security-aware mutation testing for RESTFul APIs.
     \item Lack of standardized frameworks for evaluating security tests.
 \end{itemize}
 \end{block}
 \end{frame}
-
-\begin{frames}
-  \frametitle{Literature Review}
-
 
 \section{Research Objectives}
 
@@ -324,13 +326,13 @@ Designing security-aware mutation operators for RESTful APIs can enhance the val
 \frametitle{Research Objectives}
 \begin{block}{General Objective}
 \begin{itemize}
-    \item Develop a collection of security-aware mutation operators designed for evaluating the configuration of security policy files within RESTful APIs.
+    \item Develop a collection of security-aware mutation operators designed for evaluating the configuration of security policy files within RESTFul APIs.
 \end{itemize}
 \end{block}
 
 \begin{block}{Specific Objectives}
 \begin{enumerate}
-    \item Identify the key elements of security policies in RESTful APIs.
+    \item Identify the key elements of security policies in RESTFul APIs.
     \item Design a set of security-aware mutation operators for testing security policies.
     \item Develop the security-aware mutation operators and integrate them into testing tools.
     \item Evaluate the proposed operators against existing security testing frameworks, focusing on their effectiveness and coverage.
@@ -339,7 +341,7 @@ Designing security-aware mutation operators for RESTful APIs can enhance the val
 
 \begin{block}{Expected Results}
 \begin{itemize}
-    \item A comprehensive set of mutation operators tailored for RESTful API security.
+    \item A comprehensive set of mutation operators tailored for RESTFul API security.
     \item Detailed reports on the performance of these operators compared to current tools.
     \item Contribution to the development of frameworks for automated security testing.
 \end{itemize}
@@ -354,7 +356,7 @@ The research is divided into four key phases:
     \item \textbf{Systematic Literature Review:} 
     \begin{itemize}
         \item Identify existing vulnerabilities and security-aware mutation operators.
-        \item Analyze current tools and techniques used for testing RESTful APIs.
+        \item Analyze current tools and techniques used for testing RESTFul APIs.
     \end{itemize}
     \item \textbf{Design of Mutation Operators:} 
     \begin{itemize}
@@ -383,7 +385,7 @@ The research is divided into four key phases:
 
 \begin{block}{Expected Deliverables}
 \begin{itemize}
-    \item A set of validated mutation operators for RESTful API security testing.
+    \item A set of validated mutation operators for RESTFul API security testing.
     \item A framework for automating security-aware mutation testing.
     \item Reports detailing the findings and contributions.
 \end{itemize}
@@ -398,7 +400,7 @@ The project timeline is structured over 24 months, covering the following phases
 \begin{enumerate}
     \item \textbf{Systematic Literature Review:} Months 1-6
     \begin{itemize}
-        \item Review recent surveys and identify vulnerabilities in RESTful APIs.
+        \item Review recent surveys and identify vulnerabilities in RESTFul APIs.
         \item Analyze security-aware mutation operators and existing tools.
     \end{itemize}
 
@@ -461,16 +463,16 @@ The project timeline is structured over 24 months, covering the following phases
 
 \begin{frame}[allowframebreaks]
 \frametitle{Expected Results}
-\begin{block}{Impact on RESTful API Security}
+\begin{block}{Impact on RESTFul API Security}
 \begin{itemize}
-    \item Provide a systematic approach for evaluating the robustness of RESTful API security configurations.
+    \item Provide a systematic approach for evaluating the robustness of RESTFul API security configurations.
     \item Enhance the ability of developers to detect vulnerabilities during the development lifecycle.
 \end{itemize}
 \end{block}
 
 \begin{block}{Contributions to the Field}
 \begin{itemize}
-    \item Specification of a comprehensive set of security-aware mutation operators applicable to RESTful APIs.
+    \item Specification of a comprehensive set of security-aware mutation operators applicable to RESTFul APIs.
     \item Introduction of a generic framework for automated security testing tools.
     \item Empirical evidence showcasing improvements in test coverage and fault detection rates.
 \end{itemize}
@@ -483,6 +485,11 @@ The project timeline is structured over 24 months, covering the following phases
     \item Ensuring scalability and applicability across different frameworks and programming languages.
 \end{itemize}
 \end{block}
+\end{frame}
+
+\begin{frame}
+  \frametitle{Questions?}
+  \huge{Thank you!}
 \end{frame}
 
 %Print all bibliography
